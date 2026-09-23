@@ -76,18 +76,44 @@ import MegaGarchompImg from '../assets/Mega_Garchomp.png'
 import MegaGarchompZImg from '../assets/Mega_GarchompZ.png'
 import SwampertImg from '../assets/Swampert.png'
 import MegaSwampertImg from '../assets/Mega_Swampert.png'
+import StaraptorImg from '../assets/Staraptor.png'
+import MegaStaraptorImg from '../assets/Mega_Staraptor.png'
+import AbsolImg from '../assets/Absol.png'
+import MegaAbsolImg from '../assets/Mega_Absol.png'
+import MegaAbsolZImg from '../assets/Mega_AbsolZ.png'
+import AggronImg from '../assets/Aggron.png'
+import MegaAggronImg from '../assets/Mega_Aggron.png'
+import CharizardImg from '../assets/Charizard.png'
+import MegaCharizardXImg from '../assets/Mega_CharizardX.png'
+import MegaCharizardYImg from '../assets/Mega_CharizardY.png'
+import EelektrossImg from '../assets/Eelektross.png'
+import MegaEelektrossImg from '../assets/Mega_Eelektross.png'
+import LucarioImg from '../assets/Lucario.png'
+import MegaLucarioImg from '../assets/Mega_Lucario.png'
+import MegaLucarioZImg from '../assets/Mega_LucarioZ.png'
+import SceptileImg from '../assets/Sceptile.png'
+import MegaSceptileImg from '../assets/Mega_Sceptile.png'
 
-// IMPORT TIPOS
+// IMPORT TIPOS (Carpeta TYPES)
 import bichoIcon from '../assets/TYPES/BICHO.png'
 import aguaIcon from '../assets/TYPES/AGUA.png'
 import dragonIcon from '../assets/TYPES/DRAGON_.png'
 import tierraIcon from '../assets/TYPES/TIERRA.png'
 import aceroIcon from '../assets/TYPES/ACERO.png'
+import normalIcon from '../assets/TYPES/NORMAL_.png'
+import voladorIcon from '../assets/TYPES/VOLADOR.png'
+import siniestroIcon from '../assets/TYPES/SINIESTRO.png'
+import rocaIcon from '../assets/TYPES/ROCA.png'
+import fuegoIcon from '../assets/TYPES/FUEGO.png'
+import electricoIcon from '../assets/TYPES/ELECTRICO.png'
+import plantaIcon from '../assets/TYPES/PLANTA.png'
+import luchaIcon from '../assets/TYPES/LUCHA.png'
+import fantasmaIcon from '../assets/TYPES/FANTASMA.png'
 
 const route = useRoute()
 const pokemonSelect = route.params.pokemon 
 
-// Pokemons (Base y Mega Forma)
+// POKEDEX COMPLETA
 const pokedex = {
   golisopod: {
     name: 'Golisopod',
@@ -116,13 +142,86 @@ const pokedex = {
       { name: 'Base', img: SwampertImg, type1: aguaIcon, type2: tierraIcon, ability: 'Torrent', stats: { hp: 100, atk: 110, def: 90, spa: 85, spd: 90, spe: 60 } },
       { name: 'Mega', img: MegaSwampertImg, type1: aguaIcon, type2: tierraIcon, ability: 'Swift Swim', stats: { hp: 100, atk: 150, def: 110, spa: 95, spd: 110, spe: 70 } }
     ]
+  },
+  staraptor: {
+    name: 'Staraptor',
+    category: 'Predator Pokemon',
+    color: 'grey-9',
+    forms: [
+      { name: 'Base', img: StaraptorImg, type1: normalIcon, type2: voladorIcon, ability: 'Intimidate', stats: { hp: 85, atk: 120, def: 70, spa: 50, spd: 60, spe: 100 } },
+      { name: 'Mega', img: MegaStaraptorImg, type1: luchaIcon, type2: voladorIcon, ability: 'Contrary', stats: { hp: 85, atk: 140, def: 100, spa: 60, spd: 90, spe: 110 } }
+    ]
+  },
+  absol: {
+    name: 'Absol',
+    category: 'Disaster Pokemon',
+    color: 'purple-9',
+    forms: [
+      { name: 'Base', img: AbsolImg, type1: siniestroIcon, type2: null, ability: 'Justified', stats: { hp: 65, atk: 130, def: 60, spa: 75, spd: 60, spe: 75 } },
+      { name: 'Mega', img: MegaAbsolImg, type1: siniestroIcon, type2: null, ability: 'Magic Bounce', stats: { hp: 65, atk: 150, def: 60, spa: 115, spd: 60, spe: 115 } },
+      { name: 'Mega Z', img: MegaAbsolZImg, type1: siniestroIcon, type2: fantasmaIcon, ability: 'Sharpness', stats: { hp: 65, atk: 154, def: 60, spa: 75, spd: 60, spe: 151 } }
+    ]
+  },
+  aggron: {
+    name: 'Aggron',
+    category: 'Iron Armor Pokemon',
+    color: 'blue-grey-8',
+    forms: [
+      { name: 'Base', img: AggronImg, type1: aceroIcon, type2: rocaIcon, ability: 'Sturdy', stats: { hp: 70, atk: 110, def: 180, spa: 60, spd: 60, spe: 50 } },
+      { name: 'Mega', img: MegaAggronImg, type1: aceroIcon, type2: null, ability: 'Filter', stats: { hp: 70, atk: 140, def: 230, spa: 60, spd: 80, spe: 50 } }
+    ]
+  },
+  charizard: {
+    name: 'Charizard',
+    category: 'Flame Pokemon',
+    color: 'orange-14',
+    forms: [
+      { name: 'Base', img: CharizardImg, type1: fuegoIcon, type2: voladorIcon, ability: 'Solar Power', stats: { hp: 78, atk: 84, def: 78, spa: 109, spd: 85, spe: 100 } },
+      { name: 'Mega X', img: MegaCharizardXImg, type1: fuegoIcon, type2: dragonIcon, ability: 'Tough Claws', stats: { hp: 78, atk: 130, def: 111, spa: 130, spd: 85, spe: 100 } },
+      { name: 'Mega Y', img: MegaCharizardYImg, type1: fuegoIcon, type2: voladorIcon, ability: 'Drought', stats: { hp: 78, atk: 104, def: 78, spa: 159, spd: 115, spe: 100 } }
+    ]
+  },
+  eelektross: {
+    name: 'Eelektross',
+    category: 'EleFish Pokemon',
+    color: 'indigo-10',
+    forms: [
+      { name: 'Base', img: EelektrossImg, type1: electricoIcon, type2: null, ability: 'Levitate', stats: { hp: 85, atk: 115, def: 80, spa: 105, spd: 80, spe: 50 } },
+      { name: 'Mega', img: MegaEelektrossImg, type1: electricoIcon, type2: null, ability: 'Eelevate', stats: { hp: 85, atk: 145, def: 80, spa: 135, spd: 90, spe: 80 } }
+    ]
+  },
+  lucario: {
+    name: 'Lucario',
+    category: 'Aura Pokemon',
+    color: 'cyan-9',
+    forms: [
+      { name: 'Base', img: LucarioImg, type1: luchaIcon, type2: aceroIcon, ability: 'Inner Focus', stats: { hp: 70, atk: 110, def: 70, spa: 115, spd: 70, spe: 90 } },
+      { name: 'Mega', img: MegaLucarioImg, type1: luchaIcon, type2: aceroIcon, ability: 'Adaptability', stats: { hp: 70, atk: 145, def: 88, spa: 140, spd: 70, spe: 112 } },
+      { name: 'Mega Z', img: MegaLucarioZImg, type1: luchaIcon, type2: aceroIcon, ability: 'Aura Guard', stats: { hp: 70, atk: 100, def: 70, spa: 164, spd: 70, spe: 151 } }
+    ]
+  },
+  sceptile: {
+    name: 'Sceptile',
+    category: 'Forest Tree Pokemon',
+    color: 'green-9',
+    forms: [
+      { name: 'Base', img: SceptileImg, type1: plantaIcon, type2: null, ability: 'Unburden', stats: { hp: 70, atk: 85, def: 65, spa: 105, spd: 85, spe: 120 } },
+      { name: 'Mega', img: MegaSceptileImg, type1: plantaIcon, type2: dragonIcon, ability: 'Lightning Rod', stats: { hp: 70, atk: 110, def: 75, spa: 145, spd: 85, spe: 145 } }
+    ]
   }
 }
 
 const formIndexes = ref({
   golisopod: 0,
   garchomp: 0,
-  swampert: 0
+  swampert: 0,
+  staraptor: 0,
+  absol: 0,
+  aggron: 0,
+  charizard: 0,
+  eelektross: 0,
+  lucario: 0,
+  sceptile: 0
 })
 
 const filtroPokedex = computed(() => {

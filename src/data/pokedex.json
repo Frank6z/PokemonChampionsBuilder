@@ -338,5 +338,35 @@
         "stats": { "hp": 70, "atk": 110, "def": 75, "spa": 145, "spd": 85, "spe": 145 }
       }
     ]
+  },
+  "feraligatr": {
+    "name": "Feraligatr",
+    "category": "Big Jaw Pokémon",
+    "bgColor": "bg-blue-8",
+    "btnColor": "blue-10",
+    "spinnerColor": "blue-14",
+    "seeMoreColor": "blue",
+    "forms": [
+      {
+        "name": "Base",
+        "img": "Feraligatr.png",
+        "icon1": "Water type.ico",
+        "icon2": null,
+        "type1": "AGUA.png",
+        "type2": null,
+        "ability": "Sheer Force",
+        "stats": { "hp": 85, "atk": 105, "def": 100, "spa": 79, "spd": 83, "spe": 78 }
+      },
+      {
+        "name": "Mega",
+        "img": "Mega_Feraligatr.png",
+        "icon1": "Water type.ico",
+        "icon2": "Dragon type.ico",
+        "type1": "AGUA.png",
+        "type2": "DRAGON_.png",
+        "ability": "Dragonize",
+        "stats": { "hp": 85, "atk": 160, "def": 125, "spa": 89, "spd": 93, "spe": 78 }
+      }
+    ]
   }
 }

@@ -4,8 +4,10 @@
       <q-toolbar>
         <q-btn flat dense round icon="menu" aria-label="Menu" @click="toggleLeftDrawer" />
 
-        <q-toolbar-title> Pokemon Champions Data </q-toolbar-title>
-
+        <div class="row items-center q-gutter-sm">
+          <q-toolbar-title> Pokemon Champions Data </q-toolbar-title>
+          <img class="shadow-box q-ml-sm" :class="`shadow-${n}`" src="../assets/Logo_Pokémon_Champions.png" alt="Logo" style="height: 50px; width: auto"/> 
+        </div>  
       </q-toolbar>
     </q-header>
 
@@ -78,3 +80,12 @@ function toggleLeftDrawer() {
   leftDrawerOpen.value = !leftDrawerOpen.value
 }
 </script>
+
+<style lang="sass" scoped>
+.shadow-box
+  width: 90px
+  height: 90px
+  margin: 25px
+  border-radius: 50%
+  font-size: 12px
+</style>

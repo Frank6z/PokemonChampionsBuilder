@@ -31,9 +31,11 @@ export default defineConfig((/* ctx */) => {
 
     // https://v2.quasar.dev/quasar-cli-vite/quasar-config-file#build
     build: {
+      publicPath: './',
       target: {
         // browser: 'baseline-widely-available',
         // node: 'node22'
+
       },
 
       // https://v2.quasar.dev/quasar-cli-vite/page-routing-with-vue-router#filename-based-routing

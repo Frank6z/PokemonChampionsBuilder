@@ -342,10 +342,10 @@
   "feraligatr": {
     "name": "Feraligatr",
     "category": "Big Jaw Pokémon",
-    "bgColor": "bg-blue-8",
+    "bgColor": "bg-blue-7",
     "btnColor": "blue-10",
     "spinnerColor": "blue-14",
-    "seeMoreColor": "blue",
+    "seeMoreColor": "blue-7",
     "forms": [
       {
         "name": "Base",

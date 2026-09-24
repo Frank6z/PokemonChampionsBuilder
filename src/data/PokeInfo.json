@@ -1,0 +1,112 @@
+{
+  "golisopod": {
+    "name": "Golisopod",
+    "types": ["Bug", "Water"],
+    "species": "Hard Scale Pokémon",
+    "height": "2.0 m / 6′07″",
+    "weight": "108.0 kg / 238.1 lbs",
+    "description": "Suele habitar en las cavernas del fondo marino o en barcos hundidos, donde lleva una vida contemplativa y de meditación con el fin de volverse más fuerte. Gracias a su destreza, y sus enormes y afiladas garras, puede sesgar hasta el aire y el agua de un solo tajo.",
+    "habitat": "Mares profundos / Cuevas",
+    "generation": "VII generación"
+  },
+  "garchomp": {
+    "name": "Garchomp",
+    "species": "Sharp Claw Pokémon",
+    "height": "1.9 m / 6′03″",
+    "weight": "95.0 kg / 209.4 lbs",
+    "description": "Sobre cada una de sus patas delanteras cuenta con una única garra, además, posee un par de pinchos sobre cada brazo y cada pierna. Garchomp surca el aire a velocidad supersónica en busca de presas y no duda en librar un combate aéreo contra un Salamence para quedarse con ellas.",
+    "habitat": "Cueva / Montaña",
+    "generation": "IV generación"
+  },
+  "swampert": {
+    "name": "Swampert",
+    "species": "Mud Fish Pokémon",
+    "height": "1.5 m / 4′11″",
+    "weight": "81.9 kg / 180.6 lbs",
+    "description": "Se trata de un Pokémon muy fuerte, se le ha visto arrastrando rocas de hasta una tonelada de peso sin ningún esfuerzo e incluso puede arrastrar grandes barcos. Su sentido de la vista está muy desarrollado, permitiéndole ver debajo de aguas cenagosas o en las turbias corrientes de los ríos. Sus aletas le ayudan a detectar cambios en las corrientes, mejorando su destreza natatoria. Capaz de predecir lluvias o tormentas, protegerá su nido de su azote apilando rocas. Su velocidad de nado iguala la de una moto acuática.",
+    "habitat": "Pantano / Agua dulce",
+    "generation": "III generación"
+  },
+  "staraptor": {
+    "name": "Staraptor",
+    "species": "Predator Pokémon",
+    "height": "1.2 m / 3′11″",
+    "weight": "24.9 kg / 54.9 lbs",
+    "description": "En su cabeza hay un penacho con una mancha roja, como si fuera el pico de una guadaña manchada de sangre, lo que le da un aspecto intimidante. Es de un carácter salvaje, feroz y agresivo. Además, cuando se encuentra con otros Pokémon en su territorio, este es capaz de atacar sin pensárselo dos veces.",
+    "habitat": "Bosque / Pradera",
+    "generation": "IV generación"
+  },
+  "absol": {
+    "name": "Absol",
+    "species": "Disaster Pokémon",
+    "height": "1.2 m / 3′11″",
+    "weight": "47.0 kg / 103.6 lbs",
+    "description": "Absol está inspirado en Baí Zé, una criatura de la mitología china que se presentaba ante los emperadores con buenas intenciones y les anticipaba que su reinado sería turbulento. También tiene influencia en hakutaku, una criatura de la mitología japonesa que advirtió a un pueblo sobre una catástrofe que se avecinaba. El diseño de su cabeza se basa en el símbolo del yin y el yang, mientras que el cuerno en forma de hoz podría ser una referencia a La Parca.",
+    "habitat": "Montaña",
+    "generation": "III generación"
+  },
+  "aggron": {
+    "name": "Aggron",
+    "species": "Iron Armor Pokémon",
+    "height": "2.1 m / 6′11″",
+    "weight": "360.0 kg / 793.7 lbs",
+    "description": "Los cuernos duros y afilados pueden perforar hasta las planchas de hierro más gruesas y le permiten excavar en túneles para buscar su principalmente fuente de alimento, los minerales de hierro. Aggron es un Pokémon muy territorial, ya que marca una montaña entera como su territorio. Si su montaña sufre algún corrimiento de tierras o algún incendio, lleva hasta el lugar tierra nueva y luego procede a restaurar el terreno plantando árboles.",
+    "habitat": "Montaña / Cueva",
+    "generation": "III generación"
+  },
+  "charizard": {
+    "name": "Charizard",
+    "species": "Flame Pokémon",
+    "height": "1.7 m / 5′07″",
+    "weight": "90.5 kg / 199.5 lbs",
+    "description": "Es muy presuntuoso, violento, agresivo y muy orgulloso, tanto que rechaza pelear contra un Pokémon más débil y de hacerlo, no usaría sus llamas. Es por esta sencilla razón que prefiere luchar contra oponentes que representen un desafío. Hasta que no derrote a su adversario no parará. Es capaz de fundir hasta rocas, derretir glaciares, fundir el acero o causar incendios forestales con el fuego que escupe, aunque muchas veces lo haga sin querer, este fuego va ganando intensidad conforme suma experiencia en los combates, por lo que comúnmente se le ve volando buscando adversarios para volverse más fuerte.",
+    "habitat": "Montaña / Volcán",
+    "generation": "I generación"
+  },
+  "eelektross": {
+    "name": "Eelektross",
+    "species": "EleFish Pokémon",
+    "height": "2.1 m / 6′11″",
+    "weight": "80.5 kg / 177.5 lbs",
+    "description": "Este Pokémon habita principalmente en mares, pero es capaz de emerger a la superficie y permanecer un tiempo en ella. Cuando sube a tierra firme utiliza las aletas que tiene debajo del cuerpo para desplazarse como si fueran patas. Esto le permite atacar a las presas que habitan en la costa. Normalmente suele pegar la ventosa de su boca en su presa y la electrocuta con una gran descarga clavándole los colmillos.",
+    "habitat": "Océano",
+    "generation": "V generación"
+  },
+  "lucario": {
+    "name": "Lucario",
+    "species": "Aura Pokémon",
+    "height": "1.2 m / 3′11″",
+    "weight": "54.0 kg / 119.0 lbs",
+    "description": "Con un porte majestuoso, Lucario es reconocido como el Pokémon del aura, ya que es un Pokémon experto en este sentido. Puede leer los pensamientos y sentimientos de su rival por medio del aura, en algunas ocasiones durante este proceso logra averiguar cosas que no quiere saber, siendo una fuente de estrés para él. Debido a esto, solo logra forjar lazos afectivos con entrenadores de corazón noble. También puede saber la ubicación de su rival en todo momento, aunque no lo pueda ver directamente.",
+    "habitat": "Montaña",
+    "generation": "IV generación"
+  },
+  "sceptile": {
+    "name": "Sceptile",
+    "species": "Forest Tree Pokémon",
+    "height": "1.7 m / 5′07″",
+    "weight": "52.2 kg / 115.1 lbs  ",
+    "description": "Se trata de un Pokémon muy ágil que prefiere desplazarse por los árboles antes que por tierra firme, saltando velozmente de rama en rama. Las semillas que lleva en su espalda están llenas de nutrientes que utiliza en su esmerado cuidado de los árboles de su ecosistema. En medios forestales es un rival imbatible al desplazarse entre las copas de los árboles y golpeando a su objetivo por la espalda.",
+    "habitat": "Bosque",
+    "generation": "III generación"
+  },
+  "feraligatr": {
+    "name": "Feraligatr",
+    "species": "Big Jaw Pokémon",
+    "height": "2.3 m / 7′07″",
+    "weight": "88.8 kg / 195.8 lbs",
+    "description": "Es mucho más grande y pesado que sus preevoluciones, así como más fiero, además de tener fuerza en sus mandíbulas, la adquiere también en sus brazos, haciéndolo un oponente muy difícil de derrotar. Le gusta usar su fuerte mandíbula como medio de ataque, una vez que ha sujetado a su objetivo con sus fauces moverá la cabeza salvajemente de un lado a otro para despedazar a su víctima. Fuera del agua le cuesta soportar su propio peso por lo que se apoya en sus cuatro patas para poderse desplazar mejor, a pesar de esto llega a ser rápido. En combate abre sus enormes fauces para intimidar al enemigo, después de esto comenzará a golpear el suelo con sus gruesas y poderosas patas para luego cargar en contra de su rival a una velocidad de vértigo y poderlo derribar.",
+    "habitat": "Pantano / Agua dulce",
+    "generation": "II generación" 
+  },
+  "salamence": {
+    "name": "Salamence",
+    "species": "Dragon Pokémon",
+    "height": "1.5 m / 4′11″",
+    "weight": "102.6 kg / 226.2 lbs",
+    "description": "Es un Pokémon poco común, que es el producto del deseo de Bagon por querer poder surcar los cielos. Pues se dice que este deseo fue el que propició que sus células comenzaran a mutar y le ayudaran a desarrollar alas. Para expresar su alegría por al fin lograr su sueño, Salamence revolotea por el cielo con una sonrisa en el rostro lanzando llamas por su boca. No pisará tierra firme, a no ser que se encuentre exhausto o quiera dormir. Sin embargo, si llega a enfadarse no entenderá razones y entrará en un estado de cólera. No hay forma alguna de poderlo calmar y comenzará a destruir todo lanzando arañazos y flamas.",
+    "habitat": "Montaña / Cueva",
+    "generation": "III generación" 
+  }
+  
+}

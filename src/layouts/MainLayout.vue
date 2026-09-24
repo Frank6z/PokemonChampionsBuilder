@@ -31,22 +31,22 @@ import EssentialLink from '@/components/EssentialLink.vue'
 
 const linksList = [
   {
-    label: 'Docs',
-    caption: 'quasar.dev',
-    icon: 'school',
-    link: 'https://quasar.dev',
+    label: 'Pokemons - Menu Principal',
+    caption: 'Listado de Pokemons',
+    icon: 'home',
+    link: '/',
   },
   {
-    label: 'GitHub',
-    caption: 'github.com/quasarframework',
-    icon: 'code',
-    link: 'https://github.com/quasarframework',
+    label: 'POKEDEX INFO',
+    caption: 'Informacion de Pokemons',
+    icon: 'menu_book',
+    link: '/pokedex-entry',
   },
   {
-    label: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
-    icon: 'chat',
-    link: 'https://chat.quasar.dev',
+    label: 'Para más Info ir a WikiDex',
+    caption: 'wikidex.net',
+    icon: 'link',
+    link: 'https://www.wikidex.net/wiki/WikiDex',
   },
   {
     label: 'Forum',

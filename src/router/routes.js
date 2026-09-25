@@ -5,7 +5,8 @@ const routes = [
     children: [
       { path: '', component: () => import('@/pages/IndexPage.vue') },
       { path: 'second/:pokemon?', component: () => import('@/pages/SecondPage.vue') },
-      { path: 'pokedex-entry', component: () => import('@/pages/PokedexEntry.vue')}
+      { path: 'pokedex-entry', component: () => import('@/pages/PokedexEntry.vue')},
+      { path: 'typing-info', component: () => import('@/pages/TypingInfo.vue')}
     ],
   },
 

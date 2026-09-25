@@ -13,7 +13,7 @@
 
     <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
       <q-list>
-        <q-item-label header> Essential Links </q-item-label>
+        <q-item-label header> PokeChampsData MENU </q-item-label>
 
         <EssentialLink v-for="link in linksList" :key="link.label" v-bind="link" />
       </q-list>
@@ -49,16 +49,10 @@ const linksList = [
     link: 'https://www.wikidex.net/wiki/WikiDex',
   },
   {
-    label: 'Forum',
-    caption: 'forum.quasar.dev',
-    icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev',
-  },
-  {
-    label: 'Twitter',
-    caption: '@quasarframework',
-    icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev',
+    label: 'TABLA DE TIPOS',
+    caption: 'Informacion de debilidades y fortalezas',
+    icon: 'list',
+    link: '/typing-info',
   },
   {
     label: 'Facebook',

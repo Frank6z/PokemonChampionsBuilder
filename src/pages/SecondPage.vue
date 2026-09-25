@@ -26,7 +26,7 @@
       <q-card-section class="q-py-none">
         <div class="q-px-sm" v-for="(val, statName) in getForm(pokemonData, key).stats" :key="statName">
           <div class="row justify-between items-center text-uppercase"><span>{{ statName }}: {{ val }}</span></div>
-          <q-linear-progress rounded :value="val / 255" color="teal-14" class="q-mb-sm" size="10px"/>
+          <q-linear-progress rounded :value="val / 255" :color="getStatColor(val)" class="q-mb-sm" size="11px" style="border: 1px solid white;"/>
         </div>
       </q-card-section>
       
@@ -85,5 +85,15 @@ function getForm(pokemonData, key) {
 function changeForm(key) {
   const total = pokedex[key].forms.length
   formIndexes.value[key] = (formIndexes.value[key] + 1) % total
+}
+
+function getStatColor(val) {
+  if (val < 85) {
+    return 'cyan'       // Valores bajos (0 - 84)
+  } else if (val < 170) {
+    return 'purple'     // Valores medios (~85 - 169)
+  } else {
+    return 'pink'       // Valores altos (~170 - 255)
+  }
 }
 </script>

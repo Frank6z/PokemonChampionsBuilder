@@ -1,0 +1,188 @@
+{
+  "golisopod": {
+    "name": "Golisopod",
+    "bgColor": "bg-grey-7",
+    "forms": [
+      {
+        "name": "Base",
+        "img": "Golisopod.png",
+        "type1": "BICHO.png",
+        "type2": "AGUA.png"
+      },
+      {
+        "name": "Mega",
+        "img": "Mega_Golisopod.png",
+        "type1": "BICHO.png",
+        "type2": "ACERO.png"
+      }
+    ]
+  },
+  "garchomp": {
+    "name": "Garchomp",
+    "bgColor": "bg-indigo-9",
+    "forms": [
+      {
+        "name": "Base",
+        "img": "Garchomp.png",
+        "type1": "DRAGON_.png",
+        "type2": "TIERRA.png"
+      },
+      {
+        "name": "Mega",
+        "img": "Mega_Garchomp.png",
+        "type1": "DRAGON_.png",
+        "type2": "TIERRA.png"
+      },
+      {
+        "name": "Mega Z",
+        "img": "Mega_GarchompZ.png",
+        "type1": "DRAGON_.png",
+        "type2": null
+      }
+    ]
+  },
+  "swampert": {
+    "name": "Swampert",
+    "bgColor": "bg-blue",
+    "forms": [
+      {
+        "name": "Base",
+        "img": "Swampert.png",
+        "type1": "AGUA.png",
+        "type2": "TIERRA.png"
+      },
+      {
+        "name": "Mega",
+        "img": "Mega_Swampert.png",
+        "type1": "AGUA.png",
+        "type2": "TIERRA.png"
+      }
+    ]
+  },
+  "staraptor": {
+    "name": "Staraptor",
+    "bgColor": "bg-grey-9",
+    "forms": [
+      {
+        "name": "Base",
+        "img": "Staraptor.png",
+        "type1": "NORMAL_.png",
+        "type2": "VOLADOR.png"
+      },
+      {
+        "name": "Mega",
+        "img": "Mega_Staraptor.png",
+        "type1": "LUCHA.png",
+        "type2": "VOLADOR.png"
+      }
+    ]
+  },
+  "absol": {
+    "name": "Absol",
+    "bgColor": "bg-purple-10",
+    "forms": [
+      {
+        "name": "Base",
+        "img": "Absol.png",
+        "type1": "SINIESTRO.png",
+        "type2": null
+      },
+      {
+        "name": "Mega",
+        "img": "Mega_Absol.png",
+        "type1": "SINIESTRO.png",
+        "type2": null
+      },
+      {
+        "name": "Mega Z",
+        "img": "Mega_AbsolZ.png",
+        "type1": "SINIESTRO.png",
+        "type2": "FANTASMA.png"
+      }
+    ]
+  },
+  "aggron": {
+    "name": "Aggron",
+    "bgColor": "bg-blue-grey-9",
+    "forms": [
+      {
+        "name": "Base",
+        "img": "Aggron.png",
+        "type1": "ROCA.png",
+        "type2": "ACERO.png"
+      },
+      {
+        "name": "Mega",
+        "img": "Mega_Aggron.png",
+        "type1": "ACERO.png",
+        "type2": null
+      }
+    ]
+  },
+  "charizard": {
+    "name": "Charizard",
+    "bgColor": "bg-deep-orange-9",
+    "forms": [
+      {
+        "name": "Base",
+        "img": "Charizard.png",
+        "type1": "FUEGO.png",
+        "type2": "VOLADOR.png"
+      },
+      {
+        "name": "Mega X",
+        "img": "Mega_CharizardX.png",
+        "type1": "FUEGO.png",
+        "type2": "DRAGON_.png"
+      },
+      {
+        "name": "Mega Y",
+        "img": "Mega_CharizardY.png",
+        "type1": "FUEGO.png",
+        "type2": "VOLADOR.png"
+      }
+    ]
+  },
+  "eelektross": {
+    "name": "Eelektross",
+    "bgColor": "bg-yellow-8",
+    "forms": [
+      {
+        "name": "Base",
+        "img": "Eelektross.png",
+        "type1": "ELECTRICO.png",
+        "type2": null
+      },
+      {
+        "name": "Mega",
+        "img": "Mega_Eelektross.png",
+        "type1": "ELECTRICO.png",
+        "type2": null
+      }
+    ]
+  },
+  "lucario": {
+    "name": "Lucario",
+    "bgColor": "bg-cyan-10",
+    "forms": [
+      {
+        "name": "Base",
+        "img": "Lucario.png",
+        "type1": "LUCHA.png",
+        "type2": "ACERO.png"
+      },
+      {
+        "name": "Mega",
+        "img": "Mega_Lucario.png",
+        "type1": "LUCHA.png",
+        "type2": "ACERO.png"
+      },
+      {
+        "name": "Mega Z",
+        "img": "Mega_LucarioZ.png",
+        "type1": "LUCHA.png",
+        "type2": "ACERO.png"
+      }
+    ]
+  }
+}

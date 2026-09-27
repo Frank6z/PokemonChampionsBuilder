@@ -92,10 +92,10 @@
 
       <q-separator />
 
-      <q-card-actions align="center" class="q-pa-md">
+      <q-card-actions align="center" class="q-pa-md q-gutter-y-sm">
         <q-btn icon="arrow_back" color="deep-orange-7" to="/" glossy label="Volver al Inicio" no-caps class="full-width" />
-        <q-btn color="red-7" type="a" href="https://www.wikidex.net/wiki/WikiDex" target="_blank" glossy label="MAS INFORMACION" no-caps class="full-width" />
-    </q-card-actions>
+        <q-btn color="red-7" type="a" :href="wikiUrl" target="_blank" glossy label="MAS INFORMACION" no-caps class="full-width" />
+      </q-card-actions>
 
     </q-card>
   </div>
@@ -125,6 +125,13 @@ const currentPokemon = computed(() => {
 
 const currentInfo = computed(() => {
   return pokeInfoData[selectedPokemonKey.value] || pokeInfoData['golisopod']
+})
+
+// Propiedad computada para generar el enlace dinámico a WikiDex con la primera letra en mayúscula
+const wikiUrl = computed(() => {
+  const name = currentInfo.value.name || selectedPokemonKey.value
+  const capitalizedName = name.charAt(0).toUpperCase() + name.slice(1).toLowerCase()
+  return `https://www.wikidex.net/wiki/${capitalizedName}`
 })
 
 function getFormImg(imgName) {

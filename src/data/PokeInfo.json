@@ -107,6 +107,66 @@
     "description": "Es un Pokémon poco común, que es el producto del deseo de Bagon por querer poder surcar los cielos. Pues se dice que este deseo fue el que propició que sus células comenzaran a mutar y le ayudaran a desarrollar alas. Para expresar su alegría por al fin lograr su sueño, Salamence revolotea por el cielo con una sonrisa en el rostro lanzando llamas por su boca. No pisará tierra firme, a no ser que se encuentre exhausto o quiera dormir. Sin embargo, si llega a enfadarse no entenderá razones y entrará en un estado de cólera. No hay forma alguna de poderlo calmar y comenzará a destruir todo lanzando arañazos y flamas.",
     "habitat": "Montaña / Cueva",
     "generation": "III generación" 
+  },
+  "sneasler": {
+    "name": "Sneasler",
+    "types": ["Fighting", "Poison"],
+    "species": "Free Climb Pokémon",
+    "height": "1.3 m / 4′03″",
+    "weight": "43.0 kg / 94.8 lbs",
+    "description": "Este Pokémon trepa por escarpados acantilados con agilidad y elegancia gracias a sus afiladas garras. Posee un carácter cauteloso y un veneno potente que secreta en sus garras para debilitar a sus adversarios con rapidez.",
+    "habitat": "Montaña / Acantilado",
+    "generation": "VIII generación"
+  },
+  "incineroar": {
+    "name": "Incineroar",
+    "types": ["Fire", "Dark"],
+    "species": "Heel Pokémon",
+    "height": "1.8 m / 5′11″",
+    "weight": "83.0 kg / 183.0 lbs",
+    "description": "Aunque presume de una actitud ruda y a veces descarada, en su interior posee una gran pasión por el combate competitivo. Lanza llamas desde el cinturón de fuego que rodea su cintura para intimidar a los rivales.",
+    "habitat": "Pradera / Urbano",
+    "generation": "VII generación"
+  },
+  "kingambit": {
+    "name": "Kingambit",
+    "types": ["Dark", "Steel"],
+    "species": "Big Blade Pokémon",
+    "height": "2.0 m / 6′07″",
+    "weight": "120.0 kg / 264.6 lbs",
+    "description": "Líder indiscutible que dirige a grandes grupos de Bisharp en el campo de batalla. Destaca por su imponente estructura metálica en forma de gran espada que utiliza tanto para intimidar como para asestar tajos devastadores.",
+    "habitat": "Bosque / Montaña",
+    "generation": "IX generación"
+  },
+  "basculegion": {
+    "name": "Basculegion",
+    "types": ["Water", "Ghost"],
+    "species": "Big Fish Pokémon",
+    "height": "3.0 m / 9′10″",
+    "weight": "110.0 kg / 242.5 lbs",
+    "description": "Nace cuando las almas de otros Basculin que no pudieron superar las duras corrientes se agrupan en un solo cuerpo. Surca los ríos y océanos impulsado por la energía de los espíritus errantes que lo acompañan.",
+    "habitat": "Río / Océano",
+    "generation": "VIII generación"
+  },
+  "whimsicott": {
+    "name": "Whimsicott",
+    "types": ["Grass", "Fairy"],
+    "species": "Windveiled Pokémon",
+    "height": "0.7 m / 2′04″",
+    "weight": "6.6 kg / 14.6 lbs",
+    "description": "Su cuerpo está cubierto de un suave algodón que puede hacer crecer o desprender a voluntad para despistar al enemigo. Se desliza por los campos ayudado por las corrientes de viento, gastando bromas pesadas a todo el que se cruza.",
+    "habitat": "Pradera / Bosque",
+    "generation": "V generación"
+  },
+  "archaludon": {
+    "name": "Archaludon",
+    "types": ["Steel", "Dragon"],
+    "species": "Alloy Lego Pokémon",
+    "height": "2.0 m / 6′07″",
+    "weight": "60.0 kg / 132.3 lbs",
+    "description": "Su cuerpo metálico almacena electricidad estática que absorbe del entorno para potenciar sus ataques. Adopta una postura rígida y firme similar la de un puente cuando se prepara para repeler cualquier embestida.",
+    "habitat": "Montaña / Cueva",
+    "generation": "IX generación"
   }
   
 }

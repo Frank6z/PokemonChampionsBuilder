@@ -184,5 +184,131 @@
         "type2": "ACERO.png"
       }
     ]
+  },
+  "sceptile": {
+    "name": "Sceptile",
+    "bgColor": "bg-green-10",
+    "forms": [
+      {
+        "name": "Base",
+        "img": "Sceptile.png",
+        "type1": "PLANTA.png",
+        "type2": null
+      },
+      {
+        "name": "Mega",
+        "img": "Mega_Sceptile.png",
+        "type1": "PLANTA.png",
+        "type2": "DRAGON_.png"
+      }
+    ]
+  },
+  "feraligatr": {
+    "name": "Feraligatr",
+    "bgColor": "bg-blue-10",
+    "forms": [
+      {
+        "name": "Base",
+        "img": "Feraligatr.png",
+        "type1": "AGUA.png",
+        "type2": null
+      },
+      {
+        "name": "Mega",
+        "img": "Mega_Feraligatr.png",
+        "type1": "AGUA.png",
+        "type2": "DRAGON_.png"
+      }
+    ]
+  },
+  "salamence": {
+    "name": "Salamence",
+    "bgColor": "bg-red-9",
+    "forms": [
+      {
+        "name": "Base",
+        "img": "Salamence.png",
+        "type1": "DRAGON_.png",
+        "type2": "VOLADOR.png"
+      },
+      {
+        "name": "Mega",
+        "img": "Mega_Salamence.png",
+        "type1": "DRAGON_.png",
+        "type2": "VOLADOR.png"
+      }
+    ]
+  },
+  "sneasler": {
+    "name": "Sneasler",
+    "bgColor": "bg-deep-purple-9",
+    "forms": [
+      {
+        "name": "Base",
+        "img": "Sneasler.png",
+        "type1": "LUCHA.png",
+        "type2": "VENENO.png"
+      }
+    ]
+  },
+  "incineroar": {
+    "name": "Incineroar",
+    "bgColor": "bg-red-10",
+    "forms": [
+      {
+        "name": "Base",
+        "img": "Incineroar.png",
+        "type1": "FUEGO.png",
+        "type2": "SINIESTRO.png"
+      }
+    ]
+  },
+  "kingambit": {
+    "name": "Kingambit",
+    "bgColor": "bg-blue-grey-10",
+    "forms": [
+      {
+        "name": "Base",
+        "img": "Kingambit.png",
+        "type1": "SINIESTRO.png",
+        "type2": "ACERO.png"
+      }
+    ]
+  },
+  "basculegion": {
+    "name": "Basculegion",
+    "bgColor": "bg-cyan-9",
+    "forms": [
+      {
+        "name": "Base",
+        "img": "Basculegion_Male.png",
+        "type1": "AGUA.png",
+        "type2": "FANTASMA.png"
+      }
+    ]
+  },
+  "whimsicott": {
+    "name": "Whimsicott",
+    "bgColor": "bg-green-8",
+    "forms": [
+      {
+        "name": "Base",
+        "img": "Whimsicott.png",
+        "type1": "PLANTA.png",
+        "type2": "HADA.png"
+      }
+    ]
+  },
+  "archaludon": {
+    "name": "Archaludon",
+    "bgColor": "bg-indigo-10",
+    "forms": [
+      {
+        "name": "Base",
+        "img": "Archaludon.png",
+        "type1": "ACERO.png",
+        "type2": "DRAGON_.png"
+      }
+    ]
   }
 }

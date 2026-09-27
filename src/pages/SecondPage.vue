@@ -17,8 +17,17 @@
           <q-img v-if="getForm(pokemonData, key).type2" :src="getTypeImg(getForm(pokemonData, key).type2)" class="q-mx-xs" width="80px" height="30px" fit="contain"/>
         </div>
         <div class="text-subtitle2 q-mt-sm">{{ pokemonData.category }}</div>
+        
+        <!-- HABILIDADES POKEMON ACTUALIZADAS -->
         <div class="q-mt-xs text-body2">
-          Habilidad: <q-badge color="white" text-color="black" class="text-bold">{{ getForm(pokemonData, key).ability }}</q-badge>
+          Habilidades:
+          <div class="q-gutter-xs q-mt-xs">
+            <template v-for="(abilityName, slot) in getForm(pokemonData, key).abilities" :key="slot">
+              <q-badge v-if="abilityName" color="white" text-color="black" class="text-bold q-mr-xs">
+                {{ slot === 'H' ? 'HA: ' : '' }}{{ abilityName }}
+              </q-badge>
+            </template>
+          </div>
         </div>
       </q-card-section>
 

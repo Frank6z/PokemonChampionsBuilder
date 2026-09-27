@@ -6,6 +6,7 @@
     "btnColor": "grey-7",
     "spinnerColor": "red",
     "seeMoreColor": "grey-8",
+    "dexNumber": 768,
     "forms": [
       {
         "name": "Base",
@@ -14,7 +15,10 @@
         "icon2": "Water type.ico",
         "type1": "BICHO.png",
         "type2": "AGUA.png",
-        "ability": "Emergency Exit",
+        "abilities": {
+          "0": "Emergency Exit",
+          "H": null
+        },
         "stats": { "hp": 75, "atk": 125, "def": 140, "spa": 60, "spd": 90, "spe": 40 }
       },
       {
@@ -24,7 +28,10 @@
         "icon2": "Steel type.ico",
         "type1": "BICHO.png",
         "type2": "ACERO.png",
-        "ability": "Tough Claws",
+        "abilities": {
+          "0": "Tough Claws",
+          "H": null
+        },
         "stats": { "hp": 75, "atk": 150, "def": 175, "spa": 70, "spd": 120, "spe": 40 }
       }
     ]
@@ -36,6 +43,7 @@
     "btnColor": "indigo-9",
     "spinnerColor": "indigo",
     "seeMoreColor": "indigo-10",
+    "dexNumber": 445,
     "forms": [
       {
         "name": "Base",
@@ -44,7 +52,10 @@
         "icon2": "Ground type.ico",
         "type1": "DRAGON_.png",
         "type2": "TIERRA.png",
-        "ability": "Rough Skin",
+        "abilities": {
+          "0": "Sand Veil",
+          "H": "Rough Skin"
+        },
         "stats": { "hp": 108, "atk": 130, "def": 95, "spa": 80, "spd": 85, "spe": 102 }
       },
       {
@@ -54,7 +65,10 @@
         "icon2": "Ground type.ico",
         "type1": "DRAGON_.png",
         "type2": "TIERRA.png",
-        "ability": "Sand Force",
+        "abilities": {
+          "0": "Sand Force",
+          "H": null
+        },
         "stats": { "hp": 108, "atk": 170, "def": 115, "spa": 120, "spd": 95, "spe": 92 }
       },
       {
@@ -64,7 +78,10 @@
         "icon2": null,
         "type1": "DRAGON_.png",
         "type2": null,
-        "ability": "Levitate",
+        "abilities": {
+          "0": "Levitate",
+          "H": null
+        },
         "stats": { "hp": 108, "atk": 130, "def": 85, "spa": 141, "spd": 85, "spe": 151 }
       }
     ]
@@ -76,6 +93,7 @@
     "btnColor": "blue",
     "spinnerColor": "blue",
     "seeMoreColor": "blue-10",
+    "dexNumber": 260,
     "forms": [
       {
         "name": "Base",
@@ -84,7 +102,10 @@
         "icon2": "Ground type.ico",
         "type1": "AGUA.png",
         "type2": "TIERRA.png",
-        "ability": "Torrent",
+        "abilities": {
+          "0": "Torrent",
+          "H": "Damp"
+        },
         "stats": { "hp": 100, "atk": 110, "def": 90, "spa": 85, "spd": 90, "spe": 60 }
       },
       {
@@ -94,7 +115,10 @@
         "icon2": "Ground type.ico",
         "type1": "AGUA.png",
         "type2": "TIERRA.png",
-        "ability": "Swift Swim",
+        "abilities": {
+          "0": "Swift Swim",
+          "H": null
+        },
         "stats": { "hp": 100, "atk": 150, "def": 110, "spa": 95, "spd": 110, "spe": 70 }
       }
     ]
@@ -106,6 +130,7 @@
     "btnColor": "grey-9",
     "spinnerColor": "red",
     "seeMoreColor": "grey-10",
+    "dexNumber": 398,
     "forms": [
       {
         "name": "Base",
@@ -114,7 +139,10 @@
         "icon2": "Flying type.ico",
         "type1": "NORMAL_.png",
         "type2": "VOLADOR.png",
-        "ability": "Intimidate",
+        "abilities": {
+          "0": "Intimidate",
+          "H": "Reckless"
+        },
         "stats": { "hp": 85, "atk": 120, "def": 70, "spa": 50, "spd": 60, "spe": 100 }
       },
       {
@@ -124,7 +152,10 @@
         "icon2": "Flying type.ico",
         "type1": "LUCHA.png",
         "type2": "VOLADOR.png",
-        "ability": "Contrary",
+        "abilities": {
+          "0": "Contrary",
+          "H": null
+        },
         "stats": { "hp": 85, "atk": 140, "def": 100, "spa": 60, "spd": 90, "spe": 110 }
       }
     ]
@@ -136,6 +167,7 @@
     "btnColor": "purple-10",
     "spinnerColor": "purple",
     "seeMoreColor": "purple-8",
+    "dexNumber": 359,
     "forms": [
       {
         "name": "Base",
@@ -144,7 +176,11 @@
         "icon2": null,
         "type1": "SINIESTRO.png",
         "type2": null,
-        "ability": "Justified",
+        "abilities": {
+          "0": "Pressure",
+          "1": "Super Luck",
+          "H": "Justified"
+        },
         "stats": { "hp": 65, "atk": 130, "def": 60, "spa": 75, "spd": 60, "spe": 75 }
       },
       {
@@ -154,7 +190,10 @@
         "icon2": null,
         "type1": "SINIESTRO.png",
         "type2": null,
-        "ability": "Magic Bounce",
+        "abilities": {
+          "0": "Magic Bounce",
+          "H": null
+        },
         "stats": { "hp": 65, "atk": 150, "def": 60, "spa": 115, "spd": 60, "spe": 115 }
       },
       {
@@ -164,7 +203,10 @@
         "icon2": "Ghost type.ico",
         "type1": "SINIESTRO.png",
         "type2": "FANTASMA.png",
-        "ability": "Sharpness",
+        "abilities": {
+          "0": "Sharpness",
+          "H": null
+        },
         "stats": { "hp": 65, "atk": 154, "def": 60, "spa": 75, "spd": 60, "spe": 151 }
       }
     ]
@@ -176,6 +218,7 @@
     "btnColor": "blue-grey-9",
     "spinnerColor": "grey",
     "seeMoreColor": "blue-grey-10",
+    "dexNumber": 306,
     "forms": [
       {
         "name": "Base",
@@ -184,7 +227,11 @@
         "icon2": "Rock type.ico",
         "type1": "ACERO.png",
         "type2": "ROCA.png",
-        "ability": "Sturdy",
+        "abilities": {
+          "0": "Sturdy",
+          "1": "Rock Head",
+          "H": "Heavy Metal"
+        },
         "stats": { "hp": 70, "atk": 110, "def": 180, "spa": 60, "spd": 60, "spe": 50 }
       },
       {
@@ -194,7 +241,10 @@
         "icon2": null,
         "type1": "ACERO.png",
         "type2": null,
-        "ability": "Filter",
+        "abilities": {
+          "0": "Filter",
+          "H": null
+        },
         "stats": { "hp": 70, "atk": 140, "def": 230, "spa": 60, "spd": 80, "spe": 50 }
       }
     ]
@@ -206,6 +256,7 @@
     "btnColor": "deep-orange-9",
     "spinnerColor": "orange",
     "seeMoreColor": "deep-orange-10",
+    "dexNumber": 6,
     "forms": [
       {
         "name": "Base",
@@ -214,7 +265,10 @@
         "icon2": "Flying type.ico",
         "type1": "FUEGO.png",
         "type2": "VOLADOR.png",
-        "ability": "Solar Power",
+        "abilities": {
+          "0": "Blaze",
+          "H": "Solar Power"
+        },
         "stats": { "hp": 78, "atk": 84, "def": 78, "spa": 109, "spd": 85, "spe": 100 }
       },
       {
@@ -224,7 +278,10 @@
         "icon2": "Dragon type.ico",
         "type1": "FUEGO.png",
         "type2": "DRAGON_.png",
-        "ability": "Tough Claws",
+        "abilities": {
+          "0": "Tough Claws",
+          "H": null
+        },
         "stats": { "hp": 78, "atk": 130, "def": 111, "spa": 130, "spd": 85, "spe": 100 }
       },
       {
@@ -234,7 +291,10 @@
         "icon2": "Flying type.ico",
         "type1": "FUEGO.png",
         "type2": "VOLADOR.png",
-        "ability": "Drought",
+        "abilities": {
+          "0": "Drought",
+          "H": null
+        },
         "stats": { "hp": 78, "atk": 104, "def": 78, "spa": 159, "spd": 115, "spe": 100 }
       }
     ]
@@ -246,6 +306,7 @@
     "btnColor": "amber-10",
     "spinnerColor": "yellow",
     "seeMoreColor": "amber-8",
+    "dexNumber": 604,
     "forms": [
       {
         "name": "Base",
@@ -254,7 +315,10 @@
         "icon2": null,
         "type1": "ELECTRICO.png",
         "type2": null,
-        "ability": "Levitate",
+        "abilities": {
+          "0": "Levitate",
+          "H": null
+        },
         "stats": { "hp": 85, "atk": 115, "def": 80, "spa": 105, "spd": 80, "spe": 50 }
       },
       {
@@ -264,7 +328,10 @@
         "icon2": null,
         "type1": "ELECTRICO.png",
         "type2": null,
-        "ability": "Eelevate",
+        "abilities": {
+          "0": "Eelevate",
+          "H": null
+        },
         "stats": { "hp": 85, "atk": 145, "def": 80, "spa": 135, "spd": 90, "spe": 80 }
       }
     ]
@@ -276,6 +343,7 @@
     "btnColor": "cyan-10",
     "spinnerColor": "blue",
     "seeMoreColor": "cyan-8",
+    "dexNumber": 448,
     "forms": [
       {
         "name": "Base",
@@ -284,7 +352,11 @@
         "icon2": "Steel type.ico",
         "type1": "LUCHA.png",
         "type2": "ACERO.png",
-        "ability": "Justified",
+        "abilities": {
+          "0": "Steadfast",
+          "1": "Inner Focus",
+          "H": "Justified"
+        },
         "stats": { "hp": 70, "atk": 110, "def": 70, "spa": 115, "spd": 70, "spe": 90 }
       },
       {
@@ -294,7 +366,10 @@
         "icon2": "Steel type.ico",
         "type1": "LUCHA.png",
         "type2": "ACERO.png",
-        "ability": "Adaptability",
+        "abilities": {
+          "0": "Adaptability",
+          "H": null
+        },
         "stats": { "hp": 70, "atk": 145, "def": 88, "spa": 140, "spd": 70, "spe": 112 }
       },
       {
@@ -304,7 +379,10 @@
         "icon2": "Steel type.ico",
         "type1": "LUCHA.png",
         "type2": "ACERO.png",
-        "ability": "Aura Guard",
+        "abilities": {
+          "0": "Aura Guard",
+          "H": null
+        },
         "stats": { "hp": 70, "atk": 100, "def": 70, "spa": 164, "spd": 70, "spe": 151 }
       }
     ]
@@ -316,6 +394,7 @@
     "btnColor": "green-10",
     "spinnerColor": "green",
     "seeMoreColor": "green-8",
+    "dexNumber": 254,
     "forms": [
       {
         "name": "Base",
@@ -324,7 +403,10 @@
         "icon2": null,
         "type1": "PLANTA.png",
         "type2": null,
-        "ability": "Overgrow",
+        "abilities": {
+          "0": "Overgrow",
+          "H": "Unburden"
+        },
         "stats": { "hp": 70, "atk": 85, "def": 65, "spa": 105, "spd": 85, "spe": 120 }
       },
       {
@@ -334,7 +416,10 @@
         "icon2": "Dragon type.ico",
         "type1": "PLANTA.png",
         "type2": "DRAGON_.png",
-        "ability": "Lightning Rod",
+        "abilities": {
+          "0": "Lightning Rod",
+          "H": null
+        },
         "stats": { "hp": 70, "atk": 110, "def": 75, "spa": 145, "spd": 85, "spe": 145 }
       }
     ]
@@ -346,6 +431,7 @@
     "btnColor": "blue-10",
     "spinnerColor": "blue-14",
     "seeMoreColor": "blue-7",
+    "dexNumber": 160,
     "forms": [
       {
         "name": "Base",
@@ -354,7 +440,10 @@
         "icon2": null,
         "type1": "AGUA.png",
         "type2": null,
-        "ability": "Sheer Force",
+        "abilities": {
+          "0": "Torrent",
+          "H": "Sheer Force"
+        },
         "stats": { "hp": 85, "atk": 105, "def": 100, "spa": 79, "spd": 83, "spe": 78 }
       },
       {
@@ -364,7 +453,10 @@
         "icon2": "Dragon type.ico",
         "type1": "AGUA.png",
         "type2": "DRAGON_.png",
-        "ability": "Dragonize",
+        "abilities": {
+          "0": "Dragonize",
+          "H": null
+        },
         "stats": { "hp": 85, "atk": 160, "def": 125, "spa": 89, "spd": 93, "spe": 78 }
       }
     ]
@@ -376,6 +468,7 @@
     "btnColor": "red-9",
     "spinnerColor": "red-10",
     "seeMoreColor": "blue-8",
+    "dexNumber": 373,
     "forms": [
       {
         "name": "Base",
@@ -384,7 +477,10 @@
         "icon2": "Flying type.ico",
         "type1": "DRAGON_.png",
         "type2": "VOLADOR.png",
-        "ability": "Intimidate",
+        "abilities": {
+          "0": "Intimidate",
+          "H": "Moxie"
+        },
         "stats": { "hp": 95, "atk": 135, "def": 80, "spa": 110, "spd": 80, "spe": 100 }
       },
       {
@@ -394,8 +490,160 @@
         "icon2": "Flying type.ico",
         "type1": "DRAGON_.png",
         "type2": "VOLADOR.png",
-        "ability": "Aerilate",
+        "abilities": {
+          "0": "Aerilate",
+          "H": null
+        },
         "stats": { "hp": 95, "atk": 145, "def": 130, "spa": 120, "spd": 90, "spe": 120 }
+      }
+    ]
+  },
+  "sneasler": {
+    "name": "Sneasler",
+    "category": "Free Climb Pokémon",
+    "bgColor": "bg-deep-purple-8",
+    "btnColor": "deep-purple-9",
+    "spinnerColor": "purple",
+    "seeMoreColor": "deep-purple-10",
+    "dexNumber": 903,
+    "forms": [
+      {
+        "name": "Base",
+        "img": "Sneasler.png",
+        "icon1": "Fighting type.ico",
+        "icon2": "Poison type.ico",
+        "type1": "LUCHA.png",
+        "type2": "VENENO.png",
+        "abilities": {
+          "0": "Pressure",
+          "1": "Unburden",
+          "H": "Poison Touch"
+        },
+        "stats": { "hp": 80, "atk": 130, "def": 60, "spa": 40, "spd": 80, "spe": 120 }
+      }
+    ]
+  },
+  "incineroar": {
+    "name": "Incineroar",
+    "category": "Heel Pokémon",
+    "bgColor": "bg-red-9",
+    "btnColor": "red-10",
+    "spinnerColor": "deep-orange",
+    "seeMoreColor": "red-8",
+    "dexNumber": 727,
+    "forms": [
+      {
+        "name": "Base",
+        "img": "Incineroar.png",
+        "icon1": "Fire type.ico",
+        "icon2": "Dark type.ico",
+        "type1": "FUEGO.png",
+        "type2": "SINIESTRO.png",
+        "abilities": {
+          "0": "Blaze",
+          "H": "Intimidate"
+        },
+        "stats": { "hp": 95, "atk": 115, "def": 90, "spa": 80, "spd": 90, "spe": 60 }
+      }
+    ]
+  },
+  "kingambit": {
+    "name": "Kingambit",
+    "category": "Big Blade Pokémon",
+    "bgColor": "bg-blue-grey-9",
+    "btnColor": "blue-grey-10",
+    "spinnerColor": "grey",
+    "seeMoreColor": "blue-grey-8",
+    "dexNumber": 983,
+    "forms": [
+      {
+        "name": "Base",
+        "img": "Kingambit.png",
+        "icon1": "Dark type.ico",
+        "icon2": "Steel type.ico",
+        "type1": "SINIESTRO.png",
+        "type2": "ACERO.png",
+        "abilities": {
+          "0": "Defiant",
+          "1": "Supreme Overlord",
+          "H": "Pressure"
+        },
+        "stats": { "hp": 100, "atk": 135, "def": 120, "spa": 60, "spd": 85, "spe": 50 }
+      }
+    ]
+  },
+  "basculegion": {
+    "name": "Basculegion",
+    "category": "Big Fish Pokémon",
+    "bgColor": "bg-cyan-8",
+    "btnColor": "cyan-9",
+    "spinnerColor": "blue",
+    "seeMoreColor": "cyan-10",
+    "dexNumber": 902,
+    "forms": [
+      {
+        "name": "Base",
+        "img": "Basculegion_Male.png",
+        "icon1": "Water type.ico",
+        "icon2": "Ghost type.ico",
+        "type1": "AGUA.png",
+        "type2": "FANTASMA.png",
+        "abilities": {
+          "0": "Swift Swim",
+          "1": "Adaptability",
+          "H": "Mold Breaker"
+        },
+        "stats": { "hp": 120, "atk": 112, "def": 65, "spa": 80, "spd": 75, "spe": 78 }
+      }
+    ]
+  },
+  "whimsicott": {
+    "name": "Whimsicott",
+    "category": "Windveiled Pokémon",
+    "bgColor": "bg-green-7",
+    "btnColor": "green-8",
+    "spinnerColor": "light-green",
+    "seeMoreColor": "green-9",
+    "dexNumber": 547,
+    "forms": [
+      {
+        "name": "Base",
+        "img": "Whimsicott.png",
+        "icon1": "Grass type.ico",
+        "icon2": "Fairy type.ico",
+        "type1": "PLANTA.png",
+        "type2": "HADA.png",
+        "abilities": {
+          "0": "Prankster",
+          "1": "Infiltrator",
+          "H": "Chlorophyll"
+        },
+        "stats": { "hp": 60, "atk": 67, "def": 85, "spa": 77, "spd": 75, "spe": 116 }
+      }
+    ]
+  },
+  "archaludon": {
+    "name": "Archaludon",
+    "category": "Alloy Lego Pokémon",
+    "bgColor": "bg-indigo-9",
+    "btnColor": "indigo-10",
+    "spinnerColor": "blue",
+    "seeMoreColor": "indigo-8",
+    "dexNumber": 1018,
+    "forms": [
+      {
+        "name": "Base",
+        "img": "Archaludon.png",
+        "icon1": "Steel type.ico",
+        "icon2": "Dragon type.ico",
+        "type1": "ACERO.png",
+        "type2": "DRAGON_.png",
+        "abilities": {
+          "0": "Stamina",
+          "1": "Sturdy",
+          "H": "Stalwart"
+        },
+        "stats": { "hp": 90, "atk": 105, "def": 130, "spa": 125, "spd": 65, "spe": 85 }
       }
     ]
   }

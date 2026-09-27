@@ -53,19 +53,7 @@ const linksList = [
     caption: 'Informacion de debilidades y fortalezas',
     icon: 'list',
     link: '/typing-info',
-  },
-  {
-    label: 'Facebook',
-    caption: '@QuasarFramework',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev',
-  },
-  {
-    label: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev',
-  },
+  }
 ]
 
 const leftDrawerOpen = ref(false)

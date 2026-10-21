@@ -104,8 +104,9 @@
 <script setup>
 import { ref, computed, watch } from 'vue'
 import { useRoute } from 'vue-router'
-import pokedexData from '../data/pokedex.json'
-import pokeInfoData from '../data/PokeInfo.json'
+import speciesData from '../data/champions/species.json'
+
+const pokedexData = speciesData.species
 
 const route = useRoute()
 
@@ -124,12 +125,12 @@ const currentPokemon = computed(() => {
 })
 
 const currentInfo = computed(() => {
-  return pokeInfoData[selectedPokemonKey.value] || pokeInfoData['golisopod']
+  return currentPokemon.value.pokedexEntry
 })
 
 // Propiedad computada para generar el enlace dinámico a WikiDex con la primera letra en mayúscula
 const wikiUrl = computed(() => {
-  const name = currentInfo.value.name || selectedPokemonKey.value
+  const name = currentPokemon.value.name || selectedPokemonKey.value
   const capitalizedName = name.charAt(0).toUpperCase() + name.slice(1).toLowerCase()
   return `https://www.wikidex.net/wiki/${capitalizedName}`
 })

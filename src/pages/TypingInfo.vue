@@ -2,7 +2,7 @@
   <div class="q-pa-md flex flex-center">
     <q-card class="my-card shadow-3" flat bordered>
       
-      <q-card-section :class="[currentTyping.bgColor, 'text-white']">
+      <q-card-section :class="[currentTyping.typingBgColor, 'text-white']">
         <div class="text-h6 text-weight-bold">{{ currentTyping.name }} - {{ currentForm.name }}</div>
         <div class="text-subtitle2">FORTALEZAS Y DEBILIDADES (Local JSON)</div>
       </q-card-section>
@@ -88,8 +88,10 @@
 <script setup>
 import { ref, computed, watch } from 'vue'
 import { useRoute } from 'vue-router'
-import typingData from '../data/typingInfo.json'
+import speciesData from '../data/champions/species.json'
 import effectivenessData from '../data/effectiveness.json' // Importamos el JSON localmente
+
+const typingData = speciesData.species
 
 const route = useRoute()
 const selectedKey = ref(route.params.pokemon || 'golisopod')

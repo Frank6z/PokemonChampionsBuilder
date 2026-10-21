@@ -10,7 +10,12 @@
     "abilities": {
       "0": "Thick Fat"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Venusaur",
@@ -24,7 +29,12 @@
       "0": "Overgrow",
       "H": "Chlorophyll"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Charizard",
@@ -38,7 +48,12 @@
       "0": "Blaze",
       "H": "Solar Power"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Charizard X",
@@ -51,7 +66,12 @@
     "abilities": {
       "0": "Tough Claws"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Charizard Y",
@@ -64,7 +84,12 @@
     "abilities": {
       "0": "Drought"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Blastoise",
@@ -77,7 +102,12 @@
       "0": "Torrent",
       "H": "Rain Dish"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Blastoise",
@@ -89,7 +119,12 @@
     "abilities": {
       "0": "Mega Launcher"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Beedrill",
@@ -103,7 +138,12 @@
       "0": "Swarm",
       "H": "Sniper"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Beedrill",
@@ -116,7 +156,12 @@
     "abilities": {
       "0": "Adaptability"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Pidgeot",
@@ -129,7 +174,12 @@
     "abilities": {
       "0": "No Guard"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Pidgeot",
@@ -144,7 +194,12 @@
       "1": "Tangled Feet",
       "H": "Big Pecks"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Arbok",
@@ -158,7 +213,12 @@
       "1": "Shed Skin",
       "H": "Unnerve"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Pikachu",
@@ -171,7 +231,12 @@
       "0": "Static",
       "H": "Lightning Rod"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Alolan Raichu",
@@ -184,7 +249,12 @@
     "abilities": {
       "0": "Surge Surfer"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Raichu",
@@ -197,7 +267,12 @@
       "0": "Static",
       "H": "Lightning Rod"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Clefable",
@@ -211,7 +286,12 @@
       "1": "Magic Guard",
       "H": "Unaware"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Clefable",
@@ -224,7 +304,12 @@
     "abilities": {
       "0": "Magic Bounce"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Alolan Ninetales",
@@ -238,7 +323,12 @@
       "0": "Snow Cloak",
       "H": "Snow Warning"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Ninetales",
@@ -251,7 +341,12 @@
       "0": "Flash Fire",
       "H": "Drought"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Arcanine",
@@ -265,7 +360,12 @@
       "1": "Flash Fire",
       "H": "Justified"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Hisuian Arcanine",
@@ -280,7 +380,12 @@
       "1": "Flash Fire",
       "H": "Rock Head"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Alakazam",
@@ -294,7 +399,12 @@
       "1": "Inner Focus",
       "H": "Magic Guard"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Alakazam",
@@ -306,7 +416,12 @@
     "abilities": {
       "0": "Trace"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Machamp",
@@ -320,7 +435,12 @@
       "1": "No Guard",
       "H": "Steadfast"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Victreebel",
@@ -333,7 +453,12 @@
     "abilities": {
       "0": "Innards Out"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Victreebel",
@@ -347,7 +472,12 @@
       "0": "Chlorophyll",
       "H": "Gluttony"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Galarian Slowbro",
@@ -362,7 +492,12 @@
       "1": "Own Tempo",
       "H": "Regenerator"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Slowbro",
@@ -375,7 +510,12 @@
     "abilities": {
       "0": "Shell Armor"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Slowbro",
@@ -390,7 +530,12 @@
       "1": "Own Tempo",
       "H": "Regenerator"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Gengar",
@@ -403,7 +548,12 @@
     "abilities": {
       "0": "Cursed Body"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Gengar",
@@ -416,7 +566,12 @@
     "abilities": {
       "0": "Shadow Tag"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Kangaskhan",
@@ -430,7 +585,12 @@
       "1": "Scrappy",
       "H": "Inner Focus"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Kangaskhan",
@@ -442,7 +602,12 @@
     "abilities": {
       "0": "Parental Bond"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Starmie",
@@ -455,7 +620,12 @@
     "abilities": {
       "0": "Huge Power"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Starmie",
@@ -470,7 +640,12 @@
       "1": "Natural Cure",
       "H": "Analytic"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Pinsir",
@@ -483,7 +658,12 @@
     "abilities": {
       "0": "Aerilate"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Pinsir",
@@ -497,7 +677,12 @@
       "1": "Mold Breaker",
       "H": "Moxie"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Paldean Tauros",
@@ -511,7 +696,12 @@
       "1": "Anger Point",
       "H": "Cud Chew"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Tauros",
@@ -525,7 +715,12 @@
       "1": "Anger Point",
       "H": "Sheer Force"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Gyarados",
@@ -539,7 +734,12 @@
       "0": "Intimidate",
       "H": "Moxie"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Gyarados",
@@ -552,7 +752,12 @@
     "abilities": {
       "0": "Mold Breaker"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Ditto",
@@ -565,7 +770,12 @@
       "0": "Limber",
       "H": "Imposter"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Vaporeon",
@@ -578,7 +788,12 @@
       "0": "Water Absorb",
       "H": "Hydration"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Jolteon",
@@ -591,7 +806,12 @@
       "0": "Volt Absorb",
       "H": "Quick Feet"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Flareon",
@@ -604,7 +824,12 @@
       "0": "Flash Fire",
       "H": "Guts"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Aerodactyl",
@@ -619,7 +844,12 @@
       "1": "Pressure",
       "H": "Unnerve"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Aerodactyl",
@@ -632,7 +862,12 @@
     "abilities": {
       "0": "Tough Claws"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Snorlax",
@@ -646,7 +881,12 @@
       "1": "Thick Fat",
       "H": "Gluttony"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Dragonite",
@@ -660,7 +900,12 @@
       "0": "Inner Focus",
       "H": "Multiscale"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Dragonite",
@@ -673,7 +918,13 @@
     "abilities": {
       "0": "Multiscale"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions",
+      "official-news-switch-launch"
+    ]
   },
   {
     "name": "Mega Meganium",
@@ -686,7 +937,13 @@
     "abilities": {
       "0": "Mega Sol"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions",
+      "official-news-switch-launch"
+    ]
   },
   {
     "name": "Meganium",
@@ -699,7 +956,12 @@
       "0": "Overgrow",
       "H": "Leaf Guard"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Hisuian Typhlosion",
@@ -713,7 +975,12 @@
       "0": "Blaze",
       "H": "Frisk"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Typhlosion",
@@ -726,7 +993,12 @@
       "0": "Blaze",
       "H": "Flash Fire"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Feraligatr",
@@ -739,7 +1011,12 @@
       "0": "Torrent",
       "H": "Sheer Force"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Feraligatr",
@@ -752,7 +1029,13 @@
     "abilities": {
       "0": "Dragonize"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions",
+      "official-news-switch-launch"
+    ]
   },
   {
     "name": "Ariados",
@@ -767,7 +1050,12 @@
       "1": "Insomnia",
       "H": "Sniper"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Ampharos",
@@ -780,7 +1068,12 @@
       "0": "Static",
       "H": "Plus"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Ampharos",
@@ -793,7 +1086,12 @@
     "abilities": {
       "0": "Mold Breaker"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Azumarill",
@@ -808,7 +1106,12 @@
       "1": "Huge Power",
       "H": "Sap Sipper"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Politoed",
@@ -822,7 +1125,12 @@
       "1": "Damp",
       "H": "Drizzle"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Espeon",
@@ -835,7 +1143,12 @@
       "0": "Synchronize",
       "H": "Magic Bounce"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Umbreon",
@@ -848,7 +1161,12 @@
       "0": "Synchronize",
       "H": "Inner Focus"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Galarian Slowking",
@@ -863,7 +1181,12 @@
       "1": "Own Tempo",
       "H": "Regenerator"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Slowking",
@@ -878,7 +1201,12 @@
       "1": "Own Tempo",
       "H": "Regenerator"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Forretress",
@@ -892,7 +1220,12 @@
       "0": "Sturdy",
       "H": "Overcoat"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Steelix",
@@ -905,7 +1238,12 @@
     "abilities": {
       "0": "Sand Force"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Steelix",
@@ -920,7 +1258,12 @@
       "1": "Sturdy",
       "H": "Sheer Force"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Scizor",
@@ -933,7 +1276,12 @@
     "abilities": {
       "0": "Technician"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Scizor",
@@ -948,7 +1296,12 @@
       "1": "Technician",
       "H": "Light Metal"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Heracross",
@@ -963,7 +1316,12 @@
       "1": "Guts",
       "H": "Moxie"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Heracross",
@@ -976,7 +1334,12 @@
     "abilities": {
       "0": "Skill Link"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Skarmory",
@@ -989,7 +1352,12 @@
     "abilities": {
       "0": "Stalwart"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Skarmory",
@@ -1004,7 +1372,12 @@
       "1": "Sturdy",
       "H": "Weak Armor"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Houndoom",
@@ -1019,7 +1392,12 @@
       "1": "Flash Fire",
       "H": "Unnerve"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Houndoom",
@@ -1032,7 +1410,12 @@
     "abilities": {
       "0": "Solar Power"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Tyranitar",
@@ -1045,7 +1428,12 @@
     "abilities": {
       "0": "Sand Stream"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Tyranitar",
@@ -1059,7 +1447,12 @@
       "0": "Sand Stream",
       "H": "Unnerve"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Pelipper",
@@ -1074,7 +1467,12 @@
       "1": "Drizzle",
       "H": "Rain Dish"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Gardevoir",
@@ -1089,7 +1487,12 @@
       "1": "Trace",
       "H": "Telepathy"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Gardevoir",
@@ -1102,7 +1505,12 @@
     "abilities": {
       "0": "Pixilate"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Sableye",
@@ -1115,7 +1523,12 @@
     "abilities": {
       "0": "Magic Bounce"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Sableye",
@@ -1130,7 +1543,12 @@
       "1": "Stall",
       "H": "Prankster"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Aggron",
@@ -1145,7 +1563,12 @@
       "1": "Rock Head",
       "H": "Heavy Metal"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Aggron",
@@ -1157,7 +1580,12 @@
     "abilities": {
       "0": "Filter"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Medicham",
@@ -1171,7 +1599,12 @@
       "0": "Pure Power",
       "H": "Telepathy"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Medicham",
@@ -1184,7 +1617,12 @@
     "abilities": {
       "0": "Pure Power"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Manectric",
@@ -1198,7 +1636,12 @@
       "1": "Lightning Rod",
       "H": "Minus"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Manectric",
@@ -1210,7 +1653,12 @@
     "abilities": {
       "0": "Intimidate"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Sharpedo",
@@ -1223,7 +1671,12 @@
     "abilities": {
       "0": "Strong Jaw"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Sharpedo",
@@ -1237,7 +1690,12 @@
       "0": "Rough Skin",
       "H": "Speed Boost"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Camerupt",
@@ -1252,7 +1710,12 @@
       "1": "Solid Rock",
       "H": "Anger Point"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Camerupt",
@@ -1265,7 +1728,12 @@
     "abilities": {
       "0": "Sheer Force"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Torkoal",
@@ -1279,7 +1747,12 @@
       "1": "Drought",
       "H": "Shell Armor"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Altaria",
@@ -1293,7 +1766,12 @@
       "0": "Natural Cure",
       "H": "Cloud Nine"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Altaria",
@@ -1306,7 +1784,12 @@
     "abilities": {
       "0": "Pixilate"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Milotic",
@@ -1320,7 +1803,12 @@
       "1": "Competitive",
       "H": "Cute Charm"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Castform",
@@ -1332,7 +1820,12 @@
     "abilities": {
       "0": "Forecast"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Banette",
@@ -1346,7 +1839,12 @@
       "1": "Frisk",
       "H": "Cursed Body"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Banette",
@@ -1358,7 +1856,12 @@
     "abilities": {
       "0": "Prankster"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Chimecho",
@@ -1370,7 +1873,12 @@
     "abilities": {
       "0": "Levitate"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Chimecho",
@@ -1383,7 +1891,12 @@
     "abilities": {
       "0": "Levitate"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Absol",
@@ -1397,7 +1910,12 @@
       "1": "Super Luck",
       "H": "Justified"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Absol",
@@ -1409,7 +1927,12 @@
     "abilities": {
       "0": "Magic Bounce"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Glalie",
@@ -1423,7 +1946,12 @@
       "1": "Ice Body",
       "H": "Moody"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Glalie",
@@ -1435,7 +1963,12 @@
     "abilities": {
       "0": "Refrigerate"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Torterra",
@@ -1449,7 +1982,12 @@
       "0": "Overgrow",
       "H": "Shell Armor"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Infernape",
@@ -1463,7 +2001,12 @@
       "0": "Blaze",
       "H": "Iron Fist"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Empoleon",
@@ -1477,7 +2020,12 @@
       "0": "Torrent",
       "H": "Competitive"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Luxray",
@@ -1491,7 +2039,12 @@
       "1": "Intimidate",
       "H": "Guts"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Roserade",
@@ -1506,7 +2059,12 @@
       "1": "Poison Point",
       "H": "Technician"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Rampardos",
@@ -1519,7 +2077,12 @@
       "0": "Mold Breaker",
       "H": "Sheer Force"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Bastiodon",
@@ -1533,7 +2096,12 @@
       "0": "Sturdy",
       "H": "Soundproof"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Lopunny",
@@ -1547,7 +2115,12 @@
       "1": "Klutz",
       "H": "Limber"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Lopunny",
@@ -1560,7 +2133,12 @@
     "abilities": {
       "0": "Scrappy"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Spiritomb",
@@ -1574,7 +2152,12 @@
       "0": "Pressure",
       "H": "Infiltrator"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Garchomp",
@@ -1588,7 +2171,12 @@
       "0": "Sand Veil",
       "H": "Rough Skin"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Garchomp",
@@ -1601,7 +2189,12 @@
     "abilities": {
       "0": "Sand Force"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Lucario",
@@ -1616,7 +2209,12 @@
       "1": "Inner Focus",
       "H": "Justified"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Lucario",
@@ -1629,7 +2227,12 @@
     "abilities": {
       "0": "Adaptability"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Hippowdon",
@@ -1642,7 +2245,12 @@
       "0": "Sand Stream",
       "H": "Sand Force"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Toxicroak",
@@ -1657,7 +2265,12 @@
       "1": "Dry Skin",
       "H": "Poison Touch"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Abomasnow",
@@ -1671,7 +2284,12 @@
       "0": "Snow Warning",
       "H": "Soundproof"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Abomasnow",
@@ -1684,7 +2302,12 @@
     "abilities": {
       "0": "Snow Warning"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Weavile",
@@ -1698,7 +2321,12 @@
       "0": "Pressure",
       "H": "Pickpocket"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Rhyperior",
@@ -1713,7 +2341,12 @@
       "1": "Solid Rock",
       "H": "Reckless"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Leafeon",
@@ -1726,7 +2359,12 @@
       "0": "Leaf Guard",
       "H": "Chlorophyll"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Glaceon",
@@ -1739,7 +2377,12 @@
       "0": "Snow Cloak",
       "H": "Ice Body"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Gliscor",
@@ -1754,7 +2397,12 @@
       "1": "Sand Veil",
       "H": "Poison Heal"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mamoswine",
@@ -1769,7 +2417,12 @@
       "1": "Snow Cloak",
       "H": "Thick Fat"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Gallade",
@@ -1784,7 +2437,12 @@
       "1": "Sharpness",
       "H": "Justified"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Gallade",
@@ -1797,7 +2455,12 @@
     "abilities": {
       "0": "Inner Focus"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Froslass",
@@ -1811,7 +2474,12 @@
       "0": "Snow Cloak",
       "H": "Cursed Body"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Froslass",
@@ -1824,7 +2492,12 @@
     "abilities": {
       "0": "Snow Warning"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Rotom",
@@ -1837,7 +2510,12 @@
     "abilities": {
       "0": "Levitate"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Serperior",
@@ -1850,7 +2528,12 @@
       "0": "Overgrow",
       "H": "Contrary"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Emboar",
@@ -1864,7 +2547,12 @@
       "0": "Blaze",
       "H": "Reckless"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Emboar",
@@ -1877,7 +2565,13 @@
     "abilities": {
       "0": "Mold Breaker"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions",
+      "official-news-switch-launch"
+    ]
   },
   {
     "name": "Hisuian Samurott",
@@ -1891,7 +2585,12 @@
       "0": "Torrent",
       "H": "Sharpness"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Samurott",
@@ -1904,7 +2603,12 @@
       "0": "Torrent",
       "H": "Shell Armor"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Watchog",
@@ -1918,7 +2622,12 @@
       "1": "Keen Eye",
       "H": "Analytic"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Liepard",
@@ -1932,7 +2641,12 @@
       "1": "Unburden",
       "H": "Prankster"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Simisage",
@@ -1945,7 +2659,12 @@
       "0": "Gluttony",
       "H": "Overgrow"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Simisear",
@@ -1958,7 +2677,12 @@
       "0": "Gluttony",
       "H": "Blaze"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Simipour",
@@ -1971,7 +2695,12 @@
       "0": "Gluttony",
       "H": "Torrent"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Excadrill",
@@ -1986,7 +2715,12 @@
       "1": "Sand Force",
       "H": "Mold Breaker"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Excadrill",
@@ -1999,7 +2733,12 @@
     "abilities": {
       "0": "Piercing Drill"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Audino",
@@ -2013,7 +2752,12 @@
       "1": "Regenerator",
       "H": "Klutz"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Audino",
@@ -2026,7 +2770,12 @@
     "abilities": {
       "0": "Healer"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Conkeldurr",
@@ -2040,7 +2789,12 @@
       "1": "Sheer Force",
       "H": "Iron Fist"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Whimsicott",
@@ -2055,7 +2809,12 @@
       "1": "Infiltrator",
       "H": "Chlorophyll"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Krookodile",
@@ -2070,7 +2829,12 @@
       "1": "Moxie",
       "H": "Anger Point"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Cofagrigus",
@@ -2082,7 +2846,12 @@
     "abilities": {
       "0": "Mummy"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Garbodor",
@@ -2096,7 +2865,12 @@
       "1": "Weak Armor",
       "H": "Aftermath"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Hisuian Zoroark",
@@ -2109,7 +2883,12 @@
     "abilities": {
       "0": "Illusion"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Zoroark",
@@ -2121,7 +2900,12 @@
     "abilities": {
       "0": "Illusion"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Reuniclus",
@@ -2135,7 +2919,12 @@
       "1": "Magic Guard",
       "H": "Regenerator"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Vanilluxe",
@@ -2149,7 +2938,12 @@
       "1": "Snow Warning",
       "H": "Weak Armor"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Emolga",
@@ -2163,7 +2957,12 @@
       "0": "Static",
       "H": "Motor Drive"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Chandelure",
@@ -2178,7 +2977,12 @@
       "1": "Flame Body",
       "H": "Infiltrator"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Chandelure",
@@ -2191,7 +2995,12 @@
     "abilities": {
       "0": "Infiltrator"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Beartic",
@@ -2205,7 +3014,12 @@
       "1": "Slush Rush",
       "H": "Swift Swim"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Galarian Stunfisk",
@@ -2218,7 +3032,12 @@
     "abilities": {
       "0": "Mimicry"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Stunfisk",
@@ -2233,7 +3052,12 @@
       "1": "Limber",
       "H": "Sand Veil"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Golurk",
@@ -2248,7 +3072,12 @@
       "1": "Klutz",
       "H": "No Guard"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Golurk",
@@ -2261,7 +3090,12 @@
     "abilities": {
       "0": "Unseen Fist"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Hydreigon",
@@ -2274,7 +3108,12 @@
     "abilities": {
       "0": "Levitate"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Volcarona",
@@ -2288,7 +3127,12 @@
       "0": "Flame Body",
       "H": "Swarm"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Chesnaught",
@@ -2302,7 +3146,12 @@
       "0": "Overgrow",
       "H": "Bulletproof"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Chesnaught",
@@ -2315,7 +3164,12 @@
     "abilities": {
       "0": "Bulletproof"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Delphox",
@@ -2329,7 +3183,12 @@
       "0": "Blaze",
       "H": "Magician"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Delphox",
@@ -2342,7 +3201,12 @@
     "abilities": {
       "0": "Levitate"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Greninja",
@@ -2357,7 +3221,11 @@
       "H": "Protean",
       "S": "Battle Bond"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   {
     "name": "Mega Greninja",
@@ -2370,7 +3238,12 @@
     "abilities": {
       "0": "Protean"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Diggersby",
@@ -2385,7 +3258,12 @@
       "1": "Cheek Pouch",
       "H": "Huge Power"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Talonflame",
@@ -2399,7 +3277,12 @@
       "0": "Flame Body",
       "H": "Gale Wings"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Vivillon",
@@ -2414,7 +3297,12 @@
       "1": "Compound Eyes",
       "H": "Friend Guard"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Floette",
@@ -2427,7 +3315,12 @@
       "0": "Flower Veil",
       "H": "Symbiosis"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Floette",
@@ -2439,7 +3332,12 @@
     "abilities": {
       "0": "Fairy Aura"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Florges",
@@ -2452,7 +3350,12 @@
       "0": "Flower Veil",
       "H": "Symbiosis"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Pangoro",
@@ -2467,7 +3370,12 @@
       "1": "Mold Breaker",
       "H": "Scrappy"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Furfrou",
@@ -2479,7 +3387,12 @@
     "abilities": {
       "0": "Fur Coat"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Meowstic",
@@ -2491,7 +3404,12 @@
     "abilities": {
       "0": "Trace"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Meowstic",
@@ -2505,7 +3423,12 @@
       "1": "Infiltrator",
       "H": "Prankster"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Aegislash",
@@ -2518,7 +3441,12 @@
     "abilities": {
       "0": "Stance Change"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Aromatisse",
@@ -2531,7 +3459,12 @@
       "0": "Healer",
       "H": "Aroma Veil"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Slurpuff",
@@ -2544,7 +3477,12 @@
       "0": "Sweet Veil",
       "H": "Unburden"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Clawitzer",
@@ -2556,7 +3494,12 @@
     "abilities": {
       "0": "Mega Launcher"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Heliolisk",
@@ -2571,7 +3514,12 @@
       "1": "Sand Veil",
       "H": "Solar Power"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Tyrantrum",
@@ -2585,7 +3533,12 @@
       "0": "Strong Jaw",
       "H": "Rock Head"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Aurorus",
@@ -2599,7 +3552,12 @@
       "0": "Refrigerate",
       "H": "Snow Warning"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Sylveon",
@@ -2612,7 +3570,12 @@
       "0": "Cute Charm",
       "H": "Pixilate"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Hawlucha",
@@ -2627,7 +3590,12 @@
       "1": "Unburden",
       "H": "Mold Breaker"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Hawlucha",
@@ -2640,7 +3608,12 @@
     "abilities": {
       "0": "No Guard"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Dedenne",
@@ -2655,7 +3628,12 @@
       "1": "Pickup",
       "H": "Plus"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Goodra",
@@ -2669,7 +3647,12 @@
       "1": "Hydration",
       "H": "Gooey"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Hisuian Goodra",
@@ -2684,7 +3667,12 @@
       "1": "Shell Armor",
       "H": "Gooey"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Klefki",
@@ -2698,7 +3686,12 @@
       "0": "Prankster",
       "H": "Magician"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Trevenant",
@@ -2713,7 +3706,12 @@
       "1": "Frisk",
       "H": "Harvest"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Gourgeist",
@@ -2728,7 +3726,12 @@
       "1": "Frisk",
       "H": "Insomnia"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Avalugg",
@@ -2742,7 +3745,12 @@
       "1": "Ice Body",
       "H": "Sturdy"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Hisuian Avalugg",
@@ -2757,7 +3765,12 @@
       "1": "Ice Body",
       "H": "Sturdy"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Noivern",
@@ -2772,7 +3785,12 @@
       "1": "Infiltrator",
       "H": "Telepathy"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Decidueye",
@@ -2786,7 +3804,12 @@
       "0": "Overgrow",
       "H": "Long Reach"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Hisuian Decidueye",
@@ -2800,7 +3823,12 @@
       "0": "Overgrow",
       "H": "Scrappy"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Incineroar",
@@ -2814,7 +3842,12 @@
       "0": "Blaze",
       "H": "Intimidate"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Primarina",
@@ -2828,7 +3861,12 @@
       "0": "Torrent",
       "H": "Liquid Voice"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Toucannon",
@@ -2843,7 +3881,12 @@
       "1": "Skill Link",
       "H": "Sheer Force"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Crabominable",
@@ -2858,7 +3901,12 @@
       "1": "Iron Fist",
       "H": "Anger Point"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Crabominable",
@@ -2871,7 +3919,12 @@
     "abilities": {
       "0": "Iron Fist"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Lycanroc",
@@ -2885,7 +3938,12 @@
       "1": "Sand Rush",
       "H": "Steadfast"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Toxapex",
@@ -2900,7 +3958,12 @@
       "1": "Limber",
       "H": "Regenerator"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mudsdale",
@@ -2914,7 +3977,12 @@
       "1": "Stamina",
       "H": "Inner Focus"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Araquanid",
@@ -2928,7 +3996,12 @@
       "0": "Water Bubble",
       "H": "Water Absorb"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Salazzle",
@@ -2942,7 +4015,12 @@
       "0": "Corrosion",
       "H": "Oblivious"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Tsareena",
@@ -2956,7 +4034,12 @@
       "1": "Queenly Majesty",
       "H": "Sweet Veil"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Oranguru",
@@ -2971,7 +4054,12 @@
       "1": "Telepathy",
       "H": "Symbiosis"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Passimian",
@@ -2984,7 +4072,12 @@
       "0": "Receiver",
       "H": "Defiant"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mimikyu",
@@ -2997,7 +4090,12 @@
     "abilities": {
       "0": "Disguise"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Drampa",
@@ -3012,7 +4110,12 @@
       "1": "Sap Sipper",
       "H": "Cloud Nine"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Drampa",
@@ -3025,7 +4128,12 @@
     "abilities": {
       "0": "Berserk"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Kommo-o",
@@ -3040,7 +4148,12 @@
       "1": "Soundproof",
       "H": "Overcoat"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Corviknight",
@@ -3055,7 +4168,12 @@
       "1": "Unnerve",
       "H": "Mirror Armor"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Flapple",
@@ -3070,7 +4188,12 @@
       "1": "Gluttony",
       "H": "Hustle"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Appletun",
@@ -3085,7 +4208,12 @@
       "1": "Gluttony",
       "H": "Thick Fat"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Sandaconda",
@@ -3099,7 +4227,12 @@
       "1": "Shed Skin",
       "H": "Sand Veil"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Polteageist",
@@ -3112,7 +4245,12 @@
       "0": "Weak Armor",
       "H": "Cursed Body"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Hatterene",
@@ -3127,7 +4265,12 @@
       "1": "Anticipation",
       "H": "Magic Bounce"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mr. Rime",
@@ -3142,7 +4285,12 @@
       "1": "Screen Cleaner",
       "H": "Ice Body"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Runerigus",
@@ -3155,7 +4303,12 @@
     "abilities": {
       "0": "Wandering Spirit"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Alcremie",
@@ -3168,7 +4321,12 @@
       "0": "Sweet Veil",
       "H": "Aroma Veil"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Morpeko",
@@ -3181,7 +4339,12 @@
     "abilities": {
       "0": "Hunger Switch"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Dragapult",
@@ -3196,7 +4359,12 @@
       "1": "Infiltrator",
       "H": "Cursed Body"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Wyrdeer",
@@ -3211,7 +4379,12 @@
       "1": "Frisk",
       "H": "Sap Sipper"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Kleavor",
@@ -3226,7 +4399,12 @@
       "1": "Sheer Force",
       "H": "Sharpness"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Basculegion",
@@ -3241,7 +4419,12 @@
       "1": "Adaptability",
       "H": "Mold Breaker"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Sneasler",
@@ -3256,7 +4439,12 @@
       "1": "Unburden",
       "H": "Poison Touch"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Meowscarada",
@@ -3270,7 +4458,12 @@
       "0": "Overgrow",
       "H": "Protean"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Skeledirge",
@@ -3284,7 +4477,12 @@
       "0": "Blaze",
       "H": "Unaware"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Quaquaval",
@@ -3298,7 +4496,12 @@
       "0": "Torrent",
       "H": "Moxie"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Maushold",
@@ -3312,7 +4515,12 @@
       "1": "Cheek Pouch",
       "H": "Technician"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Garganacl",
@@ -3326,7 +4534,12 @@
       "1": "Sturdy",
       "H": "Clear Body"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Armarouge",
@@ -3340,7 +4553,12 @@
       "0": "Flash Fire",
       "H": "Weak Armor"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Ceruledge",
@@ -3354,7 +4572,12 @@
       "0": "Flash Fire",
       "H": "Weak Armor"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Bellibolt",
@@ -3368,7 +4591,12 @@
       "1": "Static",
       "H": "Damp"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Scovillain",
@@ -3381,7 +4609,12 @@
     "abilities": {
       "0": "Spicy Spray"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Scovillain",
@@ -3396,7 +4629,12 @@
       "1": "Insomnia",
       "H": "Moody"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Espathra",
@@ -3410,7 +4648,12 @@
       "1": "Frisk",
       "H": "Speed Boost"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Tinkaton",
@@ -3425,7 +4668,12 @@
       "1": "Own Tempo",
       "H": "Pickpocket"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Palafin",
@@ -3437,7 +4685,12 @@
     "abilities": {
       "0": "Zero to Hero"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Orthworm",
@@ -3450,7 +4703,12 @@
       "0": "Earth Eater",
       "H": "Sand Veil"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Glimmora",
@@ -3464,7 +4722,12 @@
       "0": "Toxic Debris",
       "H": "Corrosion"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Mega Glimmora",
@@ -3477,7 +4740,12 @@
     "abilities": {
       "0": "Adaptability"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Farigiraf",
@@ -3492,7 +4760,12 @@
       "1": "Armor Tail",
       "H": "Sap Sipper"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Kingambit",
@@ -3507,7 +4780,12 @@
       "1": "Supreme Overlord",
       "H": "Pressure"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Sinistcha",
@@ -3521,7 +4799,12 @@
       "0": "Hospitality",
       "H": "Heatproof"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Archaludon",
@@ -3536,7 +4819,12 @@
       "1": "Sturdy",
       "H": "Stalwart"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   },
   {
     "name": "Hydrapple",
@@ -3551,6 +4839,11 @@
       "1": "Regenerator",
       "H": "Sticky Hold"
     },
-    "championsVerified": true
+    "championsVerified": true,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-pokedex-champions"
+    ]
   }
 ]

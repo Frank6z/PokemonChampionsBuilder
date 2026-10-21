@@ -1,0 +1,1210 @@
+{
+  "schemaVersion": 1,
+  "notes": "Fuente única de los Pokémon de la app. Sustituye a pokedex.json, typingInfo.json y PokeInfo.json. typingBgColor es el color de fondo que usaba la página TypingInfo. type1/type2 e icon1/icon2 son nombres de archivo de src/assets/TYPES y src/assets/Icon_Types. Estados y fuentes: ver sources.json.",
+  "species": {
+    "golisopod": {
+      "name": "Golisopod",
+      "dexNumber": 768,
+      "category": "Hard Scale Pokemon",
+      "bgColor": "bg-grey-6",
+      "btnColor": "grey-7",
+      "spinnerColor": "red",
+      "seeMoreColor": "grey-8",
+      "typingBgColor": "bg-grey-7",
+      "pokedexEntry": {
+        "lang": "es",
+        "species": "Hard Scale Pokémon",
+        "height": "2.0 m / 6′07″",
+        "weight": "108.0 kg / 238.1 lbs",
+        "description": "Suele habitar en las cavernas del fondo marino o en barcos hundidos, donde lleva una vida contemplativa y de meditación con el fin de volverse más fuerte. Gracias a su destreza, y sus enormes y afiladas garras, puede sesgar hasta el aire y el agua de un solo tajo.",
+        "habitat": "Mares profundos / Cuevas",
+        "generation": "VII generación",
+        "status": "unknown",
+        "sources": [],
+        "notes": "Origen no registrado en PokeInfo.json; los textos parecen de los juegos principales. Pendiente de fuente."
+      },
+      "forms": [
+        {
+          "name": "Base",
+          "img": "Golisopod.png",
+          "icon1": "Bug type.ico",
+          "icon2": "Water type.ico",
+          "type1": "BICHO.png",
+          "type2": "AGUA.png",
+          "abilities": {
+            "0": "Emergency Exit",
+            "H": null
+          },
+          "stats": {
+            "hp": 75,
+            "atk": 125,
+            "def": 140,
+            "spa": 60,
+            "spd": 90,
+            "spe": 40
+          },
+          "status": "unknown",
+          "sources": [],
+          "notes": "Sin fuente registrada (no está en roster.json ni en noticias oficiales)."
+        },
+        {
+          "name": "Mega",
+          "img": "Mega_Golisopod.png",
+          "icon1": "Bug type.ico",
+          "icon2": "Steel type.ico",
+          "type1": "BICHO.png",
+          "type2": "ACERO.png",
+          "abilities": {
+            "0": "Tough Claws",
+            "H": null
+          },
+          "stats": {
+            "hp": 75,
+            "atk": 150,
+            "def": 175,
+            "spa": 70,
+            "spd": 120,
+            "spe": 40
+          },
+          "status": "unknown",
+          "sources": ["official-news-regulation-mc"],
+          "notes": "Presencia en Champions confirmada oficialmente; tipos, habilidades y stats sin fuente oficial."
+        }
+      ]
+    },
+    "garchomp": {
+      "name": "Garchomp",
+      "dexNumber": 445,
+      "category": "Sharp Claw Pokemon",
+      "bgColor": "bg-indigo-6",
+      "btnColor": "indigo-9",
+      "spinnerColor": "indigo",
+      "seeMoreColor": "indigo-10",
+      "typingBgColor": "bg-indigo-9",
+      "pokedexEntry": {
+        "lang": "es",
+        "species": "Sharp Claw Pokémon",
+        "height": "1.9 m / 6′03″",
+        "weight": "95.0 kg / 209.4 lbs",
+        "description": "Sobre cada una de sus patas delanteras cuenta con una única garra, además, posee un par de pinchos sobre cada brazo y cada pierna. Garchomp surca el aire a velocidad supersónica en busca de presas y no duda en librar un combate aéreo contra un Salamence para quedarse con ellas.",
+        "habitat": "Cueva / Montaña",
+        "generation": "IV generación",
+        "status": "unknown",
+        "sources": [],
+        "notes": "Origen no registrado en PokeInfo.json; los textos parecen de los juegos principales. Pendiente de fuente."
+      },
+      "forms": [
+        {
+          "name": "Base",
+          "img": "Garchomp.png",
+          "icon1": "Dragon type.ico",
+          "icon2": "Ground type.ico",
+          "type1": "DRAGON_.png",
+          "type2": "TIERRA.png",
+          "abilities": {
+            "0": "Sand Veil",
+            "H": "Rough Skin"
+          },
+          "stats": {
+            "hp": 108,
+            "atk": 130,
+            "def": 95,
+            "spa": 80,
+            "spd": 85,
+            "spe": 102
+          },
+          "status": "unknown",
+          "sources": ["serebii-champions"]
+        },
+        {
+          "name": "Mega",
+          "img": "Mega_Garchomp.png",
+          "icon1": "Dragon type.ico",
+          "icon2": "Ground type.ico",
+          "type1": "DRAGON_.png",
+          "type2": "TIERRA.png",
+          "abilities": {
+            "0": "Sand Force",
+            "H": null
+          },
+          "stats": {
+            "hp": 108,
+            "atk": 170,
+            "def": 115,
+            "spa": 120,
+            "spd": 95,
+            "spe": 92
+          },
+          "status": "unknown",
+          "sources": ["serebii-champions"]
+        },
+        {
+          "name": "Mega Z",
+          "img": "Mega_GarchompZ.png",
+          "icon1": "Dragon type.ico",
+          "icon2": null,
+          "type1": "DRAGON_.png",
+          "type2": null,
+          "abilities": {
+            "0": "Levitate",
+            "H": null
+          },
+          "stats": {
+            "hp": 108,
+            "atk": 130,
+            "def": 85,
+            "spa": 141,
+            "spd": 85,
+            "spe": 151
+          },
+          "status": "unknown",
+          "sources": ["official-news-regulation-mc"],
+          "notes": "Presencia en Champions confirmada oficialmente; tipos, habilidades y stats sin fuente oficial."
+        }
+      ]
+    },
+    "swampert": {
+      "name": "Swampert",
+      "dexNumber": 260,
+      "category": "Mud Fish Pokemon",
+      "bgColor": "bg-blue-9",
+      "btnColor": "blue",
+      "spinnerColor": "blue",
+      "seeMoreColor": "blue-10",
+      "typingBgColor": "bg-blue",
+      "pokedexEntry": {
+        "lang": "es",
+        "species": "Mud Fish Pokémon",
+        "height": "1.5 m / 4′11″",
+        "weight": "81.9 kg / 180.6 lbs",
+        "description": "Se trata de un Pokémon muy fuerte, se le ha visto arrastrando rocas de hasta una tonelada de peso sin ningún esfuerzo e incluso puede arrastrar grandes barcos. Su sentido de la vista está muy desarrollado, permitiéndole ver debajo de aguas cenagosas o en las turbias corrientes de los ríos. Sus aletas le ayudan a detectar cambios en las corrientes, mejorando su destreza natatoria. Capaz de predecir lluvias o tormentas, protegerá su nido de su azote apilando rocas. Su velocidad de nado iguala la de una moto acuática.",
+        "habitat": "Pantano / Agua dulce",
+        "generation": "III generación",
+        "status": "unknown",
+        "sources": [],
+        "notes": "Origen no registrado en PokeInfo.json; los textos parecen de los juegos principales. Pendiente de fuente."
+      },
+      "forms": [
+        {
+          "name": "Base",
+          "img": "Swampert.png",
+          "icon1": "Water type.ico",
+          "icon2": "Ground type.ico",
+          "type1": "AGUA.png",
+          "type2": "TIERRA.png",
+          "abilities": {
+            "0": "Torrent",
+            "H": "Damp"
+          },
+          "stats": {
+            "hp": 100,
+            "atk": 110,
+            "def": 90,
+            "spa": 85,
+            "spd": 90,
+            "spe": 60
+          },
+          "status": "unknown",
+          "sources": ["official-news-regulation-mb"],
+          "notes": "Presencia en Champions confirmada oficialmente; tipos, habilidades y stats sin fuente oficial."
+        },
+        {
+          "name": "Mega",
+          "img": "Mega_Swampert.png",
+          "icon1": "Water type.ico",
+          "icon2": "Ground type.ico",
+          "type1": "AGUA.png",
+          "type2": "TIERRA.png",
+          "abilities": {
+            "0": "Swift Swim",
+            "H": null
+          },
+          "stats": {
+            "hp": 100,
+            "atk": 150,
+            "def": 110,
+            "spa": 95,
+            "spd": 110,
+            "spe": 70
+          },
+          "status": "unknown",
+          "sources": ["official-news-regulation-mb"],
+          "notes": "Presencia en Champions confirmada oficialmente; tipos, habilidades y stats sin fuente oficial."
+        }
+      ]
+    },
+    "staraptor": {
+      "name": "Staraptor",
+      "dexNumber": 398,
+      "category": "Predator Pokemon",
+      "bgColor": "bg-grey-8",
+      "btnColor": "grey-9",
+      "spinnerColor": "red",
+      "seeMoreColor": "grey-10",
+      "typingBgColor": "bg-grey-9",
+      "pokedexEntry": {
+        "lang": "es",
+        "species": "Predator Pokémon",
+        "height": "1.2 m / 3′11″",
+        "weight": "24.9 kg / 54.9 lbs",
+        "description": "En su cabeza hay un penacho con una mancha roja, como si fuera el pico de una guadaña manchada de sangre, lo que le da un aspecto intimidante. Es de un carácter salvaje, feroz y agresivo. Además, cuando se encuentra con otros Pokémon en su territorio, este es capaz de atacar sin pensárselo dos veces.",
+        "habitat": "Bosque / Pradera",
+        "generation": "IV generación",
+        "status": "unknown",
+        "sources": [],
+        "notes": "Origen no registrado en PokeInfo.json; los textos parecen de los juegos principales. Pendiente de fuente."
+      },
+      "forms": [
+        {
+          "name": "Base",
+          "img": "Staraptor.png",
+          "icon1": "Normal type.ico",
+          "icon2": "Flying type.ico",
+          "type1": "NORMAL_.png",
+          "type2": "VOLADOR.png",
+          "abilities": {
+            "0": "Intimidate",
+            "H": "Reckless"
+          },
+          "stats": {
+            "hp": 85,
+            "atk": 120,
+            "def": 70,
+            "spa": 50,
+            "spd": 60,
+            "spe": 100
+          },
+          "status": "unknown",
+          "sources": ["official-news-regulation-mb"],
+          "notes": "Presencia en Champions confirmada oficialmente; tipos, habilidades y stats sin fuente oficial."
+        },
+        {
+          "name": "Mega",
+          "img": "Mega_Staraptor.png",
+          "icon1": "Fighting type.ico",
+          "icon2": "Flying type.ico",
+          "type1": "LUCHA.png",
+          "type2": "VOLADOR.png",
+          "abilities": {
+            "0": "Contrary",
+            "H": null
+          },
+          "stats": {
+            "hp": 85,
+            "atk": 140,
+            "def": 100,
+            "spa": 60,
+            "spd": 90,
+            "spe": 110
+          },
+          "status": "unknown",
+          "sources": ["official-news-regulation-mb"],
+          "notes": "Presencia en Champions confirmada oficialmente; tipos, habilidades y stats sin fuente oficial."
+        }
+      ]
+    },
+    "absol": {
+      "name": "Absol",
+      "dexNumber": 359,
+      "category": "Disaster Pokemon",
+      "bgColor": "bg-purple-9",
+      "btnColor": "purple-10",
+      "spinnerColor": "purple",
+      "seeMoreColor": "purple-8",
+      "typingBgColor": "bg-purple-10",
+      "pokedexEntry": {
+        "lang": "es",
+        "species": "Disaster Pokémon",
+        "height": "1.2 m / 3′11″",
+        "weight": "47.0 kg / 103.6 lbs",
+        "description": "Absol está inspirado en Baí Zé, una criatura de la mitología china que se presentaba ante los emperadores con buenas intenciones y les anticipaba que su reinado sería turbulento. También tiene influencia en hakutaku, una criatura de la mitología japonesa que advirtió a un pueblo sobre una catástrofe que se avecinaba. El diseño de su cabeza se basa en el símbolo del yin y el yang, mientras que el cuerno en forma de hoz podría ser una referencia a La Parca.",
+        "habitat": "Montaña",
+        "generation": "III generación",
+        "status": "unknown",
+        "sources": [],
+        "notes": "Origen no registrado en PokeInfo.json; los textos parecen de los juegos principales. Pendiente de fuente."
+      },
+      "forms": [
+        {
+          "name": "Base",
+          "img": "Absol.png",
+          "icon1": "Dark type.ico",
+          "icon2": null,
+          "type1": "SINIESTRO.png",
+          "type2": null,
+          "abilities": {
+            "0": "Pressure",
+            "1": "Super Luck",
+            "H": "Justified"
+          },
+          "stats": {
+            "hp": 65,
+            "atk": 130,
+            "def": 60,
+            "spa": 75,
+            "spd": 60,
+            "spe": 75
+          },
+          "status": "unknown",
+          "sources": ["serebii-champions"]
+        },
+        {
+          "name": "Mega",
+          "img": "Mega_Absol.png",
+          "icon1": "Dark type.ico",
+          "icon2": null,
+          "type1": "SINIESTRO.png",
+          "type2": null,
+          "abilities": {
+            "0": "Magic Bounce",
+            "H": null
+          },
+          "stats": {
+            "hp": 65,
+            "atk": 150,
+            "def": 60,
+            "spa": 115,
+            "spd": 60,
+            "spe": 115
+          },
+          "status": "unknown",
+          "sources": ["serebii-champions"]
+        },
+        {
+          "name": "Mega Z",
+          "img": "Mega_AbsolZ.png",
+          "icon1": "Dark type.ico",
+          "icon2": "Ghost type.ico",
+          "type1": "SINIESTRO.png",
+          "type2": "FANTASMA.png",
+          "abilities": {
+            "0": "Sharpness",
+            "H": null
+          },
+          "stats": {
+            "hp": 65,
+            "atk": 154,
+            "def": 60,
+            "spa": 75,
+            "spd": 60,
+            "spe": 151
+          },
+          "status": "unknown",
+          "sources": ["official-news-regulation-mc"],
+          "notes": "Presencia en Champions confirmada oficialmente; tipos, habilidades y stats sin fuente oficial."
+        }
+      ]
+    },
+    "aggron": {
+      "name": "Aggron",
+      "dexNumber": 306,
+      "category": "Iron Armor Pokemon",
+      "bgColor": "bg-blue-grey-8",
+      "btnColor": "blue-grey-9",
+      "spinnerColor": "grey",
+      "seeMoreColor": "blue-grey-10",
+      "typingBgColor": "bg-blue-grey-9",
+      "pokedexEntry": {
+        "lang": "es",
+        "species": "Iron Armor Pokémon",
+        "height": "2.1 m / 6′11″",
+        "weight": "360.0 kg / 793.7 lbs",
+        "description": "Los cuernos duros y afilados pueden perforar hasta las planchas de hierro más gruesas y le permiten excavar en túneles para buscar su principalmente fuente de alimento, los minerales de hierro. Aggron es un Pokémon muy territorial, ya que marca una montaña entera como su territorio. Si su montaña sufre algún corrimiento de tierras o algún incendio, lleva hasta el lugar tierra nueva y luego procede a restaurar el terreno plantando árboles.",
+        "habitat": "Montaña / Cueva",
+        "generation": "III generación",
+        "status": "unknown",
+        "sources": [],
+        "notes": "Origen no registrado en PokeInfo.json; los textos parecen de los juegos principales. Pendiente de fuente."
+      },
+      "forms": [
+        {
+          "name": "Base",
+          "img": "Aggron.png",
+          "icon1": "Steel type.ico",
+          "icon2": "Rock type.ico",
+          "type1": "ACERO.png",
+          "type2": "ROCA.png",
+          "abilities": {
+            "0": "Sturdy",
+            "1": "Rock Head",
+            "H": "Heavy Metal"
+          },
+          "stats": {
+            "hp": 70,
+            "atk": 110,
+            "def": 180,
+            "spa": 60,
+            "spd": 60,
+            "spe": 50
+          },
+          "status": "unknown",
+          "sources": ["serebii-champions"]
+        },
+        {
+          "name": "Mega",
+          "img": "Mega_Aggron.png",
+          "icon1": "Steel type.ico",
+          "icon2": null,
+          "type1": "ACERO.png",
+          "type2": null,
+          "abilities": {
+            "0": "Filter",
+            "H": null
+          },
+          "stats": {
+            "hp": 70,
+            "atk": 140,
+            "def": 230,
+            "spa": 60,
+            "spd": 80,
+            "spe": 50
+          },
+          "status": "unknown",
+          "sources": ["serebii-champions"]
+        }
+      ]
+    },
+    "charizard": {
+      "name": "Charizard",
+      "dexNumber": 6,
+      "category": "Flame Pokemon",
+      "bgColor": "bg-deep-orange-8",
+      "btnColor": "deep-orange-9",
+      "spinnerColor": "orange",
+      "seeMoreColor": "deep-orange-10",
+      "typingBgColor": "bg-deep-orange-9",
+      "pokedexEntry": {
+        "lang": "es",
+        "species": "Flame Pokémon",
+        "height": "1.7 m / 5′07″",
+        "weight": "90.5 kg / 199.5 lbs",
+        "description": "Es muy presuntuoso, violento, agresivo y muy orgulloso, tanto que rechaza pelear contra un Pokémon más débil y de hacerlo, no usaría sus llamas. Es por esta sencilla razón que prefiere luchar contra oponentes que representen un desafío. Hasta que no derrote a su adversario no parará. Es capaz de fundir hasta rocas, derretir glaciares, fundir el acero o causar incendios forestales con el fuego que escupe, aunque muchas veces lo haga sin querer, este fuego va ganando intensidad conforme suma experiencia en los combates, por lo que comúnmente se le ve volando buscando adversarios para volverse más fuerte.",
+        "habitat": "Montaña / Volcán",
+        "generation": "I generación",
+        "status": "unknown",
+        "sources": [],
+        "notes": "Origen no registrado en PokeInfo.json; los textos parecen de los juegos principales. Pendiente de fuente."
+      },
+      "forms": [
+        {
+          "name": "Base",
+          "img": "Charizard.png",
+          "icon1": "Fire type.ico",
+          "icon2": "Flying type.ico",
+          "type1": "FUEGO.png",
+          "type2": "VOLADOR.png",
+          "abilities": {
+            "0": "Blaze",
+            "H": "Solar Power"
+          },
+          "stats": {
+            "hp": 78,
+            "atk": 84,
+            "def": 78,
+            "spa": 109,
+            "spd": 85,
+            "spe": 100
+          },
+          "status": "unknown",
+          "sources": ["serebii-champions"]
+        },
+        {
+          "name": "Mega X",
+          "img": "Mega_CharizardX.png",
+          "icon1": "Fire type.ico",
+          "icon2": "Dragon type.ico",
+          "type1": "FUEGO.png",
+          "type2": "DRAGON_.png",
+          "abilities": {
+            "0": "Tough Claws",
+            "H": null
+          },
+          "stats": {
+            "hp": 78,
+            "atk": 130,
+            "def": 111,
+            "spa": 130,
+            "spd": 85,
+            "spe": 100
+          },
+          "status": "unknown",
+          "sources": ["serebii-champions"]
+        },
+        {
+          "name": "Mega Y",
+          "img": "Mega_CharizardY.png",
+          "icon1": "Fire type.ico",
+          "icon2": "Flying type.ico",
+          "type1": "FUEGO.png",
+          "type2": "VOLADOR.png",
+          "abilities": {
+            "0": "Drought",
+            "H": null
+          },
+          "stats": {
+            "hp": 78,
+            "atk": 104,
+            "def": 78,
+            "spa": 159,
+            "spd": 115,
+            "spe": 100
+          },
+          "status": "unknown",
+          "sources": ["serebii-champions"]
+        }
+      ]
+    },
+    "eelektross": {
+      "name": "Eelektross",
+      "dexNumber": 604,
+      "category": "EleFish Pokemon",
+      "bgColor": "bg-amber-9",
+      "btnColor": "amber-10",
+      "spinnerColor": "yellow",
+      "seeMoreColor": "amber-8",
+      "typingBgColor": "bg-yellow-8",
+      "pokedexEntry": {
+        "lang": "es",
+        "species": "EleFish Pokémon",
+        "height": "2.1 m / 6′11″",
+        "weight": "80.5 kg / 177.5 lbs",
+        "description": "Este Pokémon habita principalmente en mares, pero es capaz de emerger a la superficie y permanecer un tiempo en ella. Cuando sube a tierra firme utiliza las aletas que tiene debajo del cuerpo para desplazarse como si fueran patas. Esto le permite atacar a las presas que habitan en la costa. Normalmente suele pegar la ventosa de su boca en su presa y la electrocuta con una gran descarga clavándole los colmillos.",
+        "habitat": "Océano",
+        "generation": "V generación",
+        "status": "unknown",
+        "sources": [],
+        "notes": "Origen no registrado en PokeInfo.json; los textos parecen de los juegos principales. Pendiente de fuente."
+      },
+      "forms": [
+        {
+          "name": "Base",
+          "img": "Eelektross.png",
+          "icon1": "Electric type.ico",
+          "icon2": null,
+          "type1": "ELECTRICO.png",
+          "type2": null,
+          "abilities": {
+            "0": "Levitate",
+            "H": null
+          },
+          "stats": {
+            "hp": 85,
+            "atk": 115,
+            "def": 80,
+            "spa": 105,
+            "spd": 80,
+            "spe": 50
+          },
+          "status": "unknown",
+          "sources": ["official-news-regulation-mb"],
+          "notes": "Presencia en Champions confirmada oficialmente; tipos, habilidades y stats sin fuente oficial."
+        },
+        {
+          "name": "Mega",
+          "img": "Mega_Eelektross.png",
+          "icon1": "Electric type.ico",
+          "icon2": null,
+          "type1": "ELECTRICO.png",
+          "type2": null,
+          "abilities": {
+            "0": "Eelevate",
+            "H": null
+          },
+          "stats": {
+            "hp": 85,
+            "atk": 145,
+            "def": 80,
+            "spa": 135,
+            "spd": 90,
+            "spe": 80
+          },
+          "status": "unknown",
+          "sources": [],
+          "notes": "Sin fuente registrada (no está en roster.json ni en noticias oficiales)."
+        }
+      ]
+    },
+    "lucario": {
+      "name": "Lucario",
+      "dexNumber": 448,
+      "category": "Aura Pokemon",
+      "bgColor": "bg-cyan-9",
+      "btnColor": "cyan-10",
+      "spinnerColor": "blue",
+      "seeMoreColor": "cyan-8",
+      "typingBgColor": "bg-cyan-10",
+      "pokedexEntry": {
+        "lang": "es",
+        "species": "Aura Pokémon",
+        "height": "1.2 m / 3′11″",
+        "weight": "54.0 kg / 119.0 lbs",
+        "description": "Con un porte majestuoso, Lucario es reconocido como el Pokémon del aura, ya que es un Pokémon experto en este sentido. Puede leer los pensamientos y sentimientos de su rival por medio del aura, en algunas ocasiones durante este proceso logra averiguar cosas que no quiere saber, siendo una fuente de estrés para él. Debido a esto, solo logra forjar lazos afectivos con entrenadores de corazón noble. También puede saber la ubicación de su rival en todo momento, aunque no lo pueda ver directamente.",
+        "habitat": "Montaña",
+        "generation": "IV generación",
+        "status": "unknown",
+        "sources": [],
+        "notes": "Origen no registrado en PokeInfo.json; los textos parecen de los juegos principales. Pendiente de fuente."
+      },
+      "forms": [
+        {
+          "name": "Base",
+          "img": "Lucario.png",
+          "icon1": "Fighting type.ico",
+          "icon2": "Steel type.ico",
+          "type1": "LUCHA.png",
+          "type2": "ACERO.png",
+          "abilities": {
+            "0": "Steadfast",
+            "1": "Inner Focus",
+            "H": "Justified"
+          },
+          "stats": {
+            "hp": 70,
+            "atk": 110,
+            "def": 70,
+            "spa": 115,
+            "spd": 70,
+            "spe": 90
+          },
+          "status": "unknown",
+          "sources": ["serebii-champions"]
+        },
+        {
+          "name": "Mega",
+          "img": "Mega_Lucario.png",
+          "icon1": "Fighting type.ico",
+          "icon2": "Steel type.ico",
+          "type1": "LUCHA.png",
+          "type2": "ACERO.png",
+          "abilities": {
+            "0": "Adaptability",
+            "H": null
+          },
+          "stats": {
+            "hp": 70,
+            "atk": 145,
+            "def": 88,
+            "spa": 140,
+            "spd": 70,
+            "spe": 112
+          },
+          "status": "unknown",
+          "sources": ["serebii-champions"]
+        },
+        {
+          "name": "Mega Z",
+          "img": "Mega_LucarioZ.png",
+          "icon1": "Fighting type.ico",
+          "icon2": "Steel type.ico",
+          "type1": "LUCHA.png",
+          "type2": "ACERO.png",
+          "abilities": {
+            "0": "Aura Guard",
+            "H": null
+          },
+          "stats": {
+            "hp": 70,
+            "atk": 100,
+            "def": 70,
+            "spa": 164,
+            "spd": 70,
+            "spe": 151
+          },
+          "status": "unknown",
+          "sources": ["official-news-regulation-mc"],
+          "notes": "Presencia en Champions confirmada oficialmente; tipos, habilidades y stats sin fuente oficial."
+        }
+      ]
+    },
+    "sceptile": {
+      "name": "Sceptile",
+      "dexNumber": 254,
+      "category": "Forest Tree Pokemon",
+      "bgColor": "bg-green-9",
+      "btnColor": "green-10",
+      "spinnerColor": "green",
+      "seeMoreColor": "green-8",
+      "typingBgColor": "bg-green-10",
+      "pokedexEntry": {
+        "lang": "es",
+        "species": "Forest Tree Pokémon",
+        "height": "1.7 m / 5′07″",
+        "weight": "52.2 kg / 115.1 lbs  ",
+        "description": "Se trata de un Pokémon muy ágil que prefiere desplazarse por los árboles antes que por tierra firme, saltando velozmente de rama en rama. Las semillas que lleva en su espalda están llenas de nutrientes que utiliza en su esmerado cuidado de los árboles de su ecosistema. En medios forestales es un rival imbatible al desplazarse entre las copas de los árboles y golpeando a su objetivo por la espalda.",
+        "habitat": "Bosque",
+        "generation": "III generación",
+        "status": "unknown",
+        "sources": [],
+        "notes": "Origen no registrado en PokeInfo.json; los textos parecen de los juegos principales. Pendiente de fuente."
+      },
+      "forms": [
+        {
+          "name": "Base",
+          "img": "Sceptile.png",
+          "icon1": "Grass type.ico",
+          "icon2": null,
+          "type1": "PLANTA.png",
+          "type2": null,
+          "abilities": {
+            "0": "Overgrow",
+            "H": "Unburden"
+          },
+          "stats": {
+            "hp": 70,
+            "atk": 85,
+            "def": 65,
+            "spa": 105,
+            "spd": 85,
+            "spe": 120
+          },
+          "status": "unknown",
+          "sources": ["official-news-regulation-mb"],
+          "notes": "Presencia en Champions confirmada oficialmente; tipos, habilidades y stats sin fuente oficial."
+        },
+        {
+          "name": "Mega",
+          "img": "Mega_Sceptile.png",
+          "icon1": "Grass type.ico",
+          "icon2": "Dragon type.ico",
+          "type1": "PLANTA.png",
+          "type2": "DRAGON_.png",
+          "abilities": {
+            "0": "Lightning Rod",
+            "H": null
+          },
+          "stats": {
+            "hp": 70,
+            "atk": 110,
+            "def": 75,
+            "spa": 145,
+            "spd": 85,
+            "spe": 145
+          },
+          "status": "unknown",
+          "sources": ["official-news-regulation-mb"],
+          "notes": "Presencia en Champions confirmada oficialmente; tipos, habilidades y stats sin fuente oficial."
+        }
+      ]
+    },
+    "feraligatr": {
+      "name": "Feraligatr",
+      "dexNumber": 160,
+      "category": "Big Jaw Pokémon",
+      "bgColor": "bg-blue-7",
+      "btnColor": "blue-10",
+      "spinnerColor": "blue-14",
+      "seeMoreColor": "blue-7",
+      "typingBgColor": "bg-blue-10",
+      "pokedexEntry": {
+        "lang": "es",
+        "species": "Big Jaw Pokémon",
+        "height": "2.3 m / 7′07″",
+        "weight": "88.8 kg / 195.8 lbs",
+        "description": "Es mucho más grande y pesado que sus preevoluciones, así como más fiero, además de tener fuerza en sus mandíbulas, la adquiere también en sus brazos, haciéndolo un oponente muy difícil de derrotar. Le gusta usar su fuerte mandíbula como medio de ataque, una vez que ha sujetado a su objetivo con sus fauces moverá la cabeza salvajemente de un lado a otro para despedazar a su víctima. Fuera del agua le cuesta soportar su propio peso por lo que se apoya en sus cuatro patas para poderse desplazar mejor, a pesar de esto llega a ser rápido. En combate abre sus enormes fauces para intimidar al enemigo, después de esto comenzará a golpear el suelo con sus gruesas y poderosas patas para luego cargar en contra de su rival a una velocidad de vértigo y poderlo derribar.",
+        "habitat": "Pantano / Agua dulce",
+        "generation": "II generación",
+        "status": "unknown",
+        "sources": [],
+        "notes": "Origen no registrado en PokeInfo.json; los textos parecen de los juegos principales. Pendiente de fuente."
+      },
+      "forms": [
+        {
+          "name": "Base",
+          "img": "Feraligatr.png",
+          "icon1": "Water type.ico",
+          "icon2": null,
+          "type1": "AGUA.png",
+          "type2": null,
+          "abilities": {
+            "0": "Torrent",
+            "H": "Sheer Force"
+          },
+          "stats": {
+            "hp": 85,
+            "atk": 105,
+            "def": 100,
+            "spa": 79,
+            "spd": 83,
+            "spe": 78
+          },
+          "status": "unknown",
+          "sources": ["serebii-champions"]
+        },
+        {
+          "name": "Mega",
+          "img": "Mega_Feraligatr.png",
+          "icon1": "Water type.ico",
+          "icon2": "Dragon type.ico",
+          "type1": "AGUA.png",
+          "type2": "DRAGON_.png",
+          "abilities": {
+            "0": "Dragonize",
+            "H": null
+          },
+          "stats": {
+            "hp": 85,
+            "atk": 160,
+            "def": 125,
+            "spa": 89,
+            "spd": 93,
+            "spe": 78
+          },
+          "status": "unknown",
+          "sources": ["serebii-champions", "official-news-switch-launch"],
+          "notes": "Presencia en Champions confirmada oficialmente; tipos, habilidades y stats sin fuente oficial."
+        }
+      ]
+    },
+    "salamence": {
+      "name": "Salamence",
+      "dexNumber": 373,
+      "category": "Dragon Pokémon",
+      "bgColor": "bg-blue-12",
+      "btnColor": "red-9",
+      "spinnerColor": "red-10",
+      "seeMoreColor": "blue-8",
+      "typingBgColor": "bg-red-9",
+      "pokedexEntry": {
+        "lang": "es",
+        "species": "Dragon Pokémon",
+        "height": "1.5 m / 4′11″",
+        "weight": "102.6 kg / 226.2 lbs",
+        "description": "Es un Pokémon poco común, que es el producto del deseo de Bagon por querer poder surcar los cielos. Pues se dice que este deseo fue el que propició que sus células comenzaran a mutar y le ayudaran a desarrollar alas. Para expresar su alegría por al fin lograr su sueño, Salamence revolotea por el cielo con una sonrisa en el rostro lanzando llamas por su boca. No pisará tierra firme, a no ser que se encuentre exhausto o quiera dormir. Sin embargo, si llega a enfadarse no entenderá razones y entrará en un estado de cólera. No hay forma alguna de poderlo calmar y comenzará a destruir todo lanzando arañazos y flamas.",
+        "habitat": "Montaña / Cueva",
+        "generation": "III generación",
+        "status": "unknown",
+        "sources": [],
+        "notes": "Origen no registrado en PokeInfo.json; los textos parecen de los juegos principales. Pendiente de fuente."
+      },
+      "forms": [
+        {
+          "name": "Base",
+          "img": "Salamence.png",
+          "icon1": "Dragon type.ico",
+          "icon2": "Flying type.ico",
+          "type1": "DRAGON_.png",
+          "type2": "VOLADOR.png",
+          "abilities": {
+            "0": "Intimidate",
+            "H": "Moxie"
+          },
+          "stats": {
+            "hp": 95,
+            "atk": 135,
+            "def": 80,
+            "spa": 110,
+            "spd": 80,
+            "spe": 100
+          },
+          "status": "unknown",
+          "sources": [],
+          "notes": "Sin fuente registrada (no está en roster.json ni en noticias oficiales)."
+        },
+        {
+          "name": "Mega",
+          "img": "Mega_Salamence.png",
+          "icon1": "Dragon type.ico",
+          "icon2": "Flying type.ico",
+          "type1": "DRAGON_.png",
+          "type2": "VOLADOR.png",
+          "abilities": {
+            "0": "Aerilate",
+            "H": null
+          },
+          "stats": {
+            "hp": 95,
+            "atk": 145,
+            "def": 130,
+            "spa": 120,
+            "spd": 90,
+            "spe": 120
+          },
+          "status": "unknown",
+          "sources": ["official-news-regulation-mc"],
+          "notes": "Presencia en Champions confirmada oficialmente; tipos, habilidades y stats sin fuente oficial."
+        }
+      ]
+    },
+    "sneasler": {
+      "name": "Sneasler",
+      "dexNumber": 903,
+      "category": "Free Climb Pokémon",
+      "bgColor": "bg-deep-purple-8",
+      "btnColor": "deep-purple-9",
+      "spinnerColor": "purple",
+      "seeMoreColor": "deep-purple-10",
+      "typingBgColor": "bg-deep-purple-9",
+      "pokedexEntry": {
+        "lang": "es",
+        "species": "Free Climb Pokémon",
+        "height": "1.3 m / 4′03″",
+        "weight": "43.0 kg / 94.8 lbs",
+        "description": "Este Pokémon trepa por escarpados acantilados con agilidad y elegancia gracias a sus afiladas garras. Posee un carácter cauteloso y un veneno potente que secreta en sus garras para debilitar a sus adversarios con rapidez.",
+        "habitat": "Montaña / Acantilado",
+        "generation": "VIII generación",
+        "status": "unknown",
+        "sources": [],
+        "notes": "Origen no registrado en PokeInfo.json; los textos parecen de los juegos principales. Pendiente de fuente."
+      },
+      "forms": [
+        {
+          "name": "Base",
+          "img": "Sneasler.png",
+          "icon1": "Fighting type.ico",
+          "icon2": "Poison type.ico",
+          "type1": "LUCHA.png",
+          "type2": "VENENO.png",
+          "abilities": {
+            "0": "Pressure",
+            "1": "Unburden",
+            "H": "Poison Touch"
+          },
+          "stats": {
+            "hp": 80,
+            "atk": 130,
+            "def": 60,
+            "spa": 40,
+            "spd": 80,
+            "spe": 120
+          },
+          "status": "unknown",
+          "sources": ["serebii-champions"]
+        }
+      ]
+    },
+    "incineroar": {
+      "name": "Incineroar",
+      "dexNumber": 727,
+      "category": "Heel Pokémon",
+      "bgColor": "bg-red-9",
+      "btnColor": "red-10",
+      "spinnerColor": "deep-orange",
+      "seeMoreColor": "red-8",
+      "typingBgColor": "bg-red-10",
+      "pokedexEntry": {
+        "lang": "es",
+        "species": "Heel Pokémon",
+        "height": "1.8 m / 5′11″",
+        "weight": "83.0 kg / 183.0 lbs",
+        "description": "Aunque presume de una actitud ruda y a veces descarada, en su interior posee una gran pasión por el combate competitivo. Lanza llamas desde el cinturón de fuego que rodea su cintura para intimidar a los rivales.",
+        "habitat": "Pradera / Urbano",
+        "generation": "VII generación",
+        "status": "unknown",
+        "sources": [],
+        "notes": "Origen no registrado en PokeInfo.json; los textos parecen de los juegos principales. Pendiente de fuente."
+      },
+      "forms": [
+        {
+          "name": "Base",
+          "img": "Incineroar.png",
+          "icon1": "Fire type.ico",
+          "icon2": "Dark type.ico",
+          "type1": "FUEGO.png",
+          "type2": "SINIESTRO.png",
+          "abilities": {
+            "0": "Blaze",
+            "H": "Intimidate"
+          },
+          "stats": {
+            "hp": 95,
+            "atk": 115,
+            "def": 90,
+            "spa": 80,
+            "spd": 90,
+            "spe": 60
+          },
+          "status": "unknown",
+          "sources": ["serebii-champions"]
+        }
+      ]
+    },
+    "kingambit": {
+      "name": "Kingambit",
+      "dexNumber": 983,
+      "category": "Big Blade Pokémon",
+      "bgColor": "bg-blue-grey-9",
+      "btnColor": "blue-grey-10",
+      "spinnerColor": "grey",
+      "seeMoreColor": "blue-grey-8",
+      "typingBgColor": "bg-blue-grey-10",
+      "pokedexEntry": {
+        "lang": "es",
+        "species": "Big Blade Pokémon",
+        "height": "2.0 m / 6′07″",
+        "weight": "120.0 kg / 264.6 lbs",
+        "description": "Líder indiscutible que dirige a grandes grupos de Bisharp en el campo de batalla. Destaca por su imponente estructura metálica en forma de gran espada que utiliza tanto para intimidar como para asestar tajos devastadores.",
+        "habitat": "Bosque / Montaña",
+        "generation": "IX generación",
+        "status": "unknown",
+        "sources": [],
+        "notes": "Origen no registrado en PokeInfo.json; los textos parecen de los juegos principales. Pendiente de fuente."
+      },
+      "forms": [
+        {
+          "name": "Base",
+          "img": "Kingambit.png",
+          "icon1": "Dark type.ico",
+          "icon2": "Steel type.ico",
+          "type1": "SINIESTRO.png",
+          "type2": "ACERO.png",
+          "abilities": {
+            "0": "Defiant",
+            "1": "Supreme Overlord",
+            "H": "Pressure"
+          },
+          "stats": {
+            "hp": 100,
+            "atk": 135,
+            "def": 120,
+            "spa": 60,
+            "spd": 85,
+            "spe": 50
+          },
+          "status": "unknown",
+          "sources": ["serebii-champions"]
+        }
+      ]
+    },
+    "basculegion": {
+      "name": "Basculegion",
+      "dexNumber": 902,
+      "category": "Big Fish Pokémon",
+      "bgColor": "bg-cyan-8",
+      "btnColor": "cyan-9",
+      "spinnerColor": "blue",
+      "seeMoreColor": "cyan-10",
+      "typingBgColor": "bg-cyan-9",
+      "pokedexEntry": {
+        "lang": "es",
+        "species": "Big Fish Pokémon",
+        "height": "3.0 m / 9′10″",
+        "weight": "110.0 kg / 242.5 lbs",
+        "description": "Nace cuando las almas de otros Basculin que no pudieron superar las duras corrientes se agrupan en un solo cuerpo. Surca los ríos y océanos impulsado por la energía de los espíritus errantes que lo acompañan.",
+        "habitat": "Río / Océano",
+        "generation": "VIII generación",
+        "status": "unknown",
+        "sources": [],
+        "notes": "Origen no registrado en PokeInfo.json; los textos parecen de los juegos principales. Pendiente de fuente."
+      },
+      "forms": [
+        {
+          "name": "Base",
+          "img": "Basculegion_Male.png",
+          "icon1": "Water type.ico",
+          "icon2": "Ghost type.ico",
+          "type1": "AGUA.png",
+          "type2": "FANTASMA.png",
+          "abilities": {
+            "0": "Swift Swim",
+            "1": "Adaptability",
+            "H": "Mold Breaker"
+          },
+          "stats": {
+            "hp": 120,
+            "atk": 112,
+            "def": 65,
+            "spa": 80,
+            "spd": 75,
+            "spe": 78
+          },
+          "status": "unknown",
+          "sources": ["serebii-champions"]
+        }
+      ]
+    },
+    "whimsicott": {
+      "name": "Whimsicott",
+      "dexNumber": 547,
+      "category": "Windveiled Pokémon",
+      "bgColor": "bg-green-7",
+      "btnColor": "green-8",
+      "spinnerColor": "light-green",
+      "seeMoreColor": "green-9",
+      "typingBgColor": "bg-green-8",
+      "pokedexEntry": {
+        "lang": "es",
+        "species": "Windveiled Pokémon",
+        "height": "0.7 m / 2′04″",
+        "weight": "6.6 kg / 14.6 lbs",
+        "description": "Su cuerpo está cubierto de un suave algodón que puede hacer crecer o desprender a voluntad para despistar al enemigo. Se desliza por los campos ayudado por las corrientes de viento, gastando bromas pesadas a todo el que se cruza.",
+        "habitat": "Pradera / Bosque",
+        "generation": "V generación",
+        "status": "unknown",
+        "sources": [],
+        "notes": "Origen no registrado en PokeInfo.json; los textos parecen de los juegos principales. Pendiente de fuente."
+      },
+      "forms": [
+        {
+          "name": "Base",
+          "img": "Whimsicott.png",
+          "icon1": "Grass type.ico",
+          "icon2": "Fairy type.ico",
+          "type1": "PLANTA.png",
+          "type2": "HADA.png",
+          "abilities": {
+            "0": "Prankster",
+            "1": "Infiltrator",
+            "H": "Chlorophyll"
+          },
+          "stats": {
+            "hp": 60,
+            "atk": 67,
+            "def": 85,
+            "spa": 77,
+            "spd": 75,
+            "spe": 116
+          },
+          "status": "unknown",
+          "sources": ["serebii-champions"]
+        }
+      ]
+    },
+    "archaludon": {
+      "name": "Archaludon",
+      "dexNumber": 1018,
+      "category": "Alloy Lego Pokémon",
+      "bgColor": "bg-indigo-9",
+      "btnColor": "indigo-10",
+      "spinnerColor": "blue",
+      "seeMoreColor": "indigo-8",
+      "typingBgColor": "bg-indigo-10",
+      "pokedexEntry": {
+        "lang": "es",
+        "species": "Alloy Lego Pokémon",
+        "height": "2.0 m / 6′07″",
+        "weight": "60.0 kg / 132.3 lbs",
+        "description": "Su cuerpo metálico almacena electricidad estática que absorbe del entorno para potenciar sus ataques. Adopta una postura rígida y firme similar la de un puente cuando se prepara para repeler cualquier embestida.",
+        "habitat": "Montaña / Cueva",
+        "generation": "IX generación",
+        "status": "unknown",
+        "sources": [],
+        "notes": "Origen no registrado en PokeInfo.json; los textos parecen de los juegos principales. Pendiente de fuente."
+      },
+      "forms": [
+        {
+          "name": "Base",
+          "img": "Archaludon.png",
+          "icon1": "Steel type.ico",
+          "icon2": "Dragon type.ico",
+          "type1": "ACERO.png",
+          "type2": "DRAGON_.png",
+          "abilities": {
+            "0": "Stamina",
+            "1": "Sturdy",
+            "H": "Stalwart"
+          },
+          "stats": {
+            "hp": 90,
+            "atk": 105,
+            "def": 130,
+            "spa": 125,
+            "spd": 65,
+            "spe": 85
+          },
+          "status": "unknown",
+          "sources": ["serebii-champions"]
+        }
+      ]
+    }
+  }
+}

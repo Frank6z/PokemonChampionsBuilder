@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "notes": "Fechas en ISO 8601 con la zona horaria publicada (PDT = -07:00, PST = -08:00). La regulación vigente se calcula comparando la fecha actual con 'period'; no se guarda aquí. Estados y fuentes: ver sources.json.",
+  "regulations": [
+    {
+      "id": "M-A",
+      "name": "Regulation Set M-A",
+      "period": {
+        "start": null,
+        "end": null,
+        "status": "unknown",
+        "sources": ["victoryroad-regulations"],
+        "notes": "No se encontró un artículo oficial con sus fechas. Fuente secundaria: 8 abr – 17 jun 2026. El lanzamiento del juego (8 abr 2026) sí es oficial (official-news-switch-launch), pero no vincula M-A a esa fecha."
+      },
+      "eligibility": {
+        "rule": null,
+        "status": "unknown",
+        "sources": [],
+        "notes": "La lista completa de Pokémon elegibles no está publicada en las fuentes oficiales consultadas."
+      },
+      "newMegaEvolutions": {
+        "names": [],
+        "complete": false,
+        "status": "unknown",
+        "sources": [],
+        "notes": "El artículo oficial de lanzamiento menciona Mega Meganium, Mega Emboar, Mega Feraligatr y Mega Dragonite (Battle Pass), pero no las asocia a M-A."
+      },
+      "newPokemon": {
+        "names": [],
+        "totalStated": null,
+        "complete": false,
+        "status": "unknown",
+        "sources": []
+      }
+    },
+    {
+      "id": "M-B",
+      "name": "Regulation Set M-B",
+      "period": {
+        "start": "2026-06-16T19:00:00-07:00",
+        "end": "2026-09-01T18:59:00-07:00",
+        "status": "confirmed",
+        "sources": ["official-news-regulation-mb", "official-news-regulation-mb-uk"]
+      },
+      "eligibility": {
+        "rule": "Los Pokémon elegibles para Ranked Battles en M-A siguen siendo elegibles.",
+        "status": "confirmed",
+        "sources": ["official-news-regulation-mb"]
+      },
+      "newMegaEvolutions": {
+        "names": [
+          "Mega Sceptile",
+          "Mega Blaziken",
+          "Mega Swampert",
+          "Mega Mawile",
+          "Mega Staraptor"
+        ],
+        "complete": false,
+        "status": "confirmed",
+        "sources": ["official-news-regulation-mb"],
+        "notes": "El artículo añade \"and more\": la lista es parcial. Una fuente secundaria (pocketmonsters-mb) habla de diez Megas nuevas; no confirmado."
+      },
+      "newPokemon": {
+        "names": [
+          "Vileplume",
+          "Qwilfish",
+          "Sceptile",
+          "Blaziken",
+          "Swampert",
+          "Mawile",
+          "Metagross",
+          "Staraptor",
+          "Musharna",
+          "Scolipede",
+          "Scrafty",
+          "Eelektross",
+          "Pyroar",
+          "Malamar",
+          "Barbaracle",
+          "Dragalge",
+          "Grimmsnarl",
+          "Falinks",
+          "Overqwil",
+          "Houndstone",
+          "Annihilape",
+          "Gholdengo"
+        ],
+        "totalStated": null,
+        "complete": false,
+        "status": "confirmed",
+        "sources": ["official-news-regulation-mb"],
+        "notes": "La lista se introduce con \"including\": no es exhaustiva y el artículo no da un total."
+      }
+    },
+    {
+      "id": "M-C",
+      "name": "Regulation Set M-C",
+      "period": {
+        "start": "2026-09-08T19:00:00-07:00",
+        "end": "2026-12-01T17:59:00-08:00",
+        "status": "confirmed",
+        "sources": ["official-news-regulation-mc"]
+      },
+      "eligibility": {
+        "rule": "Los Pokémon elegibles en regulaciones anteriores siguen siendo elegibles. La lista completa solo se publica dentro del juego (Recruit → Recruit Pokémon → Roster Info).",
+        "status": "confirmed",
+        "sources": ["official-news-regulation-mc"]
+      },
+      "newMegaEvolutions": {
+        "names": [
+          "Mega Salamence",
+          "Mega Golisopod",
+          "Mega Baxcalibur",
+          "Mega Absol Z",
+          "Mega Garchomp Z",
+          "Mega Lucario Z"
+        ],
+        "complete": true,
+        "status": "confirmed",
+        "sources": ["official-news-regulation-mc"]
+      },
+      "newPokemon": {
+        "names": ["Rillaboom"],
+        "totalStated": 24,
+        "complete": false,
+        "status": "confirmed",
+        "sources": ["official-news-regulation-mc"],
+        "notes": "El artículo indica 24 Pokémon nuevos pero solo nombra a Rillaboom."
+      }
+    }
+  ]
+}

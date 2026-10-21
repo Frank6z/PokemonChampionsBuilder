@@ -177,7 +177,12 @@
         "name": "Worry Seed"
       }
     ],
-    "moveCount": 57
+    "moveCount": 57,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Venusaur": {
     "dexNumber": 3,
@@ -357,7 +362,12 @@
         "name": "Worry Seed"
       }
     ],
-    "moveCount": 57
+    "moveCount": 57,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Charizard": {
     "dexNumber": 6,
@@ -582,7 +592,12 @@
         "name": "Will-O-Wisp"
       }
     ],
-    "moveCount": 72
+    "moveCount": 72,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Charizard X": {
     "dexNumber": 6,
@@ -807,7 +822,12 @@
         "name": "Will-O-Wisp"
       }
     ],
-    "moveCount": 72
+    "moveCount": 72,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Charizard Y": {
     "dexNumber": 6,
@@ -1032,7 +1052,12 @@
         "name": "Will-O-Wisp"
       }
     ],
-    "moveCount": 72
+    "moveCount": 72,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Blastoise": {
     "dexNumber": 9,
@@ -1260,7 +1285,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 73
+    "moveCount": 73,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Blastoise": {
     "dexNumber": 9,
@@ -1488,7 +1518,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 73
+    "moveCount": 73,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Beedrill": {
     "dexNumber": 15,
@@ -1656,7 +1691,12 @@
         "name": "X-Scissor"
       }
     ],
-    "moveCount": 53
+    "moveCount": 53,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Beedrill": {
     "dexNumber": 15,
@@ -1824,7 +1864,12 @@
         "name": "X-Scissor"
       }
     ],
-    "moveCount": 53
+    "moveCount": 53,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Pidgeot": {
     "dexNumber": 18,
@@ -1926,7 +1971,12 @@
         "name": "Whirlwind"
       }
     ],
-    "moveCount": 31
+    "moveCount": 31,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Pidgeot": {
     "dexNumber": 18,
@@ -2028,7 +2078,12 @@
         "name": "Whirlwind"
       }
     ],
-    "moveCount": 31
+    "moveCount": 31,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Arbok": {
     "dexNumber": 24,
@@ -2247,7 +2302,12 @@
         "name": "Wrap"
       }
     ],
-    "moveCount": 70
+    "moveCount": 70,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Pikachu": {
     "dexNumber": 25,
@@ -2436,7 +2496,12 @@
         "name": "Zap Cannon"
       }
     ],
-    "moveCount": 60
+    "moveCount": 60,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Raichu": {
     "dexNumber": 26,
@@ -2670,7 +2735,11 @@
         "name": "Zap Cannon"
       }
     ],
-    "moveCount": 75
+    "moveCount": 75,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Alolan Raichu": {
     "dexNumber": 26,
@@ -2904,7 +2973,11 @@
         "name": "Zap Cannon"
       }
     ],
-    "moveCount": 75
+    "moveCount": 75,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Clefable": {
     "dexNumber": 36,
@@ -3183,7 +3256,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 90
+    "moveCount": 90,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Mega Clefable": {
     "dexNumber": 36,
@@ -3462,7 +3539,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 90
+    "moveCount": 90,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Ninetales": {
     "dexNumber": 38,
@@ -3726,7 +3807,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 85
+    "moveCount": 85,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Alolan Ninetales": {
     "dexNumber": 38,
@@ -3990,7 +4075,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 85
+    "moveCount": 85,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Arcanine": {
     "dexNumber": 59,
@@ -4200,7 +4289,11 @@
         "name": "Will-O-Wisp"
       }
     ],
-    "moveCount": 67
+    "moveCount": 67,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Hisuian Arcanine": {
     "dexNumber": 59,
@@ -4410,7 +4503,11 @@
         "name": "Will-O-Wisp"
       }
     ],
-    "moveCount": 67
+    "moveCount": 67,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Alakazam": {
     "dexNumber": 65,
@@ -4596,7 +4693,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 59
+    "moveCount": 59,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Mega Alakazam": {
     "dexNumber": 65,
@@ -4782,7 +4883,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 59
+    "moveCount": 59,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Machamp": {
     "dexNumber": 68,
@@ -4989,7 +5094,12 @@
         "name": "Wide Guard"
       }
     ],
-    "moveCount": 66
+    "moveCount": 66,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Victreebel": {
     "dexNumber": 71,
@@ -5172,7 +5282,11 @@
         "name": "Wrap"
       }
     ],
-    "moveCount": 58
+    "moveCount": 58,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Mega Victreebel": {
     "dexNumber": 71,
@@ -5355,7 +5469,11 @@
         "name": "Wrap"
       }
     ],
-    "moveCount": 58
+    "moveCount": 58,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Slowbro": {
     "dexNumber": 80,
@@ -5646,7 +5764,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 94
+    "moveCount": 94,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Galarian Slowbro": {
     "dexNumber": 80,
@@ -5937,7 +6059,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 94
+    "moveCount": 94,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Mega Slowbro": {
     "dexNumber": 80,
@@ -6228,7 +6354,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 94
+    "moveCount": 94,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Gengar": {
     "dexNumber": 94,
@@ -6462,7 +6592,11 @@
         "name": "Wonder Room"
       }
     ],
-    "moveCount": 75
+    "moveCount": 75,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Mega Gengar": {
     "dexNumber": 94,
@@ -6696,7 +6830,11 @@
         "name": "Wonder Room"
       }
     ],
-    "moveCount": 75
+    "moveCount": 75,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Kangaskhan": {
     "dexNumber": 115,
@@ -6906,7 +7044,12 @@
         "name": "Whirlpool"
       }
     ],
-    "moveCount": 67
+    "moveCount": 67,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Kangaskhan": {
     "dexNumber": 115,
@@ -7116,7 +7259,12 @@
         "name": "Whirlpool"
       }
     ],
-    "moveCount": 67
+    "moveCount": 67,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Starmie": {
     "dexNumber": 121,
@@ -7308,7 +7456,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 61
+    "moveCount": 61,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Mega Starmie": {
     "dexNumber": 121,
@@ -7500,7 +7652,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 61
+    "moveCount": 61,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Pinsir": {
     "dexNumber": 127,
@@ -7668,7 +7824,12 @@
         "name": "X-Scissor"
       }
     ],
-    "moveCount": 53
+    "moveCount": 53,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Pinsir": {
     "dexNumber": 127,
@@ -7836,7 +7997,12 @@
         "name": "X-Scissor"
       }
     ],
-    "moveCount": 53
+    "moveCount": 53,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Tauros": {
     "dexNumber": 128,
@@ -8061,7 +8227,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 72
+    "moveCount": 72,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Paldean Tauros": {
     "dexNumber": 128,
@@ -8286,7 +8456,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 72
+    "moveCount": 72,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Gyarados": {
     "dexNumber": 130,
@@ -8496,7 +8670,12 @@
         "name": "Whirlpool"
       }
     ],
-    "moveCount": 67
+    "moveCount": 67,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Gyarados": {
     "dexNumber": 130,
@@ -8706,7 +8885,12 @@
         "name": "Whirlpool"
       }
     ],
-    "moveCount": 67
+    "moveCount": 67,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Ditto": {
     "dexNumber": 132,
@@ -8718,7 +8902,12 @@
         "name": "Transform"
       }
     ],
-    "moveCount": 1
+    "moveCount": 1,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Vaporeon": {
     "dexNumber": 134,
@@ -8904,7 +9093,12 @@
         "name": "Yawn"
       }
     ],
-    "moveCount": 59
+    "moveCount": 59,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Jolteon": {
     "dexNumber": 135,
@@ -9090,7 +9284,12 @@
         "name": "Yawn"
       }
     ],
-    "moveCount": 59
+    "moveCount": 59,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Flareon": {
     "dexNumber": 136,
@@ -9270,7 +9469,12 @@
         "name": "Yawn"
       }
     ],
-    "moveCount": 57
+    "moveCount": 57,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Aerodactyl": {
     "dexNumber": 142,
@@ -9453,7 +9657,12 @@
         "name": "Wide Guard"
       }
     ],
-    "moveCount": 58
+    "moveCount": 58,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Aerodactyl": {
     "dexNumber": 142,
@@ -9636,7 +9845,12 @@
         "name": "Wide Guard"
       }
     ],
-    "moveCount": 58
+    "moveCount": 58,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Snorlax": {
     "dexNumber": 143,
@@ -9894,7 +10108,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 83
+    "moveCount": 83,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Dragonite": {
     "dexNumber": 149,
@@ -10152,7 +10371,12 @@
         "name": "Wrap"
       }
     ],
-    "moveCount": 83
+    "moveCount": 83,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Dragonite": {
     "dexNumber": 149,
@@ -10410,7 +10634,12 @@
         "name": "Wrap"
       }
     ],
-    "moveCount": 83
+    "moveCount": 83,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Meganium": {
     "dexNumber": 154,
@@ -10602,7 +10831,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 61
+    "moveCount": 61,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Meganium": {
     "dexNumber": 154,
@@ -10794,7 +11028,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 61
+    "moveCount": 61,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Typhlosion": {
     "dexNumber": 157,
@@ -11016,7 +11255,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 71
+    "moveCount": 71,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Hisuian Typhlosion": {
     "dexNumber": 157,
@@ -11238,7 +11481,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 71
+    "moveCount": 71,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Feraligatr": {
     "dexNumber": 160,
@@ -11493,7 +11740,12 @@
         "name": "Whirlpool"
       }
     ],
-    "moveCount": 82
+    "moveCount": 82,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Feraligatr": {
     "dexNumber": 160,
@@ -11748,7 +12000,12 @@
         "name": "Whirlpool"
       }
     ],
-    "moveCount": 82
+    "moveCount": 82,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Ariados": {
     "dexNumber": 168,
@@ -11949,7 +12206,11 @@
         "name": "X-Scissor"
       }
     ],
-    "moveCount": 64
+    "moveCount": 64,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Ampharos": {
     "dexNumber": 181,
@@ -12159,7 +12420,12 @@
         "name": "Zap Cannon"
       }
     ],
-    "moveCount": 67
+    "moveCount": 67,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Ampharos": {
     "dexNumber": 181,
@@ -12369,7 +12635,12 @@
         "name": "Zap Cannon"
       }
     ],
-    "moveCount": 67
+    "moveCount": 67,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Azumarill": {
     "dexNumber": 184,
@@ -12576,7 +12847,12 @@
         "name": "Whirlpool"
       }
     ],
-    "moveCount": 66
+    "moveCount": 66,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Politoed": {
     "dexNumber": 186,
@@ -12753,7 +13029,11 @@
         "name": "Whirlpool"
       }
     ],
-    "moveCount": 56
+    "moveCount": 56,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Espeon": {
     "dexNumber": 196,
@@ -12960,7 +13240,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 66
+    "moveCount": 66,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Umbreon": {
     "dexNumber": 197,
@@ -13167,7 +13451,11 @@
         "name": "Yawn"
       }
     ],
-    "moveCount": 66
+    "moveCount": 66,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Slowking": {
     "dexNumber": 199,
@@ -13473,7 +13761,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 99
+    "moveCount": 99,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Galarian Slowking": {
     "dexNumber": 199,
@@ -13779,7 +14071,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 99
+    "moveCount": 99,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Forretress": {
     "dexNumber": 205,
@@ -13995,7 +14291,12 @@
         "name": "Zap Cannon"
       }
     ],
-    "moveCount": 69
+    "moveCount": 69,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Steelix": {
     "dexNumber": 208,
@@ -14202,7 +14503,12 @@
         "name": "Wide Guard"
       }
     ],
-    "moveCount": 66
+    "moveCount": 66,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Steelix": {
     "dexNumber": 208,
@@ -14409,7 +14715,12 @@
         "name": "Wide Guard"
       }
     ],
-    "moveCount": 66
+    "moveCount": 66,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Scizor": {
     "dexNumber": 212,
@@ -14610,7 +14921,12 @@
         "name": "X-Scissor"
       }
     ],
-    "moveCount": 64
+    "moveCount": 64,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Scizor": {
     "dexNumber": 212,
@@ -14811,7 +15127,12 @@
         "name": "X-Scissor"
       }
     ],
-    "moveCount": 64
+    "moveCount": 64,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Heracross": {
     "dexNumber": 214,
@@ -15018,7 +15339,12 @@
         "name": "Vacuum Wave"
       }
     ],
-    "moveCount": 66
+    "moveCount": 66,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Heracross": {
     "dexNumber": 214,
@@ -15225,7 +15551,12 @@
         "name": "Vacuum Wave"
       }
     ],
-    "moveCount": 66
+    "moveCount": 66,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Skarmory": {
     "dexNumber": 227,
@@ -15387,7 +15718,12 @@
         "name": "X-Scissor"
       }
     ],
-    "moveCount": 51
+    "moveCount": 51,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Skarmory": {
     "dexNumber": 227,
@@ -15549,7 +15885,12 @@
         "name": "X-Scissor"
       }
     ],
-    "moveCount": 51
+    "moveCount": 51,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Houndoom": {
     "dexNumber": 229,
@@ -15759,7 +16100,12 @@
         "name": "Will-O-Wisp"
       }
     ],
-    "moveCount": 67
+    "moveCount": 67,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Houndoom": {
     "dexNumber": 229,
@@ -15969,7 +16315,12 @@
         "name": "Will-O-Wisp"
       }
     ],
-    "moveCount": 67
+    "moveCount": 67,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Tyranitar": {
     "dexNumber": 248,
@@ -16254,7 +16605,12 @@
         "name": "Uproar"
       }
     ],
-    "moveCount": 92
+    "moveCount": 92,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Tyranitar": {
     "dexNumber": 248,
@@ -16539,7 +16895,12 @@
         "name": "Uproar"
       }
     ],
-    "moveCount": 92
+    "moveCount": 92,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Pelipper": {
     "dexNumber": 279,
@@ -16707,7 +17068,12 @@
         "name": "Wide Guard"
       }
     ],
-    "moveCount": 53
+    "moveCount": 53,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Gardevoir": {
     "dexNumber": 282,
@@ -16953,7 +17319,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 79
+    "moveCount": 79,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Mega Gardevoir": {
     "dexNumber": 282,
@@ -17199,7 +17569,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 79
+    "moveCount": 79,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Sableye": {
     "dexNumber": 302,
@@ -17469,7 +17843,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 87
+    "moveCount": 87,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Mega Sableye": {
     "dexNumber": 302,
@@ -17739,7 +18117,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 87
+    "moveCount": 87,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Aggron": {
     "dexNumber": 306,
@@ -17997,7 +18379,12 @@
         "name": "Whirlpool"
       }
     ],
-    "moveCount": 83
+    "moveCount": 83,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Aggron": {
     "dexNumber": 306,
@@ -18255,7 +18642,12 @@
         "name": "Whirlpool"
       }
     ],
-    "moveCount": 83
+    "moveCount": 83,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Medicham": {
     "dexNumber": 308,
@@ -18492,7 +18884,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 76
+    "moveCount": 76,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Mega Medicham": {
     "dexNumber": 308,
@@ -18729,7 +19125,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 76
+    "moveCount": 76,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Manectric": {
     "dexNumber": 310,
@@ -18885,7 +19285,12 @@
         "name": "Wild Charge"
       }
     ],
-    "moveCount": 49
+    "moveCount": 49,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Manectric": {
     "dexNumber": 310,
@@ -19041,7 +19446,12 @@
         "name": "Wild Charge"
       }
     ],
-    "moveCount": 49
+    "moveCount": 49,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Sharpedo": {
     "dexNumber": 319,
@@ -19221,7 +19631,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 57
+    "moveCount": 57,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Sharpedo": {
     "dexNumber": 319,
@@ -19401,7 +19816,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 57
+    "moveCount": 57,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Camerupt": {
     "dexNumber": 323,
@@ -19611,7 +20031,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 67
+    "moveCount": 67,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Camerupt": {
     "dexNumber": 323,
@@ -19821,7 +20246,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 67
+    "moveCount": 67,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Torkoal": {
     "dexNumber": 324,
@@ -20001,7 +20431,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 57
+    "moveCount": 57,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Altaria": {
     "dexNumber": 334,
@@ -20205,7 +20640,12 @@
         "name": "Wonder Room"
       }
     ],
-    "moveCount": 65
+    "moveCount": 65,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Altaria": {
     "dexNumber": 334,
@@ -20409,7 +20849,12 @@
         "name": "Wonder Room"
       }
     ],
-    "moveCount": 65
+    "moveCount": 65,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Milotic": {
     "dexNumber": 350,
@@ -20601,7 +21046,12 @@
         "name": "Wrap"
       }
     ],
-    "moveCount": 61
+    "moveCount": 61,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Castform": {
     "dexNumber": 351,
@@ -20721,7 +21171,12 @@
         "name": "Weather Ball"
       }
     ],
-    "moveCount": 37
+    "moveCount": 37,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Banette": {
     "dexNumber": 354,
@@ -20925,7 +21380,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 65
+    "moveCount": 65,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Mega Banette": {
     "dexNumber": 354,
@@ -21129,7 +21588,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 65
+    "moveCount": 65,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Chimecho": {
     "dexNumber": 358,
@@ -21330,7 +21793,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 64
+    "moveCount": 64,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Mega Chimecho": {
     "dexNumber": 358,
@@ -21531,7 +21998,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 64
+    "moveCount": 64,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Absol": {
     "dexNumber": 359,
@@ -21753,7 +22224,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 71
+    "moveCount": 71,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Absol": {
     "dexNumber": 359,
@@ -21975,7 +22451,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 71
+    "moveCount": 71,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Glalie": {
     "dexNumber": 362,
@@ -22146,7 +22627,12 @@
         "name": "Weather Ball"
       }
     ],
-    "moveCount": 54
+    "moveCount": 54,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Glalie": {
     "dexNumber": 362,
@@ -22317,7 +22803,12 @@
         "name": "Weather Ball"
       }
     ],
-    "moveCount": 54
+    "moveCount": 54,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Torterra": {
     "dexNumber": 389,
@@ -22542,7 +23033,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 72
+    "moveCount": 72,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Infernape": {
     "dexNumber": 392,
@@ -22815,7 +23311,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 88
+    "moveCount": 88,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Empoleon": {
     "dexNumber": 395,
@@ -23046,7 +23547,12 @@
         "name": "Yawn"
       }
     ],
-    "moveCount": 74
+    "moveCount": 74,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Luxray": {
     "dexNumber": 405,
@@ -23214,7 +23720,12 @@
         "name": "Wild Charge"
       }
     ],
-    "moveCount": 53
+    "moveCount": 53,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Roserade": {
     "dexNumber": 407,
@@ -23376,7 +23887,12 @@
         "name": "Worry Seed"
       }
     ],
-    "moveCount": 51
+    "moveCount": 51,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Rampardos": {
     "dexNumber": 409,
@@ -23607,7 +24123,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 74
+    "moveCount": 74,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Bastiodon": {
     "dexNumber": 411,
@@ -23820,7 +24341,12 @@
         "name": "Wide Guard"
       }
     ],
-    "moveCount": 68
+    "moveCount": 68,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Lopunny": {
     "dexNumber": 428,
@@ -24057,7 +24583,12 @@
         "name": "Uproar"
       }
     ],
-    "moveCount": 76
+    "moveCount": 76,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Lopunny": {
     "dexNumber": 428,
@@ -24294,7 +24825,12 @@
         "name": "Uproar"
       }
     ],
-    "moveCount": 76
+    "moveCount": 76,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Spiritomb": {
     "dexNumber": 442,
@@ -24462,7 +24998,11 @@
         "name": "Wonder Room"
       }
     ],
-    "moveCount": 53
+    "moveCount": 53,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Garchomp": {
     "dexNumber": 445,
@@ -24645,7 +25185,12 @@
         "name": "Thunder Fang"
       }
     ],
-    "moveCount": 58
+    "moveCount": 58,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Garchomp": {
     "dexNumber": 445,
@@ -24828,7 +25373,12 @@
         "name": "Thunder Fang"
       }
     ],
-    "moveCount": 58
+    "moveCount": 58,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Lucario": {
     "dexNumber": 448,
@@ -25083,7 +25633,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 82
+    "moveCount": 82,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Mega Lucario": {
     "dexNumber": 448,
@@ -25338,7 +25892,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 82
+    "moveCount": 82,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Hippowdon": {
     "dexNumber": 450,
@@ -25500,7 +26058,12 @@
         "name": "Yawn"
       }
     ],
-    "moveCount": 51
+    "moveCount": 51,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Toxicroak": {
     "dexNumber": 454,
@@ -25752,7 +26315,12 @@
         "name": "X-Scissor"
       }
     ],
-    "moveCount": 81
+    "moveCount": 81,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Abomasnow": {
     "dexNumber": 460,
@@ -25956,7 +26524,12 @@
         "name": "Wood Hammer"
       }
     ],
-    "moveCount": 65
+    "moveCount": 65,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Abomasnow": {
     "dexNumber": 460,
@@ -26160,7 +26733,12 @@
         "name": "Wood Hammer"
       }
     ],
-    "moveCount": 65
+    "moveCount": 65,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Weavile": {
     "dexNumber": 461,
@@ -26385,7 +26963,12 @@
         "name": "X-Scissor"
       }
     ],
-    "moveCount": 72
+    "moveCount": 72,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Rhyperior": {
     "dexNumber": 464,
@@ -26667,7 +27250,12 @@
         "name": "Uproar"
       }
     ],
-    "moveCount": 91
+    "moveCount": 91,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Leafeon": {
     "dexNumber": 470,
@@ -26850,7 +27438,12 @@
         "name": "Yawn"
       }
     ],
-    "moveCount": 58
+    "moveCount": 58,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Glaceon": {
     "dexNumber": 471,
@@ -27033,7 +27626,12 @@
         "name": "Yawn"
       }
     ],
-    "moveCount": 58
+    "moveCount": 58,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Gliscor": {
     "dexNumber": 472,
@@ -27264,7 +27862,12 @@
         "name": "X-Scissor"
       }
     ],
-    "moveCount": 74
+    "moveCount": 74,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mamoswine": {
     "dexNumber": 473,
@@ -27462,7 +28065,12 @@
         "name": "Trailblaze"
       }
     ],
-    "moveCount": 63
+    "moveCount": 63,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Gallade": {
     "dexNumber": 475,
@@ -27783,7 +28391,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 104
+    "moveCount": 104,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Mega Gallade": {
     "dexNumber": 475,
@@ -28104,7 +28716,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 104
+    "moveCount": 104,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Froslass": {
     "dexNumber": 478,
@@ -28314,7 +28930,11 @@
         "name": "Will-O-Wisp"
       }
     ],
-    "moveCount": 67
+    "moveCount": 67,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Mega Froslass": {
     "dexNumber": 478,
@@ -28524,7 +29144,11 @@
         "name": "Will-O-Wisp"
       }
     ],
-    "moveCount": 67
+    "moveCount": 67,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Rotom": {
     "dexNumber": 479,
@@ -28674,7 +29298,11 @@
         "name": "Will-O-Wisp"
       }
     ],
-    "moveCount": 47
+    "moveCount": 47,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Serperior": {
     "dexNumber": 497,
@@ -28842,7 +29470,12 @@
         "name": "Wrap"
       }
     ],
-    "moveCount": 53
+    "moveCount": 53,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Emboar": {
     "dexNumber": 500,
@@ -29088,7 +29721,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 79
+    "moveCount": 79,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Emboar": {
     "dexNumber": 500,
@@ -29334,7 +29972,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 79
+    "moveCount": 79,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Samurott": {
     "dexNumber": 503,
@@ -29544,7 +30187,11 @@
         "name": "X-Scissor"
       }
     ],
-    "moveCount": 67
+    "moveCount": 67,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Hisuian Samurott": {
     "dexNumber": 503,
@@ -29754,7 +30401,12 @@
         "name": "X-Scissor"
       }
     ],
-    "moveCount": 67
+    "moveCount": 67,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Watchog": {
     "dexNumber": 505,
@@ -29919,7 +30571,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 52
+    "moveCount": 52,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Liepard": {
     "dexNumber": 510,
@@ -30108,7 +30765,12 @@
         "name": "Yawn"
       }
     ],
-    "moveCount": 60
+    "moveCount": 60,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Simisage": {
     "dexNumber": 512,
@@ -30267,7 +30929,12 @@
         "name": "Uproar"
       }
     ],
-    "moveCount": 50
+    "moveCount": 50,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Simisear": {
     "dexNumber": 514,
@@ -30441,7 +31108,12 @@
         "name": "Yawn"
       }
     ],
-    "moveCount": 55
+    "moveCount": 55,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Simipour": {
     "dexNumber": 516,
@@ -30606,7 +31278,12 @@
         "name": "Waterfall"
       }
     ],
-    "moveCount": 52
+    "moveCount": 52,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Excadrill": {
     "dexNumber": 530,
@@ -30774,7 +31451,12 @@
         "name": "X-Scissor"
       }
     ],
-    "moveCount": 53
+    "moveCount": 53,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Excadrill": {
     "dexNumber": 530,
@@ -30942,7 +31624,12 @@
         "name": "X-Scissor"
       }
     ],
-    "moveCount": 53
+    "moveCount": 53,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Audino": {
     "dexNumber": 531,
@@ -31155,7 +31842,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 68
+    "moveCount": 68,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Mega Audino": {
     "dexNumber": 531,
@@ -31368,7 +32059,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 68
+    "moveCount": 68,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Conkeldurr": {
     "dexNumber": 534,
@@ -31560,7 +32255,12 @@
         "name": "Wide Guard"
       }
     ],
-    "moveCount": 61
+    "moveCount": 61,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Whimsicott": {
     "dexNumber": 547,
@@ -31716,7 +32416,11 @@
         "name": "Worry Seed"
       }
     ],
-    "moveCount": 49
+    "moveCount": 49,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Krookodile": {
     "dexNumber": 553,
@@ -31974,7 +32678,12 @@
         "name": "Uproar"
       }
     ],
-    "moveCount": 83
+    "moveCount": 83,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Cofagrigus": {
     "dexNumber": 563,
@@ -32142,7 +32851,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 53
+    "moveCount": 53,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Garbodor": {
     "dexNumber": 569,
@@ -32307,7 +33020,11 @@
         "name": "Venoshock"
       }
     ],
-    "moveCount": 52
+    "moveCount": 52,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Zoroark": {
     "dexNumber": 571,
@@ -32553,7 +33270,11 @@
         "name": "Will-O-Wisp"
       }
     ],
-    "moveCount": 79
+    "moveCount": 79,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Hisuian Zoroark": {
     "dexNumber": 571,
@@ -32799,7 +33520,11 @@
         "name": "Will-O-Wisp"
       }
     ],
-    "moveCount": 79
+    "moveCount": 79,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Reuniclus": {
     "dexNumber": 579,
@@ -33003,7 +33728,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 65
+    "moveCount": 65,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Vanilluxe": {
     "dexNumber": 584,
@@ -33135,7 +33864,12 @@
         "name": "Weather Ball"
       }
     ],
-    "moveCount": 41
+    "moveCount": 41,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Emolga": {
     "dexNumber": 587,
@@ -33282,7 +34016,12 @@
         "name": "Wild Charge"
       }
     ],
-    "moveCount": 46
+    "moveCount": 46,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Chandelure": {
     "dexNumber": 609,
@@ -33450,7 +34189,11 @@
         "name": "Will-O-Wisp"
       }
     ],
-    "moveCount": 53
+    "moveCount": 53,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Mega Chandelure": {
     "dexNumber": 609,
@@ -33618,7 +34361,11 @@
         "name": "Will-O-Wisp"
       }
     ],
-    "moveCount": 53
+    "moveCount": 53,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Beartic": {
     "dexNumber": 614,
@@ -33852,7 +34599,12 @@
         "name": "Yawn"
       }
     ],
-    "moveCount": 75
+    "moveCount": 75,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Stunfisk": {
     "dexNumber": 618,
@@ -34038,7 +34790,11 @@
         "name": "Yawn"
       }
     ],
-    "moveCount": 59
+    "moveCount": 59,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Galarian Stunfisk": {
     "dexNumber": 618,
@@ -34224,7 +34980,11 @@
         "name": "Yawn"
       }
     ],
-    "moveCount": 59
+    "moveCount": 59,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Golurk": {
     "dexNumber": 623,
@@ -34464,7 +35224,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 77
+    "moveCount": 77,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Mega Golurk": {
     "dexNumber": 623,
@@ -34704,7 +35468,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 77
+    "moveCount": 77,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Hydreigon": {
     "dexNumber": 635,
@@ -34947,7 +35715,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 78
+    "moveCount": 78,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Volcarona": {
     "dexNumber": 637,
@@ -35124,7 +35897,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 56
+    "moveCount": 56,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Chesnaught": {
     "dexNumber": 652,
@@ -35394,7 +36171,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 87
+    "moveCount": 87,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Chesnaught": {
     "dexNumber": 652,
@@ -35664,7 +36446,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 87
+    "moveCount": 87,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Delphox": {
     "dexNumber": 655,
@@ -35886,7 +36673,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 71
+    "moveCount": 71,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Mega Delphox": {
     "dexNumber": 655,
@@ -36108,7 +36899,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 71
+    "moveCount": 71,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Greninja": {
     "dexNumber": 658,
@@ -36309,7 +37104,12 @@
         "name": "Weather Ball"
       }
     ],
-    "moveCount": 64
+    "moveCount": 64,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Greninja": {
     "dexNumber": 658,
@@ -36510,7 +37310,12 @@
         "name": "Weather Ball"
       }
     ],
-    "moveCount": 64
+    "moveCount": 64,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Diggersby": {
     "dexNumber": 660,
@@ -36693,7 +37498,12 @@
         "name": "Wild Charge"
       }
     ],
-    "moveCount": 58
+    "moveCount": 58,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Talonflame": {
     "dexNumber": 663,
@@ -36852,7 +37662,12 @@
         "name": "Will-O-Wisp"
       }
     ],
-    "moveCount": 50
+    "moveCount": 50,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Vivillon": {
     "dexNumber": 666,
@@ -36987,7 +37802,11 @@
         "name": "Whirlwind"
       }
     ],
-    "moveCount": 42
+    "moveCount": 42,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Floette": {
     "dexNumber": 670,
@@ -37116,7 +37935,11 @@
         "name": "Wish"
       }
     ],
-    "moveCount": 40
+    "moveCount": 40,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Mega Floette": {
     "dexNumber": 670,
@@ -37245,7 +38068,11 @@
         "name": "Wish"
       }
     ],
-    "moveCount": 40
+    "moveCount": 40,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Florges": {
     "dexNumber": 671,
@@ -37389,7 +38216,11 @@
         "name": "Wish"
       }
     ],
-    "moveCount": 45
+    "moveCount": 45,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Pangoro": {
     "dexNumber": 675,
@@ -37638,7 +38469,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 80
+    "moveCount": 80,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Furfrou": {
     "dexNumber": 676,
@@ -37767,7 +38603,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 40
+    "moveCount": 40,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Meowstic": {
     "dexNumber": 678,
@@ -37956,7 +38797,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 60
+    "moveCount": 60,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Mega Meowstic": {
     "dexNumber": 678,
@@ -38145,7 +38990,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 60
+    "moveCount": 60,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Aegislash": {
     "dexNumber": 681,
@@ -38286,7 +39135,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 44
+    "moveCount": 44,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Aromatisse": {
     "dexNumber": 683,
@@ -38436,7 +39289,11 @@
         "name": "Wish"
       }
     ],
-    "moveCount": 47
+    "moveCount": 47,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Slurpuff": {
     "dexNumber": 685,
@@ -38568,7 +39425,11 @@
         "name": "Yawn"
       }
     ],
-    "moveCount": 41
+    "moveCount": 41,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Clawitzer": {
     "dexNumber": 693,
@@ -38733,7 +39594,12 @@
         "name": "Weather Ball"
       }
     ],
-    "moveCount": 52
+    "moveCount": 52,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Heliolisk": {
     "dexNumber": 695,
@@ -38931,7 +39797,12 @@
         "name": "Wild Charge"
       }
     ],
-    "moveCount": 63
+    "moveCount": 63,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Tyrantrum": {
     "dexNumber": 697,
@@ -39132,7 +40003,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 64
+    "moveCount": 64,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Aurorus": {
     "dexNumber": 699,
@@ -39306,7 +40182,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 55
+    "moveCount": 55,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Sylveon": {
     "dexNumber": 700,
@@ -39477,7 +40357,11 @@
         "name": "Yawn"
       }
     ],
-    "moveCount": 54
+    "moveCount": 54,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Hawlucha": {
     "dexNumber": 701,
@@ -39708,7 +40592,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 74
+    "moveCount": 74,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Hawlucha": {
     "dexNumber": 701,
@@ -39939,7 +40828,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 74
+    "moveCount": 74,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Dedenne": {
     "dexNumber": 702,
@@ -40098,7 +40992,12 @@
         "name": "Wild Charge"
       }
     ],
-    "moveCount": 50
+    "moveCount": 50,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Goodra": {
     "dexNumber": 706,
@@ -40338,7 +41237,11 @@
         "name": "Weather Ball"
       }
     ],
-    "moveCount": 77
+    "moveCount": 77,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Hisuian Goodra": {
     "dexNumber": 706,
@@ -40578,7 +41481,11 @@
         "name": "Weather Ball"
       }
     ],
-    "moveCount": 77
+    "moveCount": 77,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Klefki": {
     "dexNumber": 707,
@@ -40716,7 +41623,11 @@
         "name": "Trick Room"
       }
     ],
-    "moveCount": 43
+    "moveCount": 43,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Trevenant": {
     "dexNumber": 709,
@@ -40938,7 +41849,11 @@
         "name": "X-Scissor"
       }
     ],
-    "moveCount": 71
+    "moveCount": 71,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Gourgeist": {
     "dexNumber": 711,
@@ -41124,7 +42039,11 @@
         "name": "Worry Seed"
       }
     ],
-    "moveCount": 59
+    "moveCount": 59,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Avalugg": {
     "dexNumber": 713,
@@ -41304,7 +42223,11 @@
         "name": "Wide Guard"
       }
     ],
-    "moveCount": 57
+    "moveCount": 57,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Hisuian Avalugg": {
     "dexNumber": 713,
@@ -41484,7 +42407,11 @@
         "name": "Wide Guard"
       }
     ],
-    "moveCount": 57
+    "moveCount": 57,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Noivern": {
     "dexNumber": 715,
@@ -41682,7 +42609,11 @@
         "name": "X-Scissor"
       }
     ],
-    "moveCount": 63
+    "moveCount": 63,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Decidueye": {
     "dexNumber": 724,
@@ -41928,7 +42859,11 @@
         "name": "Upper Hand"
       }
     ],
-    "moveCount": 79
+    "moveCount": 79,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Hisuian Decidueye": {
     "dexNumber": 724,
@@ -42174,7 +43109,11 @@
         "name": "Upper Hand"
       }
     ],
-    "moveCount": 79
+    "moveCount": 79,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Incineroar": {
     "dexNumber": 727,
@@ -42414,7 +43353,12 @@
         "name": "Will-O-Wisp"
       }
     ],
-    "moveCount": 77
+    "moveCount": 77,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Primarina": {
     "dexNumber": 730,
@@ -42609,7 +43553,11 @@
         "name": "Wonder Room"
       }
     ],
-    "moveCount": 62
+    "moveCount": 62,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Toucannon": {
     "dexNumber": 733,
@@ -42777,7 +43725,12 @@
         "name": "Uproar"
       }
     ],
-    "moveCount": 53
+    "moveCount": 53,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Crabominable": {
     "dexNumber": 740,
@@ -42975,7 +43928,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 63
+    "moveCount": 63,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Crabominable": {
     "dexNumber": 740,
@@ -43173,7 +44131,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 63
+    "moveCount": 63,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Lycanroc": {
     "dexNumber": 745,
@@ -43413,7 +44376,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 77
+    "moveCount": 77,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Toxapex": {
     "dexNumber": 748,
@@ -43575,7 +44542,12 @@
         "name": "Wide Guard"
       }
     ],
-    "moveCount": 51
+    "moveCount": 51,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mudsdale": {
     "dexNumber": 750,
@@ -43719,7 +44691,12 @@
         "name": "Superpower"
       }
     ],
-    "moveCount": 45
+    "moveCount": 45,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Araquanid": {
     "dexNumber": 752,
@@ -43881,7 +44858,12 @@
         "name": "X-Scissor"
       }
     ],
-    "moveCount": 51
+    "moveCount": 51,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Salazzle": {
     "dexNumber": 758,
@@ -44100,7 +45082,12 @@
         "name": "Will-O-Wisp"
       }
     ],
-    "moveCount": 70
+    "moveCount": 70,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Tsareena": {
     "dexNumber": 763,
@@ -44271,7 +45258,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 54
+    "moveCount": 54,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Oranguru": {
     "dexNumber": 765,
@@ -44469,7 +45461,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 63
+    "moveCount": 63,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Passimian": {
     "dexNumber": 766,
@@ -44676,7 +45672,12 @@
         "name": "Vacuum Wave"
       }
     ],
-    "moveCount": 66
+    "moveCount": 66,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mimikyu": {
     "dexNumber": 778,
@@ -44862,7 +45863,11 @@
         "name": "X-Scissor"
       }
     ],
-    "moveCount": 59
+    "moveCount": 59,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Drampa": {
     "dexNumber": 780,
@@ -45069,7 +46074,12 @@
         "name": "Whirlwind"
       }
     ],
-    "moveCount": 66
+    "moveCount": 66,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Drampa": {
     "dexNumber": 780,
@@ -45276,7 +46286,12 @@
         "name": "Whirlwind"
       }
     ],
-    "moveCount": 66
+    "moveCount": 66,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Kommo-o": {
     "dexNumber": 784,
@@ -45519,7 +46534,12 @@
         "name": "X-Scissor"
       }
     ],
-    "moveCount": 78
+    "moveCount": 78,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Corviknight": {
     "dexNumber": 823,
@@ -45693,7 +46713,12 @@
         "name": "U-turn"
       }
     ],
-    "moveCount": 55
+    "moveCount": 55,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Flapple": {
     "dexNumber": 841,
@@ -45834,7 +46859,12 @@
         "name": "U-turn"
       }
     ],
-    "moveCount": 44
+    "moveCount": 44,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Appletun": {
     "dexNumber": 842,
@@ -45996,7 +47026,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 51
+    "moveCount": 51,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Sandaconda": {
     "dexNumber": 844,
@@ -46149,7 +47184,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 48
+    "moveCount": 48,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Polteageist": {
     "dexNumber": 855,
@@ -46293,7 +47333,11 @@
         "name": "Wonder Room"
       }
     ],
-    "moveCount": 45
+    "moveCount": 45,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Hatterene": {
     "dexNumber": 858,
@@ -46476,7 +47520,11 @@
         "name": "Wonder Room"
       }
     ],
-    "moveCount": 58
+    "moveCount": 58,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Mr. Rime": {
     "dexNumber": 866,
@@ -46761,7 +47809,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 92
+    "moveCount": 92,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Runerigus": {
     "dexNumber": 867,
@@ -46974,7 +48026,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 68
+    "moveCount": 68,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Alcremie": {
     "dexNumber": 869,
@@ -47127,7 +48183,11 @@
         "name": "Wonder Room"
       }
     ],
-    "moveCount": 48
+    "moveCount": 48,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Morpeko": {
     "dexNumber": 877,
@@ -47331,7 +48391,12 @@
         "name": "Wild Charge"
       }
     ],
-    "moveCount": 65
+    "moveCount": 65,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Dragapult": {
     "dexNumber": 887,
@@ -47529,7 +48594,12 @@
         "name": "Will-O-Wisp"
       }
     ],
-    "moveCount": 63
+    "moveCount": 63,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Wyrdeer": {
     "dexNumber": 899,
@@ -47718,7 +48788,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 60
+    "moveCount": 60,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Kleavor": {
     "dexNumber": 900,
@@ -47895,7 +48969,12 @@
         "name": "X-Scissor"
       }
     ],
-    "moveCount": 56
+    "moveCount": 56,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Basculegion": {
     "dexNumber": 902,
@@ -48051,7 +49130,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 49
+    "moveCount": 49,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Sneasler": {
     "dexNumber": 903,
@@ -48243,7 +49327,12 @@
         "name": "X-Scissor"
       }
     ],
-    "moveCount": 61
+    "moveCount": 61,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Meowscarada": {
     "dexNumber": 908,
@@ -48447,7 +49536,12 @@
         "name": "Worry Seed"
       }
     ],
-    "moveCount": 65
+    "moveCount": 65,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Skeledirge": {
     "dexNumber": 911,
@@ -48624,7 +49718,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 56
+    "moveCount": 56,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Quaquaval": {
     "dexNumber": 914,
@@ -48810,7 +49909,12 @@
         "name": "Whirlpool"
       }
     ],
-    "moveCount": 59
+    "moveCount": 59,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Maushold": {
     "dexNumber": 925,
@@ -48969,7 +50073,12 @@
         "name": "Water Pulse"
       }
     ],
-    "moveCount": 50
+    "moveCount": 50,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Garganacl": {
     "dexNumber": 934,
@@ -49140,7 +50249,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 54
+    "moveCount": 54,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Armarouge": {
     "dexNumber": 936,
@@ -49311,7 +50425,11 @@
         "name": "Will-O-Wisp"
       }
     ],
-    "moveCount": 54
+    "moveCount": 54,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Ceruledge": {
     "dexNumber": 937,
@@ -49485,7 +50603,12 @@
         "name": "X-Scissor"
       }
     ],
-    "moveCount": 55
+    "moveCount": 55,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Bellibolt": {
     "dexNumber": 939,
@@ -49611,7 +50734,12 @@
         "name": "Zap Cannon"
       }
     ],
-    "moveCount": 39
+    "moveCount": 39,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Scovillain": {
     "dexNumber": 952,
@@ -49764,7 +50892,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 48
+    "moveCount": 48,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Scovillain": {
     "dexNumber": 952,
@@ -49917,7 +51050,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 48
+    "moveCount": 48,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Espathra": {
     "dexNumber": 956,
@@ -50094,7 +51232,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 56
+    "moveCount": 56,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Tinkaton": {
     "dexNumber": 959,
@@ -50244,7 +51386,12 @@
         "name": "Wood Hammer"
       }
     ],
-    "moveCount": 47
+    "moveCount": 47,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Palafin": {
     "dexNumber": 964,
@@ -50427,7 +51574,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 58
+    "moveCount": 58,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Orthworm": {
     "dexNumber": 968,
@@ -50556,7 +51708,12 @@
         "name": "Wrap"
       }
     ],
-    "moveCount": 40
+    "moveCount": 40,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Glimmora": {
     "dexNumber": 970,
@@ -50703,7 +51860,12 @@
         "name": "Venoshock"
       }
     ],
-    "moveCount": 46
+    "moveCount": 46,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Mega Glimmora": {
     "dexNumber": 970,
@@ -50850,7 +52012,12 @@
         "name": "Venoshock"
       }
     ],
-    "moveCount": 46
+    "moveCount": 46,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Farigiraf": {
     "dexNumber": 981,
@@ -51066,7 +52233,11 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 69
+    "moveCount": 69,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions"
+    ]
   },
   "Kingambit": {
     "dexNumber": 983,
@@ -51231,7 +52402,12 @@
         "name": "Zen Headbutt"
       }
     ],
-    "moveCount": 52
+    "moveCount": 52,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Sinistcha": {
     "dexNumber": 1013,
@@ -51345,7 +52521,12 @@
         "name": "Uproar"
       }
     ],
-    "moveCount": 35
+    "moveCount": 35,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Archaludon": {
     "dexNumber": 1018,
@@ -51507,7 +52688,12 @@
         "name": "Thunderbolt"
       }
     ],
-    "moveCount": 51
+    "moveCount": 51,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   },
   "Hydrapple": {
     "dexNumber": 1019,
@@ -51669,6 +52855,11 @@
         "name": "Yawn"
       }
     ],
-    "moveCount": 51
+    "moveCount": 51,
+    "status": "unknown",
+    "sources": [
+      "serebii-champions",
+      "pokeapi-version-group-champions"
+    ]
   }
 }

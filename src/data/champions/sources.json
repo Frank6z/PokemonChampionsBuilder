@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "legend": {
+    "tier": {
+      "official": "Publicado por The Pokémon Company (champions.pokemon.com, pokemon.com, support.pokemon.com)",
+      "complementary": "Referencia complementaria aceptada (Bulbapedia, PokéAPI); no confirma por sí sola",
+      "secondary": "Prensa o sitios de fans; no confirma por sí sola"
+    },
+    "status": {
+      "confirmed": "Respaldado por al menos una fuente oficial que lo afirma para Pokémon Champions",
+      "otherGames": "Dato de los juegos principales u otras entregas; no verificado para Champions",
+      "unknown": "Sin fuente oficial o con evidencia insuficiente (incluye datos respaldados solo por fuentes secundarias)"
+    }
+  },
+  "sources": {
+    "official-champions-site": {
+      "title": "Pokémon Champions (sitio oficial)",
+      "url": "https://champions.pokemon.com/en-us/",
+      "publisher": "The Pokémon Company International",
+      "tier": "official",
+      "accessedAt": "2026-10-20",
+      "notes": "Página promocional: no publica roster, estadísticas, movimientos ni datos estructurados. La sección /en-us/pokemon/ tampoco contiene lista de Pokémon."
+    },
+    "official-champions-news": {
+      "title": "Pokémon Champions — News",
+      "url": "https://champions.pokemon.com/en-us/news/",
+      "publisher": "The Pokémon Company International",
+      "tier": "official",
+      "accessedAt": "2026-10-20",
+      "notes": "Índice de noticias; enlaza a artículos de pokemon.com."
+    },
+    "official-news-switch-launch": {
+      "title": "Pokémon Champions Is Now Available on Nintendo Switch and Nintendo Switch 2",
+      "url": "https://www.pokemon.com/us/pokemon-news/pokemon-champions-is-now-available-on-nintendo-switch-and-nintendo-switch-2",
+      "publisher": "The Pokémon Company International",
+      "tier": "official",
+      "published": "2026-04-08",
+      "accessedAt": "2026-10-20",
+      "notes": "Lanzamiento en Switch/Switch 2 el 8 de abril de 2026. Menciona Mega Meganium, Mega Emboar, Mega Feraligatr y Mega Dragonite (Battle Pass). No menciona la Regulation Set M-A."
+    },
+    "official-news-mobile-launch": {
+      "title": "Pokémon Champions Is Available Now on iOS and Android Devices",
+      "url": "https://www.pokemon.com/us/pokemon-news/pokemon-champions-is-available-now-on-ios-and-android-devices",
+      "publisher": "The Pokémon Company International",
+      "tier": "official",
+      "published": "2026-06-17",
+      "accessedAt": "2026-10-20",
+      "notes": "Solo se consultó su título y fecha en el índice de noticias; el contenido no se ha leído."
+    },
+    "official-news-regulation-mb": {
+      "title": "Regulation Set M-B Kicks off a New Ranked Battles Season and Battle Pass in Pokémon Champions",
+      "url": "https://www.pokemon.com/us/pokemon-news/regulation-set-m-b-kicks-off-a-new-ranked-battles-season-and-battle-pass-in-pokemon-champions",
+      "publisher": "The Pokémon Company International",
+      "tier": "official",
+      "published": "2026-06-17",
+      "accessedAt": "2026-10-20"
+    },
+    "official-news-regulation-mb-uk": {
+      "title": "Regulation Set M-B Kicks off a New Ranked Battles Season and Battle Pass in Pokémon Champions (UK)",
+      "url": "https://www.pokemon.com/uk/news/regulation-set-m-b-kicks-off-a-new-ranked-battles-season-and-battle-pass-in-pokemon-champions",
+      "publisher": "The Pokémon Company International",
+      "tier": "official",
+      "accessedAt": "2026-10-20",
+      "notes": "Edición del Reino Unido; según el resultado de búsqueda indica 17 jun – 2 sep 2026 (horario local, coherente con las horas PDT de la edición de EE. UU.). Solo se vio el resumen de búsqueda."
+    },
+    "official-news-regulation-mc": {
+      "title": "Get Ready for Regulation Set M-C in Pokémon Champions",
+      "url": "https://www.pokemon.com/us/news/get-ready-for-regulation-set-m-c-in-pokemon-champions",
+      "publisher": "The Pokémon Company International",
+      "tier": "official",
+      "published": "2026-09-02",
+      "accessedAt": "2026-10-20"
+    },
+    "pokeapi-version-group-champions": {
+      "title": "PokéAPI — version-group/champions",
+      "url": "https://pokeapi.co/api/v2/version-group/champions",
+      "publisher": "PokéAPI",
+      "tier": "complementary",
+      "accessedAt": "2026-10-20",
+      "notes": "Existe el grupo de versiones 'champions' (generación IX) con aprendizaje por método 'train'. Los valores de movimientos (PP, potencia) son los de los juegos principales: no reflejan cambios de Champions."
+    },
+    "pokeapi-pokedex-champions": {
+      "title": "PokéAPI — pokedex/36 (champions)",
+      "url": "https://pokeapi.co/api/v2/pokedex/36",
+      "publisher": "PokéAPI",
+      "tier": "complementary",
+      "accessedAt": "2026-10-20",
+      "notes": "231 entradas de especie. Pendiente de explicar la diferencia con las 186 especies del roster local (etapa 2)."
+    },
+    "bulbapedia-champions-list": {
+      "title": "List of Pokémon in Pokémon Champions",
+      "url": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pokémon_in_Pokémon_Champions",
+      "publisher": "Bulbapedia",
+      "tier": "complementary",
+      "accessedAt": "2026-10-20",
+      "notes": "Según el resumen de búsqueda: 186 especies y 59 Megaevoluciones. Página no leída completa."
+    },
+    "serebii-champions": {
+      "title": "Serebii.net — Pokémon Champions",
+      "url": null,
+      "publisher": "Serebii.net",
+      "tier": "secondary",
+      "accessedAt": null,
+      "notes": "Origen declarado de roster.json, learnsets.json y moves.json (\"source\": \"serebii-champions\"). Los datos originales no registran URL ni fecha de consulta; no se inventan."
+    },
+    "serebii-champions-patch": {
+      "title": "Serebii.net — Pokémon Champions Patches & Updates",
+      "url": "https://serebii.net/pokemonchampions/patch.shtml",
+      "publisher": "Serebii.net",
+      "tier": "secondary",
+      "accessedAt": "2026-10-20",
+      "notes": "Solo aparecido en resultados de búsqueda; no leído."
+    },
+    "victoryroad-regulations": {
+      "title": "Pokémon Champions — Regulations",
+      "url": "https://victoryroad.pro/champions-regulations/",
+      "publisher": "Victory Road",
+      "tier": "secondary",
+      "accessedAt": "2026-10-20",
+      "notes": "Según el resumen de búsqueda: M-A del 8 abr al 17 jun 2026."
+    },
+    "pocketmonsters-mb": {
+      "title": "PocketMonsters.net — noticia 9300 (Regulation M-B)",
+      "url": "https://pocketmonsters.net/news/9300",
+      "publisher": "PocketMonsters.net",
+      "tier": "secondary",
+      "accessedAt": "2026-10-20"
+    },
+    "playnews-patch-120": {
+      "title": "Pokémon Champions: patch 1.2.0 removes three moves — two PP drop to 8",
+      "url": "https://www.playnews.gg/en/guides/pokemon-champions-patch-1-2-0-removes-three-moves-two-pp-drop-to-8",
+      "publisher": "PlayNews",
+      "tier": "secondary",
+      "accessedAt": "2026-10-20",
+      "notes": "Según el resumen de búsqueda: versión 1.2.0 del 9 sep 2026. No leído."
+    },
+    "nintendoeverything-patch-110": {
+      "title": "Pokémon Champions 1.1.0 update out now, patch notes",
+      "url": "https://nintendoeverything.com/pokemon-champions-1-1-0-update-out-now-patch-notes/",
+      "publisher": "Nintendo Everything",
+      "tier": "secondary",
+      "accessedAt": "2026-10-20",
+      "notes": "Según el resumen de búsqueda: versión 1.1.0 del 16 jun 2026. No leído."
+    }
+  }
+}

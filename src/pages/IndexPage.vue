@@ -33,7 +33,9 @@
 
 <script setup>
 import { ref } from 'vue'
-import pokedex from '../data/pokedex.json'
+import speciesData from '../data/champions/species.json'
+
+const pokedex = speciesData.species
 
 const formIndices = ref(
   Object.keys(pokedex).reduce((acc, key) => {

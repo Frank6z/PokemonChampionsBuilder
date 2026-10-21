@@ -55,7 +55,9 @@
 <script setup>
 import { useRoute } from 'vue-router'
 import { ref, computed } from 'vue'
-import pokedex from '../data/pokedex.json'
+import speciesData from '../data/champions/species.json'
+
+const pokedex = speciesData.species
 
 const route = useRoute()
 const pokemonSelect = route.params.pokemon 

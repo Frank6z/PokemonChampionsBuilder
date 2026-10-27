@@ -141,6 +141,14 @@
       "tier": "secondary",
       "accessedAt": "2026-10-20",
       "notes": "Según el resumen de búsqueda: versión 1.1.0 del 16 jun 2026. No leído."
+    },
+    "championsbattledata-api": {
+      "title": "Champions Battle Data — API",
+      "url": "https://championsbattledata.com/api_guide",
+      "publisher": "championsbattledata.com (sitio de fans)",
+      "tier": "secondary",
+      "accessedAt": "2026-10-26",
+      "notes": "Estadísticas de uso por Pokémon (movimientos, objetos, habilidades, compañeros, naturalezas y stat points) para Doubles y Singles. La app las consulta en vivo desde /api/battle/:format/:id. CORS abierto, sin clave. Dato de uso, no de mecánicas: no confirma nada por sí solo."
     }
   }
 }

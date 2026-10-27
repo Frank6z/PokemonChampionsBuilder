@@ -1,1 +1,333 @@
-// app global css
+// Tema global "Champions": fondo oscuro, cristal, acentos neón por tipo.
+
+// ---------- Colores de tipo (mismos valores que src/utils/types.js) ----------
+$type-colors: (
+  normal: #a8a77a,
+  fire: #ee8130,
+  water: #6390f0,
+  electric: #f7d02c,
+  grass: #7ac74c,
+  ice: #96d9d6,
+  fighting: #c22e28,
+  poison: #a33ea1,
+  ground: #e2bf65,
+  flying: #a98ff3,
+  psychic: #f95587,
+  bug: #a6b91a,
+  rock: #b6a136,
+  ghost: #735797,
+  dragon: #6f35fc,
+  dark: #705746,
+  steel: #b7b7ce,
+  fairy: #d685ad,
+);
+
+:root {
+  @each $name, $color in $type-colors {
+    --type-#{$name}: #{$color};
+  }
+
+  --pc-bg: #070b16;
+  --pc-bg-2: #0e1528;
+  --pc-surface: rgba(20, 28, 50, 0.62);
+  --pc-surface-strong: rgba(24, 33, 60, 0.9);
+  --pc-border: rgba(140, 170, 255, 0.14);
+  --pc-border-strong: rgba(160, 190, 255, 0.28);
+  --pc-text: #e8edf9;
+  --pc-text-dim: #93a0bd;
+  --pc-accent: #e9c80d;
+  --pc-accent-2: #3de0ff;
+  --pc-danger: #ff4d6d;
+  --pc-ok: #34e0a1;
+  --pc-radius: 16px;
+  --pc-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --pc-font-display: 'Rajdhani', 'Roboto', sans-serif;
+}
+
+@each $name, $color in $type-colors {
+  .bg-type-#{$name} {
+    background: $color !important;
+  }
+  .text-type-#{$name} {
+    color: $color !important;
+  }
+}
+
+html {
+  background: var(--pc-bg);
+}
+
+body.body--dark {
+  background:
+    radial-gradient(1200px 600px at 10% -10%, rgba(61, 224, 255, 0.1), transparent 60%),
+    radial-gradient(900px 500px at 110% 10%, rgba(233, 200, 13, 0.08), transparent 60%),
+    linear-gradient(180deg, var(--pc-bg-2), var(--pc-bg) 40%);
+  background-attachment: fixed;
+  color: var(--pc-text);
+}
+
+// Rejilla sutil de fondo, como los menús del juego
+body.body--dark::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(140, 170, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(140, 170, 255, 0.04) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: linear-gradient(180deg, #000, transparent 70%);
+  z-index: 0;
+}
+
+.q-layout,
+.q-page-container {
+  position: relative;
+  z-index: 1;
+}
+
+.font-display {
+  font-family: var(--pc-font-display);
+  letter-spacing: 0.04em;
+}
+
+.text-dim {
+  color: var(--pc-text-dim);
+}
+
+// ---------- Superficies ----------
+.glass {
+  background: var(--pc-surface);
+  border: 1px solid var(--pc-border);
+  border-radius: var(--pc-radius);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+// Borde metálico con degradado de los colores de tipo (--c1 / --c2)
+.metal-border {
+  position: relative;
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--c1, #8ab) 80%, white),
+      transparent 40%,
+      transparent 60%,
+      color-mix(in srgb, var(--c2, var(--c1, #8ab)) 80%, white)
+    );
+    -webkit-mask:
+      linear-gradient(#000 0 0) content-box,
+      linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    opacity: 0.7;
+  }
+}
+
+.section-title {
+  font-family: var(--pc-font-display);
+  font-weight: 700;
+  font-size: 1.15rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  &::before {
+    content: '';
+    width: 4px;
+    height: 1.1em;
+    border-radius: 2px;
+    background: linear-gradient(180deg, var(--pc-accent), var(--pc-accent-2));
+  }
+}
+
+// ---------- Micro-animaciones ----------
+.pc-btn {
+  transition:
+    transform 0.2s var(--pc-ease),
+    box-shadow 0.2s var(--pc-ease),
+    filter 0.2s;
+  &:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.12);
+  }
+  &:active {
+    transform: translateY(0) scale(0.97);
+  }
+}
+
+.q-tab {
+  transition:
+    color 0.2s,
+    transform 0.2s var(--pc-ease);
+  &:hover {
+    transform: translateY(-1px);
+  }
+}
+
+// Brillo que recorre un elemento al pasar el ratón
+.shine {
+  position: relative;
+  overflow: hidden;
+  &::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -60%;
+    width: 40%;
+    height: 200%;
+    background: linear-gradient(100deg, transparent, rgba(255, 255, 255, 0.22), transparent);
+    transform: rotate(10deg) translateX(-150%);
+    transition: transform 0.8s var(--pc-ease);
+    pointer-events: none;
+    z-index: 2;
+  }
+  &:hover::before {
+    transform: rotate(10deg) translateX(450%);
+  }
+}
+
+@keyframes pc-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes pc-pulse-ring {
+  0% {
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--c1, #fff) 60%, transparent);
+  }
+  100% {
+    box-shadow: 0 0 0 14px transparent;
+  }
+}
+
+@keyframes pc-warn-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 77, 109, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgba(255, 77, 109, 0);
+  }
+}
+
+.float {
+  animation: pc-float 4s ease-in-out infinite;
+}
+
+.pulse-select {
+  animation: pc-pulse-ring 0.6s ease-out;
+}
+
+// ---------- Transiciones Vue ----------
+// Rejilla de la Pokédex (<transition-group name="grid">)
+.grid-move,
+.grid-enter-active,
+.grid-leave-active {
+  transition:
+    transform 0.45s var(--pc-ease),
+    opacity 0.35s ease;
+}
+.grid-enter-from,
+.grid-leave-to {
+  opacity: 0;
+  transform: scale(0.9) translateY(14px);
+}
+.grid-leave-active {
+  position: absolute;
+}
+
+// Cambio de página (<transition name="page">)
+.page-enter-active,
+.page-leave-active {
+  transition:
+    opacity 0.28s ease,
+    transform 0.28s var(--pc-ease);
+}
+.page-enter-from {
+  opacity: 0;
+  transform: translateY(12px);
+}
+.page-leave-to {
+  opacity: 0;
+  transform: translateY(-8px);
+}
+
+// Cambio de forma / sprite (<transition name="pop" mode="out-in">)
+.pop-enter-active,
+.pop-leave-active {
+  transition:
+    opacity 0.25s ease,
+    transform 0.3s var(--pc-ease);
+}
+.pop-enter-from {
+  opacity: 0;
+  transform: scale(0.8) rotate(-4deg);
+}
+.pop-leave-to {
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+// Listas de chips / filas
+.list-move,
+.list-enter-active,
+.list-leave-active {
+  transition: all 0.3s var(--pc-ease);
+}
+.list-enter-from,
+.list-leave-to {
+  opacity: 0;
+  transform: translateX(-10px);
+}
+
+// ---------- Ajustes de componentes Quasar en tema oscuro ----------
+.body--dark {
+  .q-field--outlined .q-field__control {
+    border-radius: 12px;
+    background: rgba(10, 16, 32, 0.6);
+  }
+  .q-table__card,
+  .q-table__container {
+    background: transparent;
+  }
+  .q-table th {
+    font-family: var(--pc-font-display);
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: var(--pc-text-dim);
+  }
+  .q-table tbody tr {
+    transition: background 0.2s;
+  }
+  .q-menu,
+  .q-dialog__inner > .q-card {
+    background: var(--pc-surface-strong);
+    backdrop-filter: blur(16px);
+    border: 1px solid var(--pc-border);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -3,10 +3,30 @@ const routes = [
     path: '/',
     component: () => import('@/layouts/MainLayout.vue'),
     children: [
-      { path: '', component: () => import('@/pages/IndexPage.vue') },
-      { path: 'second/:pokemon?', component: () => import('@/pages/SecondPage.vue') },
-      { path: 'pokedex-entry', component: () => import('@/pages/PokedexEntry.vue')},
-      { path: 'typing-info', component: () => import('@/pages/TypingInfo.vue')}
+      { path: '', name: 'home', component: () => import('@/pages/IndexPage.vue') },
+      {
+        path: 'pokemon/:key',
+        name: 'pokemon',
+        component: () => import('@/pages/PokemonDetailPage.vue'),
+      },
+      { path: 'team', name: 'team', component: () => import('@/pages/TeamBuilderPage.vue') },
+
+      // Rutas antiguas: sus vistas se integraron en la ficha del Pokémon
+      {
+        path: 'second/:pokemon?',
+        redirect: (to) =>
+          to.params.pokemon
+            ? { name: 'pokemon', params: { key: to.params.pokemon } }
+            : { name: 'home' },
+      },
+      {
+        path: 'pokedex-entry',
+        redirect: { name: 'pokemon', params: { key: 'golisopod' }, query: { tab: 'dex' } },
+      },
+      {
+        path: 'typing-info',
+        redirect: { name: 'pokemon', params: { key: 'golisopod' }, query: { tab: 'types' } },
+      },
     ],
   },
 

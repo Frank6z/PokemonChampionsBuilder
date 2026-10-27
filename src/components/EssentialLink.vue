@@ -1,5 +1,10 @@
 <template>
-  <q-item clickable :tag="isExternal ? 'a' : 'router-link'" :target="isExternal ? '_blank' : undefined" :to="!isExternal ? props.link : undefined" :href="isExternal ? props.link : undefined"
+  <q-item
+    clickable
+    :tag="isExternal ? 'a' : 'router-link'"
+    :target="isExternal ? '_blank' : undefined"
+    :to="!isExternal ? props.link : undefined"
+    :href="isExternal ? props.link : undefined"
   >
     <q-item-section v-if="props.icon" avatar>
       <q-icon :name="props.icon" />

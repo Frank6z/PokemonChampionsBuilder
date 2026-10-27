@@ -45,6 +45,14 @@
       <TeamSlotCard v-for="(s, i) in team.slots" :key="i" :index="i" />
     </section>
 
+    <!-- COMPAÑEROS SUGERIDOS (datos de uso) -->
+    <section v-if="team.members.length && !team.isFull" class="glass q-pa-md q-mb-lg">
+      <div class="section-title q-mb-sm">
+        <q-icon name="mdi-link-variant" />Compañeros sugeridos
+      </div>
+      <TeammateSuggestions />
+    </section>
+
     <transition name="pop" mode="out-in">
       <section v-if="!team.members.length" key="empty" class="glass q-pa-xl text-center">
         <q-icon name="mdi-chart-donut" size="48px" class="text-dim" />
@@ -61,6 +69,14 @@
       </section>
 
       <section v-else key="analysis">
+        <!-- EQUILIBRIO -->
+        <TeamBalanceMeters
+          :scores="scores"
+          :format="team.format"
+          :threat-count="THREAT_COUNT"
+          class="q-mb-md"
+        />
+
         <!-- RESUMEN -->
         <div class="row q-col-gutter-md q-mb-md">
           <div class="col-12 col-md-4">
@@ -166,6 +182,22 @@
             </div>
           </div>
         </div>
+
+        <!-- AMENAZAS DEL META -->
+        <div class="glass q-pa-md q-mt-md">
+          <div class="section-title q-mb-xs">
+            <q-icon name="mdi-sword-cross" />Amenazas del meta
+          </div>
+          <div class="text-caption text-dim q-mb-md">
+            Top {{ THREAT_COUNT }} de uso en
+            {{ team.format === 'Doubles' ? 'Dobles' : 'Individual' }} ({{
+              rankingMeta.generatedAt
+            }}). La forma Mega se deduce de su objeto más usado.
+            <span class="text-positive">Escudo verde</span>: lo golpeas supereficaz y alguien
+            resiste sus ataques.
+          </div>
+          <MetaThreats :threats="readiness" />
+        </div>
       </section>
     </transition>
   </q-page>
@@ -176,15 +208,21 @@ import { computed } from 'vue'
 import { useQuasar, copyToClipboard } from 'quasar'
 import TeamSlotCard from '@/components/team/TeamSlotCard.vue'
 import TeamDefenseMatrix from '@/components/team/TeamDefenseMatrix.vue'
+import TeamBalanceMeters from '@/components/team/TeamBalanceMeters.vue'
+import MetaThreats from '@/components/team/MetaThreats.vue'
+import TeammateSuggestions from '@/components/team/TeammateSuggestions.vue'
 import TypeBadge from '@/components/TypeBadge.vue'
 import FormatToggle from '@/components/FormatToggle.vue'
 import { useTeamStore } from '@/stores/team.js'
 import { useMoveData } from '@/composables/useMoveData.js'
 import { TYPES, formatMult } from '@/utils/types.js'
 import { inferRoles, ROLE_META } from '@/utils/roles.js'
+import { topThreats, rankingMeta } from '@/services/ranking.js'
 import {
   defensiveAnalysis,
   offensiveCoverage,
+  metaReadiness,
+  balanceScores,
   toShowdown,
   SHARED_WEAKNESS_ALERT,
 } from '@/utils/teamAnalysis.js'
@@ -203,6 +241,17 @@ const movesByMember = computed(() =>
 
 const defense = computed(() => defensiveAnalysis(team.members))
 const coverage = computed(() => offensiveCoverage(team.members, movesByMember.value))
+
+const THREAT_COUNT = 12
+const readiness = computed(() =>
+  metaReadiness(
+    team.members,
+    movesByMember.value,
+    topThreats(team.format, THREAT_COUNT),
+    moveData.value?.movesByName,
+  ),
+)
+const scores = computed(() => balanceScores(defense.value, coverage.value, readiness.value))
 
 const roleCount = computed(() => {
   const count = {}

@@ -1,23 +1,15 @@
 <template>
   <div class="arsenal">
-    <div v-if="!data" class="q-pa-lg flex flex-center">
-      <q-spinner-orbit size="48px" color="amber" />
-    </div>
+    <PokeLoader v-if="!data" label="Cargando arsenal…" :rows="6" />
 
     <template v-else>
       <q-banner v-if="!learnset" dense rounded class="arsenal__notice q-mb-md">
         <template #avatar><q-icon name="mdi-database-alert" color="amber" /></template>
         <span>
-          No hay learnset local de <b>{{ species.name }}</b> en <code>learnsets.json</code>. Se
-          muestran solo los movimientos que aparecen en los datos de uso.
+          No hay learnset de <b>{{ species.name }}</b
+          >. Se muestran solo los movimientos que aparecen en los datos de uso.
         </span>
       </q-banner>
-      <div
-        v-else-if="learnset.usedName !== form.learnsetName"
-        class="text-caption text-dim q-mb-sm"
-      >
-        Learnset de {{ learnset.usedName }} (la forma {{ form.name }} no tiene entrada propia).
-      </div>
 
       <div class="arsenal__filters row q-col-gutter-sm items-center q-mb-md">
         <div class="col-12 col-sm-auto">
@@ -171,8 +163,8 @@
       </q-table>
 
       <div class="text-caption text-dim q-mt-sm">
-        BP/ACC/PP: <code>moves.json</code> (Serebii, sin verificar). Uso: championsbattledata.com,
-        formato {{ format === 'Doubles' ? 'Dobles' : 'Individual' }}. "META" = usado por ≥{{
+        Learnset: Champions Battle Data. BP/ACC/PP: Serebii (sin verificar). Uso: Champions Battle
+        Data, formato {{ format === 'Doubles' ? 'Dobles' : 'Individual' }}. "META" = usado por ≥{{
           META_THRESHOLD
         }}% de los {{ species.name }}.
       </div>
@@ -183,6 +175,7 @@
 <script setup>
 import { computed, ref } from 'vue'
 import TypeBadge from '@/components/TypeBadge.vue'
+import PokeLoader from '@/components/PokeLoader.vue'
 import { useMoveData } from '@/composables/useMoveData.js'
 import { learnsetFor, isSpread, CATEGORY_META } from '@/services/moves.js'
 import { META_THRESHOLD } from '@/services/battleData.js'
@@ -228,17 +221,15 @@ const columns = [
   { name: 'usage', label: 'Uso', field: (r) => r.usage ?? -1, align: 'left', sortable: true },
 ]
 
-const learnset = computed(() =>
-  data.value ? learnsetFor(data.value, props.species, props.form) : null,
-)
+const learnset = computed(() => (data.value ? learnsetFor(data.value, props.species) : null))
 
 const usageByMove = computed(() => new Map((props.usage?.moves || []).map((m) => [m.name, m.pct])))
 
 const allRows = computed(() => {
   if (!data.value) return []
   const byName = new Map()
-  for (const m of learnset.value?.moves || []) byName.set(m.name, m)
-  // movimientos usados en competitivo que no estén en el learnset local
+  for (const m of learnset.value || []) byName.set(m.name, m)
+  // movimientos usados en competitivo que no estén en el learnset
   for (const name of usageByMove.value.keys()) {
     const m = data.value.movesByName.get(name)
     if (m && !byName.has(name)) byName.set(name, m)

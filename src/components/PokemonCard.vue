@@ -8,9 +8,12 @@
     @keydown.enter="open"
   >
     <div class="poke-card__glow" />
+    <div v-if="rank && rank.rank <= 10" class="poke-card__stripe" />
 
     <header class="poke-card__head">
-      <span class="poke-card__dex">#{{ String(species.dexNumber).padStart(4, '0') }}</span>
+      <span class="poke-card__dex font-display">
+        {{ species.dexNumber ? `#${String(species.dexNumber).padStart(4, '0')}` : '—' }}
+      </span>
       <q-btn
         v-if="species.forms.length > 1"
         round
@@ -21,34 +24,60 @@
         class="pc-btn poke-card__form-btn"
         @click.stop="nextForm"
       >
-        <q-tooltip>Cambiar forma ({{ species.forms.length }})</q-tooltip>
+        <q-tooltip>Cambiar forma ({{ formIndex + 1 }}/{{ species.forms.length }})</q-tooltip>
       </q-btn>
     </header>
 
+    <div v-if="rank" class="poke-card__rank font-display">
+      <span>#{{ rank.rank }}</span>
+      <small>{{ format === 'Doubles' ? 'DOB' : 'IND' }}</small>
+      <q-tooltip
+        >Puesto {{ rank.rank }} de uso en
+        {{ format === 'Doubles' ? 'Dobles' : 'Individual' }}</q-tooltip
+      >
+    </div>
+
     <div class="poke-card__art">
+      <div v-if="!loaded" class="poke-card__placeholder" />
       <transition name="pop" mode="out-in">
         <img
           :key="form.sprite"
           :src="form.sprite"
           :alt="`${species.name} ${form.name}`"
           loading="lazy"
+          decoding="async"
+          :class="{ 'is-hidden': !loaded }"
+          @load="loaded = true"
+          @error="onError"
         />
       </transition>
     </div>
 
     <div class="poke-card__body">
       <div class="poke-card__name font-display">
-        {{ species.name }}
+        <span class="ellipsis">{{ species.name }}</span>
         <q-badge v-if="form.isMega" class="poke-card__mega" :label="form.name" />
+        <q-badge v-else-if="form.name !== 'Base'" outline color="grey-5" :label="form.name" />
       </div>
       <div class="row q-gutter-xs no-wrap">
         <TypeBadge v-for="t in form.types" :key="t" :type="t" size="sm" />
       </div>
       <div class="poke-card__meta">
+        <span class="poke-card__roles">
+          <q-icon
+            v-for="r in roles"
+            :key="r"
+            :name="ROLE_META[r].icon"
+            :style="{ color: ROLE_META[r].color }"
+          >
+            <q-tooltip>{{ ROLE_META[r].label }}</q-tooltip>
+          </q-icon>
+        </span>
         <span
-          ><b>{{ form.bst }}</b> BST</span
+          ><b>{{ form.bst }}</b> BST · <q-icon name="mdi-lightning-bolt" />{{
+            form.stats.spe
+          }}</span
         >
-        <span><q-icon name="mdi-lightning-bolt" /> {{ form.stats.spe }}</span>
       </div>
     </div>
 
@@ -78,16 +107,20 @@
 </template>
 
 <script setup>
-import { computed, ref } from 'vue'
+import { computed, ref, watch } from 'vue'
 import { useRouter } from 'vue-router'
 import { useQuasar } from 'quasar'
 import TypeBadge from '@/components/TypeBadge.vue'
 import { typeColor } from '@/utils/types.js'
+import { inferRoles, ROLE_META } from '@/utils/roles.js'
 import { useTeamStore } from '@/stores/team.js'
 
 const props = defineProps({
   species: { type: Object, required: true },
   formIndex: { type: Number, default: 0 },
+  // fila del ranking de uso (services/ranking.js) o null
+  rank: { type: Object, default: null },
+  format: { type: String, default: 'Doubles' },
 })
 const emit = defineEmits(['update:formIndex'])
 
@@ -95,10 +128,26 @@ const router = useRouter()
 const $q = useQuasar()
 const team = useTeamStore()
 const flashing = ref(false)
+const loaded = ref(false)
 
 const form = computed(() => props.species.forms[props.formIndex] || props.species.forms[0])
 const c1 = computed(() => typeColor(form.value.types[0]))
 const c2 = computed(() => typeColor(form.value.types[1] || form.value.types[0]))
+
+// Sin movimientos elegidos: roles por stats y por la habilidad más usada (o la primera)
+const roles = computed(() =>
+  inferRoles(form.value, props.rank?.topAbility || form.value.abilities[0]?.name).slice(0, 3),
+)
+
+watch(
+  () => form.value.sprite,
+  () => (loaded.value = false),
+)
+
+function onError(e) {
+  // artwork remoto no disponible (sin conexión): se queda el marcador con los colores del tipo
+  e.target.style.visibility = 'hidden'
+}
 
 function nextForm() {
   emit('update:formIndex', (props.formIndex + 1) % props.species.forms.length)
@@ -141,6 +190,8 @@ function addToTeam() {
   overflow: hidden;
   cursor: pointer;
   outline: none;
+  // esquina recortada: sello visual propio de las tarjetas de la app
+  border-radius: 18px 4px 18px 18px;
   transition:
     transform 0.35s var(--pc-ease),
     box-shadow 0.35s var(--pc-ease),
@@ -160,6 +211,17 @@ function addToTeam() {
     .poke-card__glow {
       opacity: 0.9;
     }
+  }
+
+  // franja dorada lateral para el top 10 de uso (elemento propio: ::before es del brillo .shine)
+  &__stripe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: linear-gradient(180deg, var(--pc-accent), transparent);
+    z-index: 2;
   }
 
   &__glow {
@@ -192,7 +254,6 @@ function addToTeam() {
     z-index: 1;
   }
   &__dex {
-    font-family: var(--pc-font-display);
     font-weight: 700;
     color: var(--pc-text-dim);
     letter-spacing: 0.1em;
@@ -202,6 +263,30 @@ function addToTeam() {
     background: rgba(255, 255, 255, 0.08);
   }
 
+  &__rank {
+    position: absolute;
+    top: 44px;
+    right: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px 8px 4px 12px;
+    line-height: 1;
+    color: #111;
+    background: linear-gradient(135deg, var(--pc-accent), #ff9d00);
+    clip-path: polygon(10px 0, 100% 0, 100% 100%, 10px 100%, 0 50%);
+    span {
+      font-weight: 700;
+      font-size: 1rem;
+    }
+    small {
+      font-size: 0.55rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+    }
+  }
+
   &__art {
     position: relative;
     height: 140px;
@@ -209,14 +294,31 @@ function addToTeam() {
     place-items: center;
     z-index: 1;
     img {
+      grid-area: 1 / 1;
       max-height: 130px;
       max-width: 85%;
       object-fit: contain;
       transition:
         transform 0.45s var(--pc-ease),
-        filter 0.45s;
+        filter 0.45s,
+        opacity 0.3s;
       filter: drop-shadow(0 6px 10px rgba(0, 0, 0, 0.5));
+      &.is-hidden {
+        opacity: 0;
+      }
     }
+  }
+  &__placeholder {
+    grid-area: 1 / 1;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    background: radial-gradient(
+      circle,
+      color-mix(in srgb, var(--c1) 35%, transparent),
+      transparent 70%
+    );
+    animation: pc-float 2.4s ease-in-out infinite;
   }
 
   &__body {
@@ -228,25 +330,33 @@ function addToTeam() {
     z-index: 1;
   }
   &__name {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     font-weight: 700;
     line-height: 1.1;
     display: flex;
     align-items: center;
     gap: 6px;
+    min-width: 0;
   }
   &__mega {
     background: linear-gradient(135deg, #ff4fd8, #7a5cff);
     font-size: 0.65rem;
+    flex-shrink: 0;
   }
   &__meta {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: 0.78rem;
     color: var(--pc-text-dim);
     b {
       color: var(--pc-text);
     }
+  }
+  &__roles {
+    display: inline-flex;
+    gap: 4px;
+    font-size: 1rem;
   }
 
   &__actions {

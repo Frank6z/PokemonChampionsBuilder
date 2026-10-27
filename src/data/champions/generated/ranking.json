@@ -1,0 +1,815 @@
+{
+ "meta": {
+  "generatedAt": "2026-10-27",
+  "source": "championsbattledata-api",
+  "attribution": "Pokemon Champions Battle Data — https://championsbattledata.com/",
+  "season": "Current",
+  "dataVersion": "20261026083027350"
+ },
+ "ranking": {
+  "Doubles": [
+   {
+    "rank": 1,
+    "name": "Sneasler",
+    "topMove": "Close Combat",
+    "topItem": "White Herb",
+    "topAbility": "Unburden",
+    "id": "sneasler"
+   },
+   {
+    "rank": 2,
+    "name": "Garchomp",
+    "topMove": "Protect",
+    "topItem": "Garchompite Z",
+    "topAbility": "Rough Skin",
+    "id": "garchomp"
+   },
+   {
+    "rank": 3,
+    "name": "Rillaboom",
+    "topMove": "Grassy Glide",
+    "topItem": "Miracle Seed",
+    "topAbility": "Grassy Surge",
+    "id": "rillaboom"
+   },
+   {
+    "rank": 4,
+    "name": "Incineroar",
+    "topMove": "Fake Out",
+    "topItem": "Sitrus Berry",
+    "topAbility": "Intimidate",
+    "id": "incineroar"
+   },
+   {
+    "rank": 5,
+    "name": "Archaludon",
+    "topMove": "Electro Shot",
+    "topItem": "Leftovers",
+    "topAbility": "Stamina",
+    "id": "archaludon"
+   },
+   {
+    "rank": 6,
+    "name": "Charizard",
+    "topMove": "Protect",
+    "topItem": "Charizardite Y",
+    "topAbility": "Blaze",
+    "id": "charizard"
+   },
+   {
+    "rank": 7,
+    "name": "Raichu",
+    "topMove": "Fake Out",
+    "topItem": "Raichunite Y",
+    "topAbility": "Lightning Rod",
+    "id": "raichu"
+   },
+   {
+    "rank": 8,
+    "name": "Pelipper",
+    "topMove": "Hurricane",
+    "topItem": "Sitrus Berry",
+    "topAbility": "Drizzle",
+    "id": "pelipper"
+   },
+   {
+    "rank": 9,
+    "name": "Indeedee-F",
+    "topMove": "Follow Me",
+    "topItem": "Rocky Helmet",
+    "topAbility": "Psychic Surge",
+    "id": "indeedeef"
+   },
+   {
+    "rank": 10,
+    "name": "Kingambit",
+    "topMove": "Kowtow Cleave",
+    "topItem": "Chople Berry",
+    "topAbility": "Defiant",
+    "id": "kingambit"
+   },
+   {
+    "rank": 11,
+    "name": "Basculegion",
+    "topMove": "Last Respects",
+    "topItem": "Choice Scarf",
+    "topAbility": "Adaptability",
+    "id": "basculegion"
+   },
+   {
+    "rank": 12,
+    "name": "Whimsicott",
+    "topMove": "Tailwind",
+    "topItem": "Focus Sash",
+    "topAbility": "Prankster",
+    "id": "whimsicott"
+   },
+   {
+    "rank": 13,
+    "name": "Golisopod",
+    "topMove": "Leech Life",
+    "topItem": "Golisopite",
+    "topAbility": "Emergency Exit",
+    "id": "golisopod"
+   },
+   {
+    "rank": 14,
+    "name": "Farigiraf",
+    "topMove": "Trick Room",
+    "topItem": "Sitrus Berry",
+    "topAbility": "Armor Tail",
+    "id": "farigiraf"
+   },
+   {
+    "rank": 15,
+    "name": "Gholdengo",
+    "topMove": "Make It Rain",
+    "topItem": "Life Orb",
+    "topAbility": "Good as Gold",
+    "id": "gholdengo"
+   },
+   {
+    "rank": 16,
+    "name": "Salamence",
+    "topMove": "Protect",
+    "topItem": "Salamencite",
+    "topAbility": "Intimidate",
+    "id": "salamence"
+   },
+   {
+    "rank": 17,
+    "name": "Tyranitar",
+    "topMove": "Rock Slide",
+    "topItem": "Tyranitarite",
+    "topAbility": "Sand Stream",
+    "id": "tyranitar"
+   },
+   {
+    "rank": 18,
+    "name": "Staraptor",
+    "topMove": "Close Combat",
+    "topItem": "Staraptite",
+    "topAbility": "Intimidate",
+    "id": "staraptor"
+   },
+   {
+    "rank": 19,
+    "name": "Sylveon",
+    "topMove": "Hyper Voice",
+    "topItem": "Fairy Feather",
+    "topAbility": "Pixilate",
+    "id": "sylveon"
+   },
+   {
+    "rank": 20,
+    "name": "Milotic",
+    "topMove": "Protect",
+    "topItem": "Leftovers",
+    "topAbility": "Competitive",
+    "id": "milotic"
+   },
+   {
+    "rank": 21,
+    "name": "Venusaur",
+    "topMove": "Sludge Bomb",
+    "topItem": "Focus Sash",
+    "topAbility": "Chlorophyll",
+    "id": "venusaur"
+   },
+   {
+    "rank": 22,
+    "name": "Volcarona",
+    "topMove": "Struggle Bug",
+    "topItem": "Rocky Helmet",
+    "topAbility": "Flame Body",
+    "id": "volcarona"
+   },
+   {
+    "rank": 23,
+    "name": "Grimmsnarl",
+    "topMove": "Light Screen",
+    "topItem": "Light Clay",
+    "topAbility": "Prankster",
+    "id": "grimmsnarl"
+   },
+   {
+    "rank": 24,
+    "name": "Indeedee",
+    "topMove": "Expanding Force",
+    "topItem": "Focus Sash",
+    "topAbility": "Psychic Surge",
+    "id": "indeedee"
+   },
+   {
+    "rank": 25,
+    "name": "Gardevoir",
+    "topMove": "Hyper Voice",
+    "topItem": "Gardevoirite",
+    "topAbility": "Trace",
+    "id": "gardevoir"
+   },
+   {
+    "rank": 26,
+    "name": "Sinistcha",
+    "topMove": "Matcha Gotcha",
+    "topItem": "Sitrus Berry",
+    "topAbility": "Hospitality",
+    "id": "sinistcha"
+   },
+   {
+    "rank": 27,
+    "name": "Excadrill",
+    "topMove": "Iron Head",
+    "topItem": "Focus Sash",
+    "topAbility": "Sand Rush",
+    "id": "excadrill"
+   },
+   {
+    "rank": 28,
+    "name": "Metagross",
+    "topMove": "Psychic Fangs",
+    "topItem": "Metagrossite",
+    "topAbility": "Clear Body",
+    "id": "metagross"
+   },
+   {
+    "rank": 29,
+    "name": "Armarouge",
+    "topMove": "Expanding Force",
+    "topItem": "Life Orb",
+    "topAbility": "Flash Fire",
+    "id": "armarouge"
+   },
+   {
+    "rank": 30,
+    "name": "Floette-Eternal",
+    "topMove": "Protect",
+    "topItem": "Floettite",
+    "topAbility": "Flower Veil",
+    "id": "floetteeternal"
+   },
+   {
+    "rank": 31,
+    "name": "Politoed",
+    "topMove": "Protect",
+    "topItem": "Sitrus Berry",
+    "topAbility": "Drizzle",
+    "id": "politoed"
+   },
+   {
+    "rank": 32,
+    "name": "Dragonite",
+    "topMove": "Protect",
+    "topItem": "Dragoninite",
+    "topAbility": "Multiscale",
+    "id": "dragonite"
+   },
+   {
+    "rank": 33,
+    "name": "Basculegion-F",
+    "topMove": "Shadow Ball",
+    "topItem": "Focus Sash",
+    "topAbility": "Swift Swim",
+    "id": "basculegionf"
+   },
+   {
+    "rank": 34,
+    "name": "Swampert",
+    "topMove": "Protect",
+    "topItem": "Swampertite",
+    "topAbility": "Torrent",
+    "id": "swampert"
+   },
+   {
+    "rank": 35,
+    "name": "Torkoal",
+    "topMove": "Eruption",
+    "topItem": "Charcoal",
+    "topAbility": "Drought",
+    "id": "torkoal"
+   },
+   {
+    "rank": 36,
+    "name": "Primarina",
+    "topMove": "Hyper Voice",
+    "topItem": "Leftovers",
+    "topAbility": "Liquid Voice",
+    "id": "primarina"
+   },
+   {
+    "rank": 37,
+    "name": "Arcanine-Hisui",
+    "topMove": "Flare Blitz",
+    "topItem": "Focus Sash",
+    "topAbility": "Rock Head",
+    "id": "arcaninehisui"
+   },
+   {
+    "rank": 38,
+    "name": "Glimmora",
+    "topMove": "Power Gem",
+    "topItem": "Life Orb",
+    "topAbility": "Toxic Debris",
+    "id": "glimmora"
+   },
+   {
+    "rank": 39,
+    "name": "Gengar",
+    "topMove": "Shadow Ball",
+    "topItem": "Gengarite",
+    "topAbility": "Cursed Body",
+    "id": "gengar"
+   },
+   {
+    "rank": 40,
+    "name": "Froslass",
+    "topMove": "Blizzard",
+    "topItem": "Froslassite",
+    "topAbility": "Cursed Body",
+    "id": "froslass"
+   },
+   {
+    "rank": 41,
+    "name": "Kommo-o",
+    "topMove": "Clanging Scales",
+    "topItem": "Leftovers",
+    "topAbility": "Soundproof",
+    "id": "kommoo"
+   },
+   {
+    "rank": 42,
+    "name": "Delphox",
+    "topMove": "Heat Wave",
+    "topItem": "Delphoxite",
+    "topAbility": "Blaze",
+    "id": "delphox"
+   },
+   {
+    "rank": 43,
+    "name": "Annihilape",
+    "topMove": "Rage Fist",
+    "topItem": "Choice Scarf",
+    "topAbility": "Defiant",
+    "id": "annihilape"
+   },
+   {
+    "rank": 44,
+    "name": "Sableye",
+    "topMove": "Light Screen",
+    "topItem": "Light Clay",
+    "topAbility": "Prankster",
+    "id": "sableye"
+   },
+   {
+    "rank": 45,
+    "name": "Ninetales-Alola",
+    "topMove": "Blizzard",
+    "topItem": "Light Clay",
+    "topAbility": "Snow Warning",
+    "id": "ninetalesalola"
+   },
+   {
+    "rank": 46,
+    "name": "Aerodactyl",
+    "topMove": "Rock Slide",
+    "topItem": "Focus Sash",
+    "topAbility": "Unnerve",
+    "id": "aerodactyl"
+   },
+   {
+    "rank": 47,
+    "name": "Blastoise",
+    "topMove": "Water Spout",
+    "topItem": "Blastoisinite",
+    "topAbility": "Rain Dish",
+    "id": "blastoise"
+   },
+   {
+    "rank": 48,
+    "name": "Lucario",
+    "topMove": "Aura Sphere",
+    "topItem": "Lucarionite Z",
+    "topAbility": "Inner Focus",
+    "id": "lucario"
+   },
+   {
+    "rank": 49,
+    "name": "Talonflame",
+    "topMove": "Tailwind",
+    "topItem": "Focus Sash",
+    "topAbility": "Gale Wings",
+    "id": "talonflame"
+   },
+   {
+    "rank": 50,
+    "name": "Camerupt",
+    "topMove": "Earth Power",
+    "topItem": "Cameruptite",
+    "topAbility": "Solid Rock",
+    "id": "camerupt"
+   }
+  ],
+  "Singles": [
+   {
+    "rank": 1,
+    "name": "Garchomp",
+    "topMove": "Earthquake",
+    "topItem": "Garchompite Z",
+    "topAbility": "Rough Skin",
+    "id": "garchomp"
+   },
+   {
+    "rank": 2,
+    "name": "Primarina",
+    "topMove": "Moonblast",
+    "topItem": "Sitrus Berry",
+    "topAbility": "Torrent",
+    "id": "primarina"
+   },
+   {
+    "rank": 3,
+    "name": "Mimikyu",
+    "topMove": "Play Rough",
+    "topItem": "Life Orb",
+    "topAbility": "Disguise",
+    "id": "mimikyu"
+   },
+   {
+    "rank": 4,
+    "name": "Hippowdon",
+    "topMove": "Earthquake",
+    "topItem": "Sitrus Berry",
+    "topAbility": "Sand Stream",
+    "id": "hippowdon"
+   },
+   {
+    "rank": 5,
+    "name": "Golisopod",
+    "topMove": "Sucker Punch",
+    "topItem": "Golisopite",
+    "topAbility": "Emergency Exit",
+    "id": "golisopod"
+   },
+   {
+    "rank": 6,
+    "name": "Charizard",
+    "topMove": "Solar Beam",
+    "topItem": "Charizardite Y",
+    "topAbility": "Blaze",
+    "id": "charizard"
+   },
+   {
+    "rank": 7,
+    "name": "Lucario",
+    "topMove": "Dark Pulse",
+    "topItem": "Lucarionite Z",
+    "topAbility": "Inner Focus",
+    "id": "lucario"
+   },
+   {
+    "rank": 8,
+    "name": "Archaludon",
+    "topMove": "Flash Cannon",
+    "topItem": "Sitrus Berry",
+    "topAbility": "Stamina",
+    "id": "archaludon"
+   },
+   {
+    "rank": 9,
+    "name": "Gholdengo",
+    "topMove": "Shadow Ball",
+    "topItem": "Air Balloon",
+    "topAbility": "Good as Gold",
+    "id": "gholdengo"
+   },
+   {
+    "rank": 10,
+    "name": "Basculegion",
+    "topMove": "Last Respects",
+    "topItem": "Choice Scarf",
+    "topAbility": "Adaptability",
+    "id": "basculegion"
+   },
+   {
+    "rank": 11,
+    "name": "Corviknight",
+    "topMove": "Roost",
+    "topItem": "Rocky Helmet",
+    "topAbility": "Pressure",
+    "id": "corviknight"
+   },
+   {
+    "rank": 12,
+    "name": "Dragonite",
+    "topMove": "Extreme Speed",
+    "topItem": "Dragoninite",
+    "topAbility": "Multiscale",
+    "id": "dragonite"
+   },
+   {
+    "rank": 13,
+    "name": "Baxcalibur",
+    "topMove": "Ice Shard",
+    "topItem": "Focus Sash",
+    "topAbility": "Thermal Exchange",
+    "id": "baxcalibur"
+   },
+   {
+    "rank": 14,
+    "name": "Metagross",
+    "topMove": "Bullet Punch",
+    "topItem": "Metagrossite",
+    "topAbility": "Clear Body",
+    "id": "metagross"
+   },
+   {
+    "rank": 15,
+    "name": "Salamence",
+    "topMove": "Double-Edge",
+    "topItem": "Salamencite",
+    "topAbility": "Intimidate",
+    "id": "salamence"
+   },
+   {
+    "rank": 16,
+    "name": "Indeedee",
+    "topMove": "Expanding Force",
+    "topItem": "Terrain Extender",
+    "topAbility": "Psychic Surge",
+    "id": "indeedee"
+   },
+   {
+    "rank": 17,
+    "name": "Meowscarada",
+    "topMove": "Flower Trick",
+    "topItem": "Choice Scarf",
+    "topAbility": "Protean",
+    "id": "meowscarada"
+   },
+   {
+    "rank": 18,
+    "name": "Glimmora",
+    "topMove": "Power Gem",
+    "topItem": "Focus Sash",
+    "topAbility": "Toxic Debris",
+    "id": "glimmora"
+   },
+   {
+    "rank": 19,
+    "name": "Rillaboom",
+    "topMove": "Grassy Glide",
+    "topItem": "Miracle Seed",
+    "topAbility": "Grassy Surge",
+    "id": "rillaboom"
+   },
+   {
+    "rank": 20,
+    "name": "Cinderace",
+    "topMove": "Pyro Ball",
+    "topItem": "Wide Lens",
+    "topAbility": "Libero",
+    "id": "cinderace"
+   },
+   {
+    "rank": 21,
+    "name": "Gyarados",
+    "topMove": "Earthquake",
+    "topItem": "Gyaradosite",
+    "topAbility": "Intimidate",
+    "id": "gyarados"
+   },
+   {
+    "rank": 22,
+    "name": "Raichu",
+    "topMove": "Zap Cannon",
+    "topItem": "Raichunite Y",
+    "topAbility": "Lightning Rod",
+    "id": "raichu"
+   },
+   {
+    "rank": 23,
+    "name": "Gengar",
+    "topMove": "Shadow Ball",
+    "topItem": "Gengarite",
+    "topAbility": "Cursed Body",
+    "id": "gengar"
+   },
+   {
+    "rank": 24,
+    "name": "Sneasler",
+    "topMove": "Close Combat",
+    "topItem": "Normal Gem",
+    "topAbility": "Unburden",
+    "id": "sneasler"
+   },
+   {
+    "rank": 25,
+    "name": "Umbreon",
+    "topMove": "Foul Play",
+    "topItem": "Leftovers",
+    "topAbility": "Inner Focus",
+    "id": "umbreon"
+   },
+   {
+    "rank": 26,
+    "name": "Rotom-Heat",
+    "topMove": "Overheat",
+    "topItem": "Rocky Helmet",
+    "topAbility": "Levitate",
+    "id": "rotomheat"
+   },
+   {
+    "rank": 27,
+    "name": "Greninja",
+    "topMove": "Ice Beam",
+    "topItem": "Greninjite",
+    "topAbility": "Protean",
+    "id": "greninja"
+   },
+   {
+    "rank": 28,
+    "name": "Rotom-Wash",
+    "topMove": "Hydro Pump",
+    "topItem": "Leftovers",
+    "topAbility": "Levitate",
+    "id": "rotomwash"
+   },
+   {
+    "rank": 29,
+    "name": "Hydreigon",
+    "topMove": "Dark Pulse",
+    "topItem": "Choice Scarf",
+    "topAbility": "Levitate",
+    "id": "hydreigon"
+   },
+   {
+    "rank": 30,
+    "name": "Ninetales-Alola",
+    "topMove": "Aurora Veil",
+    "topItem": "Light Clay",
+    "topAbility": "Snow Warning",
+    "id": "ninetalesalola"
+   },
+   {
+    "rank": 31,
+    "name": "Aegislash",
+    "topMove": "Shadow Sneak",
+    "topItem": "Focus Sash",
+    "topAbility": "Stance Change",
+    "id": "aegislash"
+   },
+   {
+    "rank": 32,
+    "name": "Toxapex",
+    "topMove": "Recover",
+    "topItem": "Leftovers",
+    "topAbility": "Regenerator",
+    "id": "toxapex"
+   },
+   {
+    "rank": 33,
+    "name": "Blastoise",
+    "topMove": "Aura Sphere",
+    "topItem": "Blastoisinite",
+    "topAbility": "Torrent",
+    "id": "blastoise"
+   },
+   {
+    "rank": 34,
+    "name": "Swampert",
+    "topMove": "Earthquake",
+    "topItem": "Swampertite",
+    "topAbility": "Torrent",
+    "id": "swampert"
+   },
+   {
+    "rank": 35,
+    "name": "Floette-Eternal",
+    "topMove": "Moonblast",
+    "topItem": "Floettite",
+    "topAbility": "Flower Veil",
+    "id": "floetteeternal"
+   },
+   {
+    "rank": 36,
+    "name": "Volcarona",
+    "topMove": "Quiver Dance",
+    "topItem": "Sitrus Berry",
+    "topAbility": "Flame Body",
+    "id": "volcarona"
+   },
+   {
+    "rank": 37,
+    "name": "Scizor",
+    "topMove": "Bullet Punch",
+    "topItem": "Rocky Helmet",
+    "topAbility": "Technician",
+    "id": "scizor"
+   },
+   {
+    "rank": 38,
+    "name": "Pawmot",
+    "topMove": "Double Shock",
+    "topItem": "Focus Sash",
+    "topAbility": "Iron Fist",
+    "id": "pawmot"
+   },
+   {
+    "rank": 39,
+    "name": "Kingambit",
+    "topMove": "Sucker Punch",
+    "topItem": "Black Glasses",
+    "topAbility": "Supreme Overlord",
+    "id": "kingambit"
+   },
+   {
+    "rank": 40,
+    "name": "Blaziken",
+    "topMove": "Flare Blitz",
+    "topItem": "Blazikenite",
+    "topAbility": "Speed Boost",
+    "id": "blaziken"
+   },
+   {
+    "rank": 41,
+    "name": "Samurott-Hisui",
+    "topMove": "Ceaseless Edge",
+    "topItem": "Lum Berry",
+    "topAbility": "Sharpness",
+    "id": "samurotthisui"
+   },
+   {
+    "rank": 42,
+    "name": "Skeledirge",
+    "topMove": "Torch Song",
+    "topItem": "Leftovers",
+    "topAbility": "Unaware",
+    "id": "skeledirge"
+   },
+   {
+    "rank": 43,
+    "name": "Empoleon",
+    "topMove": "Ice Beam",
+    "topItem": "Leftovers",
+    "topAbility": "Competitive",
+    "id": "empoleon"
+   },
+   {
+    "rank": 44,
+    "name": "Tyranitar",
+    "topMove": "Knock Off",
+    "topItem": "Tyranitarite",
+    "topAbility": "Sand Stream",
+    "id": "tyranitar"
+   },
+   {
+    "rank": 45,
+    "name": "Clefable",
+    "topMove": "Moonblast",
+    "topItem": "Clefablite",
+    "topAbility": "Unaware",
+    "id": "clefable"
+   },
+   {
+    "rank": 46,
+    "name": "Staraptor",
+    "topMove": "Close Combat",
+    "topItem": "Staraptite",
+    "topAbility": "Intimidate",
+    "id": "staraptor"
+   },
+   {
+    "rank": 47,
+    "name": "Delphox",
+    "topMove": "Flamethrower",
+    "topItem": "Delphoxite",
+    "topAbility": "Blaze",
+    "id": "delphox"
+   },
+   {
+    "rank": 48,
+    "name": "Pelipper",
+    "topMove": "Hurricane",
+    "topItem": "Damp Rock",
+    "topAbility": "Drizzle",
+    "id": "pelipper"
+   },
+   {
+    "rank": 49,
+    "name": "Hatterene",
+    "topMove": "Trick Room",
+    "topItem": "Sitrus Berry",
+    "topAbility": "Magic Bounce",
+    "id": "hatterene"
+   },
+   {
+    "rank": 50,
+    "name": "Sylveon",
+    "topMove": "Hyper Voice",
+    "topItem": "Leftovers",
+    "topAbility": "Pixilate",
+    "id": "sylveon"
+   }
+  ]
+ }
+}

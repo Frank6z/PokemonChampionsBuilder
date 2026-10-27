@@ -200,7 +200,7 @@
 import { computed, ref } from 'vue'
 import TypeBadge from '@/components/TypeBadge.vue'
 import { useTeamStore } from '@/stores/team.js'
-import { speciesList } from '@/services/pokedex.js'
+import { speciesList, formIndexForItem } from '@/services/pokedex.js'
 import { learnsetFor, CATEGORY_META } from '@/services/moves.js'
 import { META_THRESHOLD } from '@/services/battleData.js'
 import { useMoveData } from '@/composables/useMoveData.js'
@@ -261,13 +261,12 @@ function filterItems(val, update) {
   update(() => (itemQuery.value = val))
 }
 
-// ---- movimientos: learnset local + los vistos en datos de uso ----
+// ---- movimientos: learnset + los vistos en datos de uso ----
 const moveOptions = computed(() => {
   if (!moveData.value || !species.value) return []
   const usageMap = new Map((usage.value?.moves || []).map((m) => [m.name, m.pct]))
   const byName = new Map()
-  for (const m of learnsetFor(moveData.value, species.value, form.value)?.moves || [])
-    byName.set(m.name, m)
+  for (const m of learnsetFor(moveData.value, species.value) || []) byName.set(m.name, m)
   for (const name of usageMap.keys()) {
     const m = moveData.value.movesByName.get(name)
     if (m) byName.set(name, m)
@@ -317,7 +316,14 @@ function applyMetaSet() {
     .filter((n) => legal.has(n))
     .slice(0, 4)
   slot.value.moves = [...top, null, null, null, null].slice(0, 4)
-  if (u.items[0]) slot.value.item = u.items[0].name
+  if (u.items[0]) {
+    slot.value.item = u.items[0].name
+    // Mega Piedra → forma Mega correspondiente (Charizardite Y → Mega Y)
+    const fi = formIndexForItem(species.value, slot.value.item)
+    if (fi !== slot.value.formIndex) team.setForm(props.index, fi)
+  }
+  // En Mega, setForm ya dejó la habilidad de la Mega (la que cuenta para el análisis)
+  if (form.value.isMega) return
   const ability = u.abilities.find((a) => form.value.abilities.some((fa) => fa.name === a.name))
   if (ability) slot.value.ability = ability.name
 }

@@ -5,18 +5,43 @@
         <div class="hero__kicker font-display">Pokémon Champions · Pokédex competitiva</div>
         <h1 class="hero__title font-display">Elige a tus campeones</h1>
         <p class="text-dim q-mb-none">
-          {{ speciesList.length }} especies · {{ totalForms }} formas. Filtra por tipo, busca por
-          nombre o habilidad y añádelos al Team Builder.
+          {{ speciesList.length }} Pokémon · {{ totalForms }} formas · ranking de uso del
+          {{ rankingMeta.generatedAt }}.
         </p>
       </div>
-      <q-btn
-        unelevated
-        no-caps
-        class="pc-btn hero__cta"
-        icon="mdi-account-group"
-        :label="`Team Builder (${team.members.length}/6)`"
-        :to="{ name: 'team' }"
-      />
+      <div class="row items-center q-gutter-sm">
+        <FormatToggle />
+        <q-btn
+          unelevated
+          no-caps
+          class="pc-btn hero__cta"
+          icon="mdi-account-group"
+          :label="`Team Builder (${team.members.length}/6)`"
+          :to="{ name: 'team' }"
+        />
+      </div>
+    </section>
+
+    <!-- Podio del meta: top 3 del formato activo -->
+    <section class="podium q-mb-lg">
+      <router-link
+        v-for="t in podium"
+        :key="t.id"
+        :to="{
+          name: 'pokemon',
+          params: { key: t.id },
+          query: t.formIndex ? { form: t.formIndex } : {},
+        }"
+        class="podium__item glass"
+        :style="{ '--c1': typeColor(t.form.types[0]) }"
+      >
+        <span class="podium__rank font-display">{{ t.rank }}</span>
+        <img :src="t.form.sprite" :alt="t.species.name" loading="lazy" />
+        <div class="col">
+          <div class="podium__name font-display">{{ t.species.name }}</div>
+          <div class="text-caption text-dim ellipsis">{{ t.topItem }} · {{ t.topMove }}</div>
+        </div>
+      </router-link>
     </section>
 
     <section class="filters glass q-pa-md q-mb-lg">
@@ -47,17 +72,19 @@
           </q-select>
         </div>
         <div class="col-6 col-md-4 row items-center justify-end q-gutter-sm">
-          <q-toggle v-model="onlyMega" label="Con Mega" color="pink-4" />
+          <q-toggle v-model="onlyMeta" label="Top 50" color="amber" />
+          <q-toggle v-model="onlyMega" label="Mega" color="pink-4" />
           <q-btn
             v-if="hasFilters"
             flat
             dense
-            no-caps
+            round
             icon="mdi-filter-remove"
-            label="Limpiar"
             class="pc-btn"
             @click="clearFilters"
-          />
+          >
+            <q-tooltip>Limpiar filtros</q-tooltip>
+          </q-btn>
         </div>
       </div>
 
@@ -78,14 +105,21 @@
       <span>{{ filtered.length }} resultado{{ filtered.length === 1 ? '' : 's' }}</span>
     </div>
 
-    <transition-group name="grid" tag="div" class="poke-grid">
-      <PokemonCard
-        v-for="s in filtered"
-        :key="s.key"
-        v-model:form-index="formIndices[s.key]"
-        :species="s"
-      />
-    </transition-group>
+    <q-infinite-scroll :offset="400" :disable="visible.length >= filtered.length" @load="loadMore">
+      <transition-group name="grid" tag="div" class="poke-grid">
+        <PokemonCard
+          v-for="s in visible"
+          :key="s.key"
+          v-model:form-index="formIndices[s.key]"
+          :species="s"
+          :rank="rankOf(s.key, team.format)"
+          :format="team.format"
+        />
+      </transition-group>
+      <template #loading>
+        <div class="row justify-center q-my-md"><PokeLoader label="Más Pokémon…" :rows="0" /></div>
+      </template>
+    </q-infinite-scroll>
 
     <transition name="pop">
       <div v-if="!filtered.length" class="empty glass q-pa-xl text-center">
@@ -108,18 +142,26 @@
 import { computed, reactive, ref, watch } from 'vue'
 import PokemonCard from '@/components/PokemonCard.vue'
 import TypeBadge from '@/components/TypeBadge.vue'
+import FormatToggle from '@/components/FormatToggle.vue'
+import PokeLoader from '@/components/PokeLoader.vue'
 import { speciesList } from '@/services/pokedex.js'
-import { TYPE_IDS } from '@/utils/types.js'
+import { rankOf, topThreats, rankingMeta } from '@/services/ranking.js'
+import { TYPE_IDS, typeColor } from '@/utils/types.js'
 import { useTeamStore } from '@/stores/team.js'
+
+const PAGE = 36
 
 const team = useTeamStore()
 
 const search = ref('')
 const selectedTypes = ref([])
 const onlyMega = ref(false)
-const sortBy = ref('dex')
+const onlyMeta = ref(false)
+const sortBy = ref('usage')
+const shown = ref(PAGE)
 
 const sortOptions = [
+  { label: 'Uso en el meta', value: 'usage' },
   { label: 'Nº Pokédex', value: 'dex' },
   { label: 'Nombre', value: 'name' },
   { label: 'Total stats (BST)', value: 'bst' },
@@ -131,8 +173,10 @@ const sortOptions = [
 const totalForms = speciesList.reduce((a, s) => a + s.forms.length, 0)
 const formIndices = reactive(Object.fromEntries(speciesList.map((s) => [s.key, 0])))
 
+const podium = computed(() => topThreats(team.format, 3))
+
 const hasFilters = computed(
-  () => !!search.value || selectedTypes.value.length > 0 || onlyMega.value,
+  () => !!search.value || selectedTypes.value.length > 0 || onlyMega.value || onlyMeta.value,
 )
 
 function toggleType(t) {
@@ -145,6 +189,7 @@ function clearFilters() {
   search.value = ''
   selectedTypes.value = []
   onlyMega.value = false
+  onlyMeta.value = false
 }
 
 // Una forma coincide si contiene todos los tipos seleccionados
@@ -156,7 +201,9 @@ function formMatches(form) {
 
 const filtered = computed(() => {
   const q = (search.value || '').trim().toLowerCase()
+  const format = team.format
   const list = speciesList.filter((s) => {
+    if (onlyMeta.value && !rankOf(s.key, format)) return false
     if (!s.forms.some(formMatches)) return false
     if (!q) return true
     return (
@@ -165,15 +212,30 @@ const filtered = computed(() => {
       s.forms.some((f) => f.abilities.some((a) => a.name.toLowerCase().includes(q)))
     )
   })
-  const shown = (s) => s.forms[formIndices[s.key]] || s.forms[0]
+  const formOf = (s) => s.forms[formIndices[s.key]] || s.forms[0]
+  const rankValue = (s) => rankOf(s.key, format)?.rank ?? 999
   const sorters = {
-    dex: (a, b) => a.dexNumber - b.dexNumber,
+    usage: (a, b) => rankValue(a) - rankValue(b) || (a.dexNumber ?? 9999) - (b.dexNumber ?? 9999),
+    dex: (a, b) => (a.dexNumber ?? 9999) - (b.dexNumber ?? 9999),
     name: (a, b) => a.name.localeCompare(b.name),
-    bst: (a, b) => shown(b).bst - shown(a).bst,
+    bst: (a, b) => formOf(b).bst - formOf(a).bst,
   }
   const sorter =
-    sorters[sortBy.value] || ((a, b) => shown(b).stats[sortBy.value] - shown(a).stats[sortBy.value])
+    sorters[sortBy.value] ||
+    ((a, b) => formOf(b).stats[sortBy.value] - formOf(a).stats[sortBy.value])
   return list.sort(sorter)
+})
+
+// Renderizado incremental: 263 tarjetas con imagen de golpe saturan el primer pintado
+const visible = computed(() => filtered.value.slice(0, shown.value))
+
+function loadMore(_index, done) {
+  shown.value += PAGE
+  done()
+}
+
+watch([search, selectedTypes, onlyMega, onlyMeta, sortBy], () => (shown.value = PAGE), {
+  deep: true,
 })
 
 // Al filtrar, mostrar la primera forma que cumpla el filtro (p. ej. Mega Charizard X con Dragón)
@@ -229,6 +291,61 @@ watch(
     border-radius: 12px;
     padding: 6px 16px;
     box-shadow: 0 6px 24px rgba(233, 200, 13, 0.35);
+  }
+}
+
+.podium {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+
+  &__item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 14px 10px 10px;
+    color: inherit;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 18px 4px 18px 18px;
+    transition:
+      transform 0.3s var(--pc-ease),
+      box-shadow 0.3s;
+    &::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        90deg,
+        color-mix(in srgb, var(--c1) 22%, transparent),
+        transparent 70%
+      );
+      pointer-events: none;
+    }
+    &:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 28px color-mix(in srgb, var(--c1) 35%, transparent);
+    }
+    img {
+      width: 56px;
+      height: 56px;
+      object-fit: contain;
+      position: relative;
+      z-index: 1;
+    }
+  }
+  &__rank {
+    font-size: 2.2rem;
+    font-weight: 700;
+    width: 32px;
+    text-align: center;
+    color: var(--pc-accent);
+    text-shadow: 0 0 18px rgba(233, 200, 13, 0.45);
+  }
+  &__name {
+    font-size: 1.15rem;
+    font-weight: 700;
   }
 }
 

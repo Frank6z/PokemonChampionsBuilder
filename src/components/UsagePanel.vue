@@ -2,7 +2,7 @@
   <div class="usage">
     <div v-if="loading" class="row q-col-gutter-md">
       <div v-for="n in 4" :key="n" class="col-12 col-md-6">
-        <q-skeleton type="rect" height="160px" class="glass" />
+        <div class="glass q-pa-md"><PokeLoader label="Consultando el meta…" :rows="5" /></div>
       </div>
     </div>
 
@@ -76,7 +76,11 @@
       </div>
 
       <div class="col-12 text-caption text-dim">
-        Fuente: championsbattledata.com (secundaria) · temporada {{ usage.season }} ·
+        Datos:
+        <a href="https://championsbattledata.com/" target="_blank" rel="noopener" class="text-amber"
+          >Pokemon Champions Battle Data</a
+        >
+        (secundaria) · temporada {{ usage.season }} ·
         {{ usage.format === 'Doubles' ? 'Dobles' : 'Individual' }}. Los porcentajes indican uso, no
         efectividad.
       </div>
@@ -87,6 +91,7 @@
 <script setup>
 import { computed } from 'vue'
 import { useRouter } from 'vue-router'
+import PokeLoader from '@/components/PokeLoader.vue'
 import { speciesList, STAT_KEYS, STAT_LABELS } from '@/services/pokedex.js'
 
 const props = defineProps({

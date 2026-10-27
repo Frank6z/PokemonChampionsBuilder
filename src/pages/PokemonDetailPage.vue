@@ -37,9 +37,15 @@
 
         <div class="col-12 col-md-7">
           <div class="text-dim font-display hero__dex">
-            #{{ String(species.dexNumber).padStart(4, '0') }} · {{ species.category }}
+            <span v-if="species.dexNumber">#{{ String(species.dexNumber).padStart(4, '0') }}</span>
+            <span v-if="species.category"> · {{ species.category }}</span>
           </div>
-          <h1 class="hero__name font-display">{{ species.name }}</h1>
+          <h1 class="hero__name font-display">
+            {{ species.name }}
+            <span v-if="rank" class="hero__rank">
+              #{{ rank.rank }} {{ team.format === 'Doubles' ? 'Dobles' : 'Individual' }}
+            </span>
+          </h1>
 
           <q-tabs
             v-if="species.forms.length > 1"
@@ -117,7 +123,8 @@
             >
               Datos sin verificar
               <q-tooltip max-width="320px">{{
-                form.notes || 'Sin fuente oficial registrada.'
+                form.notes ||
+                'Tipos, habilidades y stats: Champions Battle Data (fuente secundaria).'
               }}</q-tooltip>
             </q-chip>
           </div>
@@ -141,7 +148,12 @@
         <q-tab name="meta" icon="mdi-trophy" label="Competitivo" />
         <q-tab name="moves" icon="mdi-sword-cross" label="Movimientos" />
         <q-tab name="types" icon="mdi-shield-half-full" label="Tipos" />
-        <q-tab name="dex" icon="mdi-book-open-variant" label="Pokédex" />
+        <q-tab
+          v-if="species.pokedexEntry"
+          name="dex"
+          icon="mdi-book-open-variant"
+          label="Pokédex"
+        />
       </q-tabs>
       <FormatToggle />
     </div>
@@ -180,7 +192,7 @@
         </div>
       </q-tab-panel>
 
-      <q-tab-panel name="dex" class="q-px-none">
+      <q-tab-panel v-if="species.pokedexEntry" name="dex" class="q-px-none">
         <div class="glass q-pa-md">
           <div class="section-title q-mb-md">
             <q-icon name="mdi-book-open-variant" />{{ entry.species }}
@@ -215,6 +227,7 @@ import UsagePanel from '@/components/UsagePanel.vue'
 import TypeMatchups from '@/components/TypeMatchups.vue'
 import FormatToggle from '@/components/FormatToggle.vue'
 import { speciesList, getSpecies } from '@/services/pokedex.js'
+import { rankOf } from '@/services/ranking.js'
 import { typeColor } from '@/utils/types.js'
 import { useUsage } from '@/composables/useUsage.js'
 import { useTeamStore } from '@/stores/team.js'
@@ -246,6 +259,7 @@ watch(
     const i = Number(route.query.form) || 0
     formIndex.value = species.value && i < species.value.forms.length ? i : 0
     if (TABS.includes(route.query.tab)) tab.value = route.query.tab
+    if (tab.value === 'dex' && !species.value?.pokedexEntry) tab.value = 'meta'
   },
   { immediate: true },
 )
@@ -287,11 +301,17 @@ const dexFacts = computed(() => [
   { label: 'Origen', value: entry.value.generation, icon: 'mdi-map-marker' },
 ])
 
+const rank = computed(() => rankOf(species.value.key, team.format))
+
+// "Ninetales-Alola" → página de Ninetales
 const wikiUrl = computed(
-  () => `https://www.wikidex.net/wiki/${encodeURIComponent(species.value.name)}`,
+  () => `https://www.wikidex.net/wiki/${encodeURIComponent(species.value.name.split('-')[0])}`,
 )
 
-const order = speciesList.map((s) => s.key)
+// navegación anterior/siguiente por nº de Pokédex
+const order = [...speciesList]
+  .sort((a, b) => (a.dexNumber ?? 9999) - (b.dexNumber ?? 9999))
+  .map((s) => s.key)
 function neighbor(step) {
   const i = order.indexOf(species.value.key)
   const key = order[(i + step + order.length) % order.length]
@@ -369,6 +389,16 @@ function addToTeam() {
       inset 0 0 40px color-mix(in srgb, var(--c2) 30%, transparent);
     animation: spin 18s linear infinite;
     border-style: dashed;
+  }
+  &__rank {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 8px;
+    padding: 4px 10px 4px 14px;
+    font-size: 1rem;
+    color: #111;
+    background: linear-gradient(135deg, var(--pc-accent), #ff9d00);
+    clip-path: polygon(8px 0, 100% 0, 100% 100%, 8px 100%, 0 50%);
   }
   &__dex {
     letter-spacing: 0.12em;

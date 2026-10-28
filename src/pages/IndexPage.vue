@@ -36,7 +36,13 @@
         :style="{ '--c1': typeColor(t.form.types[0]) }"
       >
         <span class="podium__rank font-display">{{ t.rank }}</span>
-        <img :src="t.form.sprite" :alt="t.species.name" loading="lazy" />
+        <PokeSprite
+          :form="t.form"
+          :alt="t.species.name"
+          :size="56"
+          variant="mini"
+          class="podium__sprite"
+        />
         <div class="col">
           <div class="podium__name font-display">{{ t.species.name }}</div>
           <div class="text-caption text-dim ellipsis">{{ t.topItem }} · {{ t.topMove }}</div>
@@ -144,6 +150,7 @@ import PokemonCard from '@/components/PokemonCard.vue'
 import TypeBadge from '@/components/TypeBadge.vue'
 import FormatToggle from '@/components/FormatToggle.vue'
 import PokeLoader from '@/components/PokeLoader.vue'
+import PokeSprite from '@/components/PokeSprite.vue'
 import { speciesList } from '@/services/pokedex.js'
 import { rankOf, topThreats, rankingMeta } from '@/services/ranking.js'
 import { TYPE_IDS, typeColor } from '@/utils/types.js'
@@ -327,10 +334,7 @@ watch(
       transform: translateY(-3px);
       box-shadow: 0 10px 28px color-mix(in srgb, var(--c1) 35%, transparent);
     }
-    img {
-      width: 56px;
-      height: 56px;
-      object-fit: contain;
+    .podium__sprite {
       position: relative;
       z-index: 1;
     }

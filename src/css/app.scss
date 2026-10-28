@@ -197,6 +197,33 @@ body.body--dark::before {
   }
 }
 
+// Tooltips de cristal (todas las <q-tooltip> de la app)
+.q-tooltip {
+  background: rgba(16, 20, 38, 0.72);
+  backdrop-filter: blur(14px) saturate(1.4);
+  -webkit-backdrop-filter: blur(14px) saturate(1.4);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 12px 3px 12px 12px;
+  box-shadow:
+    0 12px 32px rgba(0, 0, 0, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  color: var(--pc-text);
+  font-size: 0.8rem;
+  line-height: 1.35;
+  padding: 8px 12px;
+}
+
+// Quien prefiera menos movimiento no ve animaciones decorativas
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
 @keyframes pc-float {
   0%,
   100% {

@@ -76,6 +76,13 @@ export const useTeamStore = defineStore('team', () => {
     slots.value[index] = emptySlot()
   }
 
+  // Intercambia dos huecos (arrastrar y soltar); funciona también con huecos vacíos
+  function swap(a, b) {
+    const next = [...slots.value]
+    ;[next[a], next[b]] = [next[b], next[a]]
+    slots.value = next
+  }
+
   function reset() {
     slots.value = Array.from({ length: TEAM_SIZE }, emptySlot)
   }
@@ -95,5 +102,5 @@ export const useTeamStore = defineStore('team', () => {
     { deep: true },
   )
 
-  return { name, format, slots, members, isFull, setMember, add, setForm, clear, reset }
+  return { name, format, slots, members, isFull, setMember, add, setForm, clear, swap, reset }
 })

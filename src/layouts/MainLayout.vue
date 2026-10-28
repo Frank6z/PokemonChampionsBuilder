@@ -55,6 +55,22 @@
           flat
           round
           dense
+          :icon="ui.animatedSprites ? 'mdi-motion-play' : 'mdi-motion-pause'"
+          :class="{ 'text-amber': ui.animatedSprites }"
+          :aria-label="
+            ui.animatedSprites ? 'Desactivar sprites animados' : 'Activar sprites animados'
+          "
+          class="q-ml-sm"
+          @click="ui.animatedSprites = !ui.animatedSprites"
+        >
+          <q-tooltip
+            >Sprites animados: {{ ui.animatedSprites ? 'activados' : 'desactivados' }}</q-tooltip
+          >
+        </q-btn>
+        <q-btn
+          flat
+          round
+          dense
           icon="mdi-open-in-new"
           href="https://www.wikidex.net/wiki/WikiDex"
           target="_blank"
@@ -86,8 +102,10 @@
 import { computed, ref } from 'vue'
 import EssentialLink from '@/components/EssentialLink.vue'
 import { useTeamStore } from '@/stores/team.js'
+import { useUiStore } from '@/stores/ui.js'
 
 const team = useTeamStore()
+const ui = useUiStore()
 const leftDrawerOpen = ref(false)
 
 const navLinks = computed(() => [

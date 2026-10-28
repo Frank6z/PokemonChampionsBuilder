@@ -10,6 +10,13 @@ export function spriteUrl(fileName) {
   return fileName ? spriteUrls[`../assets/${fileName}`] || '' : ''
 }
 
+// Repositorio de sprites de PokéAPI (GitHub). El sync guarda solo el id de cada forma.
+const SPRITES_BASE =
+  'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other'
+const artworkUrl = (id) => (id ? `${SPRITES_BASE}/official-artwork/${id}.png` : '')
+// GIF animado estilo Showdown; null cuando la forma no lo tiene (Megas nuevas de Champions)
+const animatedUrl = (id) => `${SPRITES_BASE}/showdown/${id}.gif`
+
 export const STAT_KEYS = ['hp', 'atk', 'def', 'spa', 'spd', 'spe']
 
 export const STAT_LABELS = {
@@ -35,8 +42,8 @@ function buildSpecies(key, remote) {
       name: formLabel(f.kind, i),
       fullName: f.name,
       isMega: f.kind.startsWith('Mega'),
-      sprite: (local && spriteUrl(local.img)) || f.sprite || '',
-      remoteSprite: !local,
+      sprite: (local && spriteUrl(local.img)) || artworkUrl(f.art),
+      animated: f.anim ? animatedUrl(f.art) : null,
       types: f.types,
       abilities: f.abilities.map((a) => ({ name: a.name, hidden: !!a.hidden })),
       stats: f.stats,

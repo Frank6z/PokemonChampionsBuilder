@@ -33,6 +33,17 @@
               class="float"
             />
           </transition>
+          <!-- sprite animado de combate (GIF estilo Showdown) junto al artwork oficial -->
+          <transition name="pop">
+            <div
+              v-if="form.animated && ui.animatedSprites"
+              :key="form.animated"
+              class="hero__battle glass"
+            >
+              <PokeSprite :form="form" :alt="species.name" :size="96" variant="slot" />
+              <span class="font-display">En combate</span>
+            </div>
+          </transition>
         </div>
 
         <div class="col-12 col-md-7">
@@ -220,6 +231,7 @@
 import { computed, ref, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useQuasar } from 'quasar'
+import PokeSprite from '@/components/PokeSprite.vue'
 import TypeBadge from '@/components/TypeBadge.vue'
 import StatBars from '@/components/StatBars.vue'
 import MoveArsenal from '@/components/MoveArsenal.vue'
@@ -231,11 +243,13 @@ import { rankOf } from '@/services/ranking.js'
 import { typeColor } from '@/utils/types.js'
 import { useUsage } from '@/composables/useUsage.js'
 import { useTeamStore } from '@/stores/team.js'
+import { useUiStore } from '@/stores/ui.js'
 
 const route = useRoute()
 const router = useRouter()
 const $q = useQuasar()
 const team = useTeamStore()
+const ui = useUiStore()
 
 const TABS = ['meta', 'moves', 'types', 'dex']
 
@@ -377,6 +391,20 @@ function addToTeam() {
       object-fit: contain;
       filter: drop-shadow(0 18px 28px color-mix(in srgb, var(--c1) 55%, transparent));
     }
+  }
+  &__battle {
+    position: absolute;
+    right: 8px;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 10px 4px;
+    border-radius: 14px 4px 14px 14px;
+    font-size: 0.68rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--pc-text-dim);
   }
   &__ring {
     position: absolute;

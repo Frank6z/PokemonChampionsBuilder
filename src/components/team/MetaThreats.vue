@@ -14,7 +14,7 @@
         :style="{ '--c1': typeColor(t.form.types[0]) }"
       >
         <span class="threat__rank font-display">#{{ t.rank }}</span>
-        <img :src="t.form.sprite" :alt="t.species.name" loading="lazy" />
+        <PokeSprite :form="t.form" :alt="t.species.name" :size="48" variant="mini" />
         <div class="col threat__body">
           <div class="threat__name font-display ellipsis">
             {{ t.form.isMega ? t.form.fullName : t.species.name }}
@@ -53,6 +53,7 @@
 </template>
 
 <script setup>
+import PokeSprite from '@/components/PokeSprite.vue'
 import TypeBadge from '@/components/TypeBadge.vue'
 import { typeColor } from '@/utils/types.js'
 
@@ -94,11 +95,6 @@ const STATUS = {
     border-color 0.25s;
   &:hover {
     transform: translateY(-2px);
-  }
-  img {
-    width: 48px;
-    height: 48px;
-    object-fit: contain;
   }
   &__rank {
     position: absolute;

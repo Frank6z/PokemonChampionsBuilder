@@ -189,7 +189,7 @@ async function main() {
   const pokemonByName = {}
   await pool(varietyNames, 6, async (n) => (pokemonByName[n] = await pokeapi(`pokemon/${n}`)))
 
-  const audit = { noVariety: [], noSprite: [], unknownMoves: new Set(), local: [] }
+  const audit = { noVariety: [], noSprite: [], noAnimated: [], unknownMoves: new Set(), local: [] }
 
   const pokedex = {}
   const learnsets = {}
@@ -223,6 +223,9 @@ async function main() {
         )
         const sprite = p?.sprites?.other?.['official-artwork']?.front_default || null
         if (!sprite) audit.noSprite.push(f.saved_name)
+        // GIF animado estilo Showdown (repositorio de sprites de PokéAPI); las Megas nuevas aún no lo tienen
+        const animated = p?.sprites?.other?.showdown?.front_default || null
+        if (!animated) audit.noAnimated.push(f.saved_name)
         return {
           name: f.saved_name,
           kind: f.form_kind,
@@ -232,7 +235,9 @@ async function main() {
             .filter(Boolean)
             .map((a) => (hidden.has(slug(a)) ? { name: a, hidden: true } : { name: a })),
           stats: toBaseStats(f),
-          sprite,
+          // id de PokéAPI para construir las URLs en la app (src/services/pokedex.js)
+          art: sprite ? Number(sprite.match(/(\d+)\.png$/)[1]) : null,
+          anim: !!animated,
         }
       }),
     }
@@ -341,6 +346,10 @@ async function main() {
     '',
     ...(audit.noSprite.length ? audit.noSprite.map((l) => `- ${l}`) : ['Ninguna.']),
     '',
+    '## Formas sin GIF animado (se muestra el artwork estático)',
+    '',
+    audit.noAnimated.join(', ') || 'Ninguna.',
+    '',
     '## Movimientos de los learnsets de CBD que no están en moves.json (descartados)',
     '',
     [...audit.unknownMoves].sort().join(', ') || 'Ninguno.',
@@ -349,7 +358,7 @@ async function main() {
   await writeFile(join(REPORTS, `sync-battle-data-${today}.md`), md)
   console.log(md.split('\n').slice(0, 8).join('\n'))
   console.log(
-    `species.json: ${audit.local.length} diferencias · sin variedad: ${audit.noVariety.length} · sin artwork: ${audit.noSprite.length} · movimientos desconocidos: ${audit.unknownMoves.size}`,
+    `species.json: ${audit.local.length} diferencias · sin variedad: ${audit.noVariety.length} · sin artwork: ${audit.noSprite.length} · sin GIF: ${audit.noAnimated.length} · movimientos desconocidos: ${audit.unknownMoves.size}`,
   )
 }
 

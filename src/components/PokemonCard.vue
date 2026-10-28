@@ -38,19 +38,7 @@
     </div>
 
     <div class="poke-card__art">
-      <div v-if="!loaded" class="poke-card__placeholder" />
-      <transition name="pop" mode="out-in">
-        <img
-          :key="form.sprite"
-          :src="form.sprite"
-          :alt="`${species.name} ${form.name}`"
-          loading="lazy"
-          decoding="async"
-          :class="{ 'is-hidden': !loaded }"
-          @load="loaded = true"
-          @error="onError"
-        />
-      </transition>
+      <PokeSprite :form="form" :size="130" :alt="`${species.name} ${form.name}`" />
     </div>
 
     <div class="poke-card__body">
@@ -107,10 +95,11 @@
 </template>
 
 <script setup>
-import { computed, ref, watch } from 'vue'
+import { computed, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { useQuasar } from 'quasar'
 import TypeBadge from '@/components/TypeBadge.vue'
+import PokeSprite from '@/components/PokeSprite.vue'
 import { typeColor } from '@/utils/types.js'
 import { inferRoles, ROLE_META } from '@/utils/roles.js'
 import { useTeamStore } from '@/stores/team.js'
@@ -128,7 +117,6 @@ const router = useRouter()
 const $q = useQuasar()
 const team = useTeamStore()
 const flashing = ref(false)
-const loaded = ref(false)
 
 const form = computed(() => props.species.forms[props.formIndex] || props.species.forms[0])
 const c1 = computed(() => typeColor(form.value.types[0]))
@@ -138,16 +126,6 @@ const c2 = computed(() => typeColor(form.value.types[1] || form.value.types[0]))
 const roles = computed(() =>
   inferRoles(form.value, props.rank?.topAbility || form.value.abilities[0]?.name).slice(0, 3),
 )
-
-watch(
-  () => form.value.sprite,
-  () => (loaded.value = false),
-)
-
-function onError(e) {
-  // artwork remoto no disponible (sin conexión): se queda el marcador con los colores del tipo
-  e.target.style.visibility = 'hidden'
-}
 
 function nextForm() {
   emit('update:formIndex', (props.formIndex + 1) % props.species.forms.length)
@@ -204,7 +182,7 @@ function addToTeam() {
     box-shadow:
       0 18px 40px rgba(0, 0, 0, 0.45),
       0 0 28px color-mix(in srgb, var(--c1) 40%, transparent);
-    .poke-card__art img {
+    .poke-card__art :deep(img) {
       transform: scale(1.08) translateY(-4px);
       filter: drop-shadow(0 10px 16px color-mix(in srgb, var(--c1) 55%, transparent));
     }
@@ -293,32 +271,6 @@ function addToTeam() {
     display: grid;
     place-items: center;
     z-index: 1;
-    img {
-      grid-area: 1 / 1;
-      max-height: 130px;
-      max-width: 85%;
-      object-fit: contain;
-      transition:
-        transform 0.45s var(--pc-ease),
-        filter 0.45s,
-        opacity 0.3s;
-      filter: drop-shadow(0 6px 10px rgba(0, 0, 0, 0.5));
-      &.is-hidden {
-        opacity: 0;
-      }
-    }
-  }
-  &__placeholder {
-    grid-area: 1 / 1;
-    width: 96px;
-    height: 96px;
-    border-radius: 50%;
-    background: radial-gradient(
-      circle,
-      color-mix(in srgb, var(--c1) 35%, transparent),
-      transparent 70%
-    );
-    animation: pc-float 2.4s ease-in-out infinite;
   }
 
   &__body {

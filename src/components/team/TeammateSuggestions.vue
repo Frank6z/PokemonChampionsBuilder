@@ -12,7 +12,7 @@
           :disabled="team.isFull"
           @click="add(s)"
         >
-          <img :src="s.species.forms[0].sprite" :alt="s.species.name" loading="lazy" />
+          <PokeSprite :form="s.species.forms[0]" :alt="s.species.name" :size="34" variant="mini" />
           <span class="font-display">{{ s.species.name }}</span>
           <q-icon name="mdi-plus-circle" size="18px" />
           <q-tooltip>Compañero frecuente de {{ s.with.join(', ') }}</q-tooltip>
@@ -27,6 +27,7 @@
 import { ref, watch } from 'vue'
 import { useQuasar } from 'quasar'
 import PokeLoader from '@/components/PokeLoader.vue'
+import PokeSprite from '@/components/PokeSprite.vue'
 import { useTeamStore } from '@/stores/team.js'
 import { fetchUsage } from '@/services/battleData.js'
 import { speciesList, getSpecies } from '@/services/pokedex.js'
@@ -113,11 +114,6 @@ function add(s) {
   color: var(--pc-text);
   cursor: pointer;
   font-weight: 600;
-  img {
-    width: 34px;
-    height: 34px;
-    object-fit: contain;
-  }
   &:disabled {
     opacity: 0.4;
     cursor: not-allowed;

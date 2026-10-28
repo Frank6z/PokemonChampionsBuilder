@@ -40,191 +40,239 @@
       </div>
     </section>
 
-    <!-- 6 HUECOS -->
-    <section class="builder__slots q-mb-xl">
-      <TeamSlotCard v-for="(s, i) in team.slots" :key="i" :index="i" />
-    </section>
-
-    <!-- COMPAÑEROS SUGERIDOS (datos de uso) -->
-    <section v-if="team.members.length && !team.isFull" class="glass q-pa-md q-mb-lg">
-      <div class="section-title q-mb-sm">
-        <q-icon name="mdi-link-variant" />Compañeros sugeridos
-      </div>
-      <TeammateSuggestions />
-    </section>
-
-    <transition name="pop" mode="out-in">
-      <section v-if="!team.members.length" key="empty" class="glass q-pa-xl text-center">
-        <q-icon name="mdi-chart-donut" size="48px" class="text-dim" />
-        <div class="text-h6 q-mt-sm">Añade Pokémon para ver el análisis de sinergia</div>
-        <q-btn
-          flat
-          no-caps
-          color="amber"
-          icon="mdi-pokeball"
-          label="Ir a la Pokédex"
-          :to="{ name: 'home' }"
-          class="q-mt-sm"
-        />
+    <div class="builder__layout">
+      <!-- 6 HUECOS (arrastra uno sobre otro para reordenar) -->
+      <section class="builder__slots">
+        <TeamSlotCard v-for="(s, i) in team.slots" :key="i" :index="i" />
       </section>
 
-      <section v-else key="analysis">
-        <!-- EQUILIBRIO -->
-        <TeamBalanceMeters
-          :scores="scores"
-          :format="team.format"
-          :threat-count="THREAT_COUNT"
-          class="q-mb-md"
-        />
-
-        <!-- RESUMEN -->
-        <div class="row q-col-gutter-md q-mb-md">
-          <div class="col-12 col-md-4">
-            <div class="glass q-pa-md full-height">
-              <div class="section-title q-mb-sm"><q-icon name="mdi-alert-octagon" />Alertas</div>
-              <transition-group name="list" tag="div" class="column q-gutter-sm">
-                <div v-for="a in alerts" :key="a.key" class="alert" :class="`alert--${a.level}`">
-                  <q-icon :name="a.icon" size="20px" />
-                  <span>{{ a.text }}</span>
-                </div>
-              </transition-group>
-              <div v-if="!alerts.length" class="alert alert--ok">
-                <q-icon name="mdi-check-decagram" size="20px" />
-                <span>Sin debilidades compartidas graves ni huecos de cobertura.</span>
-              </div>
-            </div>
+      <!-- PANEL LATERAL: recomendaciones heurísticas + compañeros frecuentes (datos de uso) -->
+      <aside ref="asideEl" class="builder__aside">
+        <section class="glass q-pa-md smart-panel">
+          <div class="section-title q-mb-xs">
+            <q-icon name="mdi-creation" />Smart Recommendations
           </div>
-
-          <div class="col-12 col-md-4">
-            <div class="glass q-pa-md full-height">
-              <div class="section-title q-mb-sm"><q-icon name="mdi-account-hard-hat" />Roles</div>
-              <div class="column q-gutter-xs">
-                <div
-                  v-for="(meta, key) in ROLE_META"
-                  :key="key"
-                  class="role-row"
-                  :class="{ 'role-row--off': !roleCount[key] }"
-                >
-                  <q-icon :name="meta.icon" :style="{ color: meta.color }" size="20px" />
-                  <span class="col">{{ meta.label }}</span>
-                  <span class="role-row__count">{{ roleCount[key] || 0 }}</span>
-                </div>
-              </div>
-              <div class="text-caption text-dim q-mt-sm">
-                Inferidos de stats base, habilidad y movimientos elegidos.
-              </div>
-            </div>
+          <div class="text-caption text-dim q-mb-md">
+            {{
+              !team.members.length
+                ? 'Pilares del meta para empezar tu equipo.'
+                : team.isFull
+                  ? 'Cambios que mejoran los medidores del equipo.'
+                  : 'Complementos según cobertura, roles y debilidades.'
+            }}
           </div>
+          <SmartRecommendations
+            :recommendations="recommendations"
+            :loading="!moveData"
+            :full="team.isFull"
+            @apply="applyRec"
+            @details="selectedRec = $event"
+          />
+        </section>
 
-          <div class="col-12 col-md-4">
-            <div class="glass q-pa-md full-height">
-              <div class="section-title q-mb-sm">
-                <q-icon name="mdi-speedometer" />Velocidad base
-              </div>
-              <transition-group name="list" tag="div">
-                <div v-for="m in bySpeed" :key="m.index" class="speed-row">
-                  <img :src="m.form.sprite" :alt="m.species.name" />
-                  <span class="col ellipsis">{{ m.species.name }}</span>
-                  <div class="speed-row__bar">
-                    <div :style="{ width: `${(m.form.stats.spe / 160) * 100}%` }" />
+        <section v-if="team.members.length && !team.isFull" class="glass q-pa-md">
+          <div class="section-title q-mb-sm">
+            <q-icon name="mdi-link-variant" />Compañeros frecuentes
+          </div>
+          <TeammateSuggestions />
+        </section>
+      </aside>
+
+      <div class="builder__main">
+        <transition name="pop" mode="out-in">
+          <section v-if="!team.members.length" key="empty" class="glass q-pa-xl text-center">
+            <q-icon name="mdi-chart-donut" size="48px" class="text-dim" />
+            <div class="text-h6 q-mt-sm">Añade Pokémon para ver el análisis de sinergia</div>
+            <q-btn
+              flat
+              no-caps
+              color="amber"
+              icon="mdi-pokeball"
+              label="Ir a la Pokédex"
+              :to="{ name: 'home' }"
+              class="q-mt-sm"
+            />
+          </section>
+
+          <section v-else key="analysis">
+            <!-- EQUILIBRIO -->
+            <TeamBalanceMeters
+              :scores="scores"
+              :format="team.format"
+              :threat-count="THREAT_COUNT"
+              class="q-mb-md"
+            />
+
+            <!-- DIAGNÓSTICO -->
+            <div class="section-title q-mb-sm">
+              <q-icon name="mdi-stethoscope" />Diagnóstico de equipo
+            </div>
+            <TeamDiagnosis :report="report" class="q-mb-md" @apply="applyRec" />
+
+            <!-- RESUMEN -->
+            <div class="row q-col-gutter-md q-mb-md">
+              <div class="col-12 col-md-6">
+                <div class="glass q-pa-md full-height">
+                  <div class="section-title q-mb-sm">
+                    <q-icon name="mdi-account-hard-hat" />Roles
                   </div>
-                  <b>{{ m.form.stats.spe }}</b>
+                  <div class="column q-gutter-xs">
+                    <div
+                      v-for="(meta, key) in ROLE_META"
+                      :key="key"
+                      class="role-row"
+                      :class="{ 'role-row--off': !roleCount[key] }"
+                    >
+                      <q-icon :name="meta.icon" :style="{ color: meta.color }" size="20px" />
+                      <span class="col">{{ meta.label }}</span>
+                      <span class="role-row__count">{{ roleCount[key] || 0 }}</span>
+                    </div>
+                  </div>
+                  <div class="text-caption text-dim q-mt-sm">
+                    Inferidos de stats base, habilidad y movimientos elegidos.
+                  </div>
                 </div>
-              </transition-group>
-            </div>
-          </div>
-        </div>
+              </div>
 
-        <!-- MATRIZ DEFENSIVA -->
-        <div class="glass q-pa-md q-mb-md">
-          <div class="row items-center justify-between q-mb-sm">
-            <div class="section-title">
-              <q-icon name="mdi-shield-half-full" />Debilidades y resistencias compartidas
+              <div class="col-12 col-md-6">
+                <div class="glass q-pa-md full-height">
+                  <div class="section-title q-mb-sm">
+                    <q-icon name="mdi-speedometer" />Velocidad base
+                  </div>
+                  <transition-group name="list" tag="div">
+                    <div v-for="m in bySpeed" :key="m.index" class="speed-row">
+                      <PokeSprite :form="m.form" :alt="m.species.name" :size="32" variant="mini" />
+                      <span class="col ellipsis">{{ m.species.name }}</span>
+                      <div class="speed-row__bar">
+                        <div :style="{ width: `${(m.form.stats.spe / 160) * 100}%` }" />
+                      </div>
+                      <b>{{ m.form.stats.spe }}</b>
+                    </div>
+                  </transition-group>
+                </div>
+              </div>
             </div>
-            <div class="legend text-caption">
-              <span class="cell cell--x4">4×</span><span class="cell cell--x2">2×</span
-              ><span class="cell cell--h">½×</span> <span class="cell cell--q">¼×</span
-              ><span class="cell cell--immune">0×</span>
-            </div>
-          </div>
-          <TeamDefenseMatrix :members="team.members" :rows="defense" />
-        </div>
 
-        <!-- COBERTURA OFENSIVA -->
-        <div class="glass q-pa-md">
-          <div class="section-title q-mb-xs">
-            <q-icon name="mdi-sword-cross" />Cobertura ofensiva
-          </div>
-          <div class="text-caption text-dim q-mb-md">
-            Mejor multiplicador que el equipo consigue contra cada tipo.
-            <span v-if="coverage.usesStabFallback">
-              Los miembros sin movimientos elegidos cuentan con su STAB teórico.
-            </span>
-          </div>
-          <div class="coverage">
-            <div
-              v-for="row in coverage.rows"
-              :key="row.type"
-              class="coverage__cell"
-              :class="
-                row.best > 1
-                  ? 'coverage__cell--se'
-                  : row.best < 1
-                    ? 'coverage__cell--bad'
-                    : 'coverage__cell--neutral'
-              "
-            >
-              <TypeBadge :type="row.type" size="sm" />
-              <span class="coverage__mult">{{ formatMult(row.best) }}</span>
-              <q-tooltip v-if="row.hitters.length" max-width="280px">
-                <div v-for="h in row.hitters" :key="h">{{ h }}</div>
-              </q-tooltip>
+            <!-- MATRIZ DEFENSIVA -->
+            <div class="glass q-pa-md q-mb-md">
+              <div class="row items-center justify-between q-mb-sm">
+                <div class="section-title">
+                  <q-icon name="mdi-shield-half-full" />Debilidades y resistencias compartidas
+                </div>
+                <div class="legend text-caption">
+                  <span class="cell cell--x4">4×</span><span class="cell cell--x2">2×</span
+                  ><span class="cell cell--h">½×</span> <span class="cell cell--q">¼×</span
+                  ><span class="cell cell--immune">0×</span>
+                </div>
+              </div>
+              <TeamDefenseMatrix :members="team.members" :rows="defense" />
             </div>
-          </div>
-        </div>
 
-        <!-- AMENAZAS DEL META -->
-        <div class="glass q-pa-md q-mt-md">
-          <div class="section-title q-mb-xs">
-            <q-icon name="mdi-sword-cross" />Amenazas del meta
-          </div>
-          <div class="text-caption text-dim q-mb-md">
-            Top {{ THREAT_COUNT }} de uso en
-            {{ team.format === 'Doubles' ? 'Dobles' : 'Individual' }} ({{
-              rankingMeta.generatedAt
-            }}). La forma Mega se deduce de su objeto más usado.
-            <span class="text-positive">Escudo verde</span>: lo golpeas supereficaz y alguien
-            resiste sus ataques.
-          </div>
-          <MetaThreats :threats="readiness" />
-        </div>
-      </section>
-    </transition>
+            <!-- COBERTURA OFENSIVA -->
+            <div class="glass q-pa-md">
+              <div class="section-title q-mb-xs">
+                <q-icon name="mdi-sword-cross" />Cobertura ofensiva
+              </div>
+              <div class="text-caption text-dim q-mb-md">
+                Mejor multiplicador que el equipo consigue contra cada tipo.
+                <span v-if="coverage.usesStabFallback">
+                  Los miembros sin movimientos elegidos cuentan con su STAB teórico.
+                </span>
+              </div>
+              <div class="coverage">
+                <div
+                  v-for="row in coverage.rows"
+                  :key="row.type"
+                  class="coverage__cell"
+                  :class="
+                    row.best > 1
+                      ? 'coverage__cell--se'
+                      : row.best < 1
+                        ? 'coverage__cell--bad'
+                        : 'coverage__cell--neutral'
+                  "
+                >
+                  <TypeBadge :type="row.type" size="sm" />
+                  <span class="coverage__mult">{{ formatMult(row.best) }}</span>
+                  <q-tooltip v-if="row.hitters.length" max-width="280px">
+                    <div v-for="h in row.hitters" :key="h">{{ h }}</div>
+                  </q-tooltip>
+                </div>
+              </div>
+            </div>
+
+            <!-- AMENAZAS DEL META -->
+            <div class="glass q-pa-md q-mt-md">
+              <div class="section-title q-mb-xs">
+                <q-icon name="mdi-sword-cross" />Amenazas del meta
+              </div>
+              <div class="text-caption text-dim q-mb-md">
+                Top {{ THREAT_COUNT }} de uso en
+                {{ team.format === 'Doubles' ? 'Dobles' : 'Individual' }} ({{
+                  rankingMeta.generatedAt
+                }}). La forma Mega se deduce de su objeto más usado.
+                <span class="text-positive">Escudo verde</span>: lo golpeas supereficaz y alguien
+                resiste sus ataques.
+              </div>
+              <MetaThreats :threats="readiness" />
+            </div>
+          </section>
+        </transition>
+      </div>
+    </div>
+
+    <RecommendationDialog
+      :rec="selectedRec"
+      :scores="scores"
+      @close="selectedRec = null"
+      @apply="applyRec"
+    />
+
+    <!-- Acceso rápido al panel cuando no está fijo en el lateral -->
+    <q-page-sticky position="bottom-right" :offset="[18, 18]" class="builder__fab">
+      <q-btn
+        fab
+        icon="mdi-creation"
+        class="pc-btn builder__fab-btn"
+        aria-label="Ver recomendaciones"
+        @click="asideEl?.scrollIntoView({ behavior: 'smooth', block: 'start' })"
+      >
+        <q-badge v-if="recommendations.length" floating rounded color="amber" text-color="dark">
+          {{ recommendations.length }}
+        </q-badge>
+        <q-tooltip anchor="center left" self="center right">Smart Recommendations</q-tooltip>
+      </q-btn>
+    </q-page-sticky>
   </q-page>
 </template>
 
 <script setup>
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 import { useQuasar, copyToClipboard } from 'quasar'
 import TeamSlotCard from '@/components/team/TeamSlotCard.vue'
 import TeamDefenseMatrix from '@/components/team/TeamDefenseMatrix.vue'
 import TeamBalanceMeters from '@/components/team/TeamBalanceMeters.vue'
 import MetaThreats from '@/components/team/MetaThreats.vue'
 import TeammateSuggestions from '@/components/team/TeammateSuggestions.vue'
+import SmartRecommendations from '@/components/team/SmartRecommendations.vue'
+import RecommendationDialog from '@/components/team/RecommendationDialog.vue'
+import TeamDiagnosis from '@/components/team/TeamDiagnosis.vue'
+import PokeSprite from '@/components/PokeSprite.vue'
 import TypeBadge from '@/components/TypeBadge.vue'
 import FormatToggle from '@/components/FormatToggle.vue'
 import { useTeamStore } from '@/stores/team.js'
 import { useMoveData } from '@/composables/useMoveData.js'
-import { TYPES, formatMult } from '@/utils/types.js'
-import { inferRoles, ROLE_META } from '@/utils/roles.js'
+import { formatMult } from '@/utils/types.js'
+import { ROLE_META } from '@/utils/roles.js'
 import { topThreats, rankingMeta } from '@/services/ranking.js'
+import { teamContext, recommend } from '@/utils/recommendations.js'
+import { diagnose } from '@/utils/diagnosis.js'
 import {
   defensiveAnalysis,
   offensiveCoverage,
   metaReadiness,
   balanceScores,
   toShowdown,
-  SHARED_WEAKNESS_ALERT,
 } from '@/utils/teamAnalysis.js'
 
 const $q = useQuasar()
@@ -243,84 +291,66 @@ const defense = computed(() => defensiveAnalysis(team.members))
 const coverage = computed(() => offensiveCoverage(team.members, movesByMember.value))
 
 const THREAT_COUNT = 12
+const threats = computed(() => topThreats(team.format, THREAT_COUNT))
 const readiness = computed(() =>
-  metaReadiness(
-    team.members,
-    movesByMember.value,
-    topThreats(team.format, THREAT_COUNT),
-    moveData.value?.movesByName,
-  ),
+  metaReadiness(team.members, movesByMember.value, threats.value, moveData.value?.movesByName),
 )
 const scores = computed(() => balanceScores(defense.value, coverage.value, readiness.value))
 
-const roleCount = computed(() => {
-  const count = {}
-  team.members.forEach((m, i) => {
-    for (const r of inferRoles(m.form, m.ability, movesByMember.value[i]))
-      count[r] = (count[r] || 0) + 1
-  })
-  return count
-})
+// Contexto compartido por las recomendaciones y el diagnóstico
+const ctx = computed(() =>
+  teamContext(
+    team.members,
+    movesByMember.value,
+    threats.value,
+    moveData.value?.movesByName,
+    moveData.value?.learnsets,
+  ),
+)
+const roleCount = computed(() => ctx.value.roles)
+
+const recommendations = computed(() =>
+  moveData.value
+    ? recommend({
+        ctx: ctx.value,
+        format: team.format,
+        threats: threats.value,
+        movesByName: moveData.value.movesByName,
+        learnsets: moveData.value.learnsets,
+      })
+    : [],
+)
+const report = computed(() =>
+  diagnose({
+    ctx: ctx.value,
+    format: team.format,
+    recommendations: recommendations.value,
+    learnsets: moveData.value?.learnsets,
+  }),
+)
 
 const bySpeed = computed(() =>
   [...team.members].sort((a, b) => b.form.stats.spe - a.form.stats.spe),
 )
 
-const alerts = computed(() => {
-  const list = []
-  for (const row of defense.value) {
-    if (row.level !== 'danger') continue
-    const es = TYPES[row.type].es
-    list.push({
-      key: `def-${row.type}`,
-      level: 'danger',
-      icon: 'mdi-shield-alert',
-      text:
-        row.weak >= SHARED_WEAKNESS_ALERT
-          ? `${row.weak} miembros débiles a ${es} (${row.resist + row.immune} lo resisten)`
-          : `${es}: ${row.weak} débiles frente a ${row.resist + row.immune} resistencias`,
-    })
-  }
-  const holes = coverage.value.rows.filter((r) => r.best < 1).map((r) => TYPES[r.type].es)
-  if (holes.length) {
-    list.push({
-      key: 'off-holes',
-      level: 'warn',
-      icon: 'mdi-sword-cross',
-      text: `Sin daño neutro contra: ${holes.join(', ')}`,
-    })
-  }
-  const noSE = coverage.value.rows.filter((r) => r.best <= 1).length
-  if (noSE >= 6) {
-    list.push({
-      key: 'off-se',
-      level: 'warn',
-      icon: 'mdi-target',
-      text: `${noSE} tipos sin golpe supereficaz`,
-    })
-  }
-  const seen = new Set()
-  for (const m of team.members) {
-    if (seen.has(m.species.key)) {
-      list.push({
-        key: `dup-${m.species.key}`,
-        level: 'warn',
-        icon: 'mdi-content-duplicate',
-        text: `${m.species.name} repetido en el equipo`,
-      })
-    }
-    seen.add(m.species.key)
-  }
-  if (team.members.length >= 4 && !roleCount.value.speed && !roleCount.value.fast) {
-    list.push({
-      key: 'speed',
-      level: 'info',
-      icon: 'mdi-wind-turbine',
-      text: 'Sin control de velocidad ni Pokémon rápidos',
-    })
-  }
-  return list
-})
+const asideEl = ref(null)
+const selectedRec = ref(null)
+
+function applyRec(rec) {
+  const index = rec.replaces ? rec.replaces.index : team.slots.findIndex((s) => !s.key)
+  if (index === -1) return
+  team.setMember(index, rec.species.key, rec.formIndex)
+  team.slots[index].ability = rec.ability
+  selectedRec.value = null
+  $q.notify({
+    color: 'dark',
+    avatar: rec.form.sprite,
+    message: rec.replaces
+      ? `${rec.species.name} sustituye a ${rec.replaces.species.name}`
+      : `${rec.species.name} añadido al equipo`,
+    caption: rec.reasons[0]?.text,
+  })
+}
 
 function exportTeam() {
   copyToClipboard(toShowdown(team.members))
@@ -364,40 +394,59 @@ function confirmReset() {
     color: var(--pc-text);
   }
   &__slots {
+    grid-area: slots;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
     gap: 16px;
   }
+
+  // móvil/tablet: huecos → panel → análisis; escritorio: panel fijo a la derecha
+  &__layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: 'slots' 'aside' 'main';
+    gap: 24px;
+  }
+  &__main {
+    grid-area: main;
+    min-width: 0;
+  }
+  &__aside {
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    scroll-margin-top: 70px;
+  }
+  &__fab-btn {
+    background: linear-gradient(135deg, var(--pc-accent-2), var(--pc-accent));
+    color: #111;
+    box-shadow: 0 6px 24px color-mix(in srgb, var(--pc-accent) 45%, transparent);
+  }
+
+  @media (min-width: 1200px) {
+    &__layout {
+      grid-template-columns: minmax(0, 1fr) 340px;
+      grid-template-areas: 'slots aside' 'main aside';
+      grid-template-rows: auto 1fr;
+    }
+    &__aside {
+      position: sticky;
+      top: 70px;
+      align-self: start;
+      max-height: calc(100vh - 86px);
+      overflow-y: auto;
+      overscroll-behavior: contain;
+      scrollbar-width: thin;
+    }
+    &__fab {
+      display: none;
+    }
+  }
 }
 
-.alert {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 8px 12px;
-  border-radius: 10px;
-  font-size: 0.88rem;
-  &--danger {
-    background: rgba(255, 77, 109, 0.12);
-    border: 1px solid rgba(255, 77, 109, 0.4);
-    color: #ffb3c1;
-    animation: pc-warn-pulse 2s ease-in-out infinite;
-  }
-  &--warn {
-    background: rgba(255, 176, 58, 0.1);
-    border: 1px solid rgba(255, 176, 58, 0.35);
-    color: #ffd59a;
-  }
-  &--info {
-    background: rgba(61, 224, 255, 0.08);
-    border: 1px solid rgba(61, 224, 255, 0.3);
-    color: #b5f3ff;
-  }
-  &--ok {
-    background: rgba(52, 224, 161, 0.1);
-    border: 1px solid rgba(52, 224, 161, 0.35);
-    color: #a6f5d6;
-  }
+.smart-panel {
+  border-top: 3px solid var(--pc-accent-2);
 }
 
 .role-row {
@@ -420,11 +469,6 @@ function confirmReset() {
   align-items: center;
   gap: 8px;
   padding: 2px 0;
-  img {
-    width: 32px;
-    height: 32px;
-    object-fit: contain;
-  }
   &__bar {
     width: 40%;
     height: 6px;
